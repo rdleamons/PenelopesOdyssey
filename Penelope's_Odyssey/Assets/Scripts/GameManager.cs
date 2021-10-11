@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     // Need to add win condition to this script -- currently, it's in loadScene. 
     public float hunger = 100;
     public float sub = 2;
+    public int subDivisor = 250;
     public Slider HungerBar;
     public TextMeshProUGUI loseText;
     public TextMeshProUGUI winText;
@@ -44,13 +45,11 @@ public class GameManager : MonoBehaviour
         // Lock cursor when clicking outside of menu
         if (!MenuRoot.activeSelf && Input.GetMouseButtonDown(0))
         {
-            Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
         }
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
             SetPauseMenuActivation(!MenuRoot.activeSelf);
         }
@@ -78,7 +77,7 @@ public class GameManager : MonoBehaviour
 
     public float changeHunger()
     {
-        hunger = hunger - sub / 180;
+        hunger = hunger - sub / subDivisor;
         return hunger;
     }
 
@@ -98,7 +97,6 @@ public class GameManager : MonoBehaviour
 
         if (MenuRoot.activeSelf)
         {
-            Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
             Time.timeScale = 0f;
 
@@ -106,7 +104,6 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
             Time.timeScale = 1f;
         }

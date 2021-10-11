@@ -42,6 +42,17 @@ public class ThirdPersonMovement : MonoBehaviour
             velocity.y = jumpHeight;
         }
 
+        //Sprint
+        if (Input.GetKeyDown(KeyCode.LeftShift) && controller.isGrounded)
+        {
+            speed += 150f;
+        }
+
+        if (Input.GetKeyUp(KeyCode.LeftShift) && controller.isGrounded)
+        {
+            speed -= 150f;
+        }
+
         // Determine movement direction
         if (direction.magnitude >= 0.1f && canMove)
         {
