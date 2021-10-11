@@ -1,60 +1,51 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 using UnityEngine.AI;
 
 public class Smell : MonoBehaviour
 {
-    private LineRenderer line;
-    private GameObject player;
-    private GameObject food;
+    public LineRenderer line; //to hold the line Renderer
+    //public Transform target;
+    private NavMeshPath path;
+    public CharacterController controller;
+    public AudioSource audioSource;
 
-    private Vector3 playerPos;
-    private Vector3 foodPos;
-    
-    public int lengthOfLineRenderer = 2;
+    public GameObject[] targets;
 
+    private bool found = false;
 
-    // Start is called before the first frame update
     void Start()
     {
-        //Find necessary objects
-        food = GameObject.FindGameObjectWithTag("food");
-        player = GameObject.FindGameObjectWithTag("Player");
-        line = gameObject.GetComponent<LineRenderer>();
+        path = new NavMeshPath();
+    }
 
-        //Disable line initially
-        line.enabled = false;
+    void Update()
+    {
+        // Calculate NavMesh path.
+        NavMesh.CalculatePath(transform.position, targets[0].transform.position, NavMesh.AllAreas, path);
+
+        // Draw the path on mouse click
+        if (Input.GetMouseButtonDown(0))
+        {
+            DrawPath(path);
+            audioSource.Play();
+        }
+
+        // Stop drawing path when no longer clicking
+        if (Input.GetMouseButtonUp(0))
+        {
+            line.positionCount = 0;
+        }
 
     }
 
-    // Update is called once per frame
-    void Update()
+    void DrawPath(NavMeshPath path)
     {
-        // Variable to hold line endpoints
-        var points = new Vector3[lengthOfLineRenderer];
+        if (path.corners.Length < 2) //if the path has 1 or no corners, there is no need
+            return;
 
-        // Update player and food positions
-        playerPos = player.transform.position;
-        foodPos = food.transform.position;
-
-        // Set endpoint values
-        points[0] = playerPos;
-        points[1] = food.transform.position;
-
-        // If player clicks, show the scent line
-        if (Input.GetMouseButtonDown(0))
-        {
-            line.enabled = true;
-            if(Physics.Linecast(playerPos, food.transform.position))
-                line.SetPositions(points);
-        }
-
-        // Disable scent line
-        if(Input.GetMouseButtonUp(0))
-        {
-            line.enabled = false;
-        }
+        line.positionCount = path.corners.Length; //set the array of positions to the amount of corners
+        line.SetPositions(path.corners);
     }
 }
