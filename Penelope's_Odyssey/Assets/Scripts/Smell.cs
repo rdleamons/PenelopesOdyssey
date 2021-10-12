@@ -10,6 +10,7 @@ public class Smell : MonoBehaviour
     private NavMeshPath path;
     public CharacterController controller;
     public AudioSource audioSource;
+    public ParticleSystem[] hotdog;
 
     public GameObject[] targets;
 
@@ -30,12 +31,22 @@ public class Smell : MonoBehaviour
         {
             DrawPath(path);
             audioSource.Play();
+
+            for (int i = 0; i < hotdog.Length; i++)
+            {
+                hotdog[i].Play();
+            }
+
         }
 
         // Stop drawing path when no longer clicking
         if (Input.GetMouseButtonUp(0))
         {
             line.positionCount = 0;
+            for (int i = 0; i < hotdog.Length; i++)
+            {
+                hotdog[i].Stop();
+            }
         }
 
     }
