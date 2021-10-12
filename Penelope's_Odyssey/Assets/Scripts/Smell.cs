@@ -13,18 +13,20 @@ public class Smell : MonoBehaviour
     public ParticleSystem[] hotdog;
 
     public GameObject[] targets;
-
-    private bool found = false;
+    private GameObject target;
+    private int index;
 
     void Start()
     {
         path = new NavMeshPath();
+        index = 0;
+        target = targets[index];
     }
 
     void Update()
     {
         // Calculate NavMesh path.
-        NavMesh.CalculatePath(transform.position, targets[0].transform.position, NavMesh.AllAreas, path);
+        NavMesh.CalculatePath(transform.position, target.transform.position, NavMesh.AllAreas, path);
 
         // Draw the path on mouse click
         if (Input.GetMouseButtonDown(0))
@@ -58,5 +60,13 @@ public class Smell : MonoBehaviour
 
         line.positionCount = path.corners.Length; //set the array of positions to the amount of corners
         line.SetPositions(path.corners);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.name == target.name)
+        {
+            target = targets[index++];
+        }
     }
 }
