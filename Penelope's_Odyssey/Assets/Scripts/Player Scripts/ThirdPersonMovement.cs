@@ -15,6 +15,7 @@ public class ThirdPersonMovement : MonoBehaviour
     private float turnSmoothTime = 0.1f;
     public float gravMultiplier = 3f;
     public bool canMove;
+    public GameManager GameManager;
 
     private float turnSmoothVelocity;
     private Vector3 velocity;
@@ -46,11 +47,13 @@ public class ThirdPersonMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift) && controller.isGrounded)
         {
             speed *= 2f;
+            GameManager.sub = 6;
         }
 
         if (Input.GetKeyUp(KeyCode.LeftShift) && controller.isGrounded)
         {
             speed /= 2f;
+            GameManager.sub = 2;
         }
 
         // Determine movement direction
