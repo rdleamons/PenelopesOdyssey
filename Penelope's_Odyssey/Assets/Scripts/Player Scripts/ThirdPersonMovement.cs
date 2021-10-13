@@ -46,13 +46,13 @@ public class ThirdPersonMovement : MonoBehaviour
         //Sprint
         if (Input.GetKeyDown(KeyCode.LeftShift) && controller.isGrounded)
         {
-            speed *= 2f;
-            GameManager.sub = 6;
+            speed *= 2.5f;
+            GameManager.sub = 3;
         }
 
         if (Input.GetKeyUp(KeyCode.LeftShift) && controller.isGrounded)
         {
-            speed /= 2f;
+            speed /= 2.5f;
             GameManager.sub = 2;
         }
 
