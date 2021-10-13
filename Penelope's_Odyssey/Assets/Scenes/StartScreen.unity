@@ -370,7 +370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab86589f88bf479468d953da84d64111, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: FP
+  sceneName: SecondPlayable
   winText: {fileID: 0}
   currentScene:
     m_Handle: 0
