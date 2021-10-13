@@ -14,7 +14,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Proof of Concept/Proof of Concept.unity
     guid: 37459dc541c54974b8b92cb54c7c301f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FP.unity
     guid: d8673c9c958a7d9408ac58cd5f278330
+  - enabled: 1
+    path: Assets/Scenes/SP.unity
+    guid: 5eadfbbb51115944db2c0c1782d109ac
   m_configObjects: {}

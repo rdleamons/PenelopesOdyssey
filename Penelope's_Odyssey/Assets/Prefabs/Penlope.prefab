@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 127364369858949295}
   - component: {fileID: 5073779097853250628}
   - component: {fileID: 4434870891930621870}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Penlope
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -270,13 +270,8 @@ MonoBehaviour:
   line: {fileID: 1260677946282965600}
   controller: {fileID: 1492401526555950446}
   audioSource: {fileID: 881670630843122732}
-  hotdog:
-  - {fileID: 0}
-  - {fileID: 0}
+  hotdog: []
   targets:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   - {fileID: 0}
 --- !u!1 &6601637727055293843
 GameObject:
