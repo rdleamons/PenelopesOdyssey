@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     // Need to add win condition to this script -- currently, it's in loadScene. 
     public float hunger = 100;
     public float sub = 2;
-    public int subDivisor = 250;
+    public int subDivisor = 200;
     public Slider HungerBar;
     public TextMeshProUGUI loseText;
     public TextMeshProUGUI winText;
