@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScreen.unity
     guid: 7690d4246a631f14ab675b2c9e761424
   - enabled: 0
-    path: Assets/Scenes/Path Testing.unity
+    path: Assets/Scenes/Path Testing/Path Testing.unity
     guid: 20df3b78e95aed0458a60e084f26d6b2
   - enabled: 0
     path: Assets/Scenes/Proof of Concept/Proof of Concept.unity

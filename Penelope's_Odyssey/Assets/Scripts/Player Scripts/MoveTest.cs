@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class ThirdPersonMovement : MonoBehaviour
+public class MoveTest : MonoBehaviour
 {
     public CharacterController controller;
     public Transform cam;
@@ -34,7 +34,7 @@ public class ThirdPersonMovement : MonoBehaviour
 
         // Apply gravity to the controller
         velocity.y += Physics.gravity.y * gravMultiplier * Time.deltaTime;
-        
+
         // Jump
         if (Input.GetButtonDown("Jump") && controller.isGrounded)
         {
@@ -45,12 +45,12 @@ public class ThirdPersonMovement : MonoBehaviour
         //Sprint
         if (Input.GetKeyDown(KeyCode.LeftShift) && controller.isGrounded)
         {
-            speed += 150f;
+            speed *= 2f;
         }
 
         if (Input.GetKeyUp(KeyCode.LeftShift) && controller.isGrounded)
         {
-            speed -= 150f;
+            speed /= 2f;
         }
 
         // Determine movement direction
@@ -64,7 +64,7 @@ public class ThirdPersonMovement : MonoBehaviour
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
         }
-        
+
         // Move the controller
         controller.Move(velocity * Time.deltaTime);
 

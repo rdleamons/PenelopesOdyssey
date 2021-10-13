@@ -17,22 +17,22 @@ public class SubtitleManager : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
         textBox.GetComponent<Text>().text = "WASD to move.";
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(5);
         textBox.GetComponent<Text>().text = "";
 
         yield return new WaitForSeconds(1);
         textBox.GetComponent<Text>().text = "Space to jump.";
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(5);
         textBox.GetComponent<Text>().text = "";
 
         yield return new WaitForSeconds(1);
         textBox.GetComponent<Text>().text = "Click to stop & sniff.";
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(5);
         textBox.GetComponent<Text>().text = "";
 
         yield return new WaitForSeconds(1);
         textBox.GetComponent<Text>().text = "Watch your hunger meter -- don't let Penelope starve!";
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(5);
         textBox.GetComponent<Text>().text = "";
 
     }

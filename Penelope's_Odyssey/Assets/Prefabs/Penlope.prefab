@@ -13,14 +13,14 @@ GameObject:
   - component: {fileID: 1492401526555950446}
   - component: {fileID: 4838816296865747454}
   - component: {fileID: 5896588112233728443}
-  - component: {fileID: 8979894675732807191}
   - component: {fileID: 6642687122302179939}
   - component: {fileID: 881670630843122732}
   - component: {fileID: 127364369858949295}
   - component: {fileID: 5073779097853250628}
+  - component: {fileID: 4434870891930621870}
   m_Layer: 0
   m_Name: Penlope
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -118,22 +118,6 @@ MonoBehaviour:
   jumpHeight: 50
   gravMultiplier: 4.5
   canMove: 0
---- !u!114 &8979894675732807191
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 811187696550066529}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb1a3995ae614f848b48ee163fc37563, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  line: {fileID: 1260677946282965600}
-  target: {fileID: 0}
-  controller: {fileID: 1492401526555950446}
-  audioSource: {fileID: 881670630843122732}
 --- !u!114 &6642687122302179939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -271,6 +255,29 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.0744357, y: 0.16218543, z: 15.940127}
   m_Center: {x: 0.084302664, y: -0.7782918, z: -0.23283815}
+--- !u!114 &4434870891930621870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811187696550066529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac26b2339c7779e4786b5797ada45b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  line: {fileID: 1260677946282965600}
+  controller: {fileID: 1492401526555950446}
+  audioSource: {fileID: 881670630843122732}
+  hotdog:
+  - {fileID: 0}
+  - {fileID: 0}
+  targets:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &6601637727055293843
 GameObject:
   m_ObjectHideFlags: 0
@@ -295,8 +302,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6601637727055293843}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 12.69}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4937637527768272080}
@@ -352,14 +359,14 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 1
+        time: 0.6169978
+        value: 0.5087738
         inSlope: 0
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
