@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 4179093152268616633}
   - component: {fileID: 8938543307040718970}
   - component: {fileID: 1101493105631824012}
+  - component: {fileID: 8977607390515378261}
   m_Layer: 0
   m_Name: Bed1
   m_TagString: Untagged
@@ -114,6 +115,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8977607390515378261
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6225816236336072806}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -9202311644372401401, guid: 8c5ea72e5a6b3174ebbe44e6c215b3ae, type: 3}
 --- !u!1 &7138185249007805931
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,6 +140,7 @@ GameObject:
   - component: {fileID: 3807320249018485717}
   - component: {fileID: 9033381285634235986}
   - component: {fileID: 6964522520155507966}
+  - component: {fileID: 8761790400138710996}
   m_Layer: 0
   m_Name: Bed1_Bed:BedBlanket
   m_TagString: Untagged
@@ -195,6 +211,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8761790400138710996
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7138185249007805931}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6642669821655405117, guid: 8c5ea72e5a6b3174ebbe44e6c215b3ae, type: 3}
 --- !u!1 &8529669032966081440
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,6 +236,7 @@ GameObject:
   - component: {fileID: 6382607781785828498}
   - component: {fileID: 4715465016537907888}
   - component: {fileID: 8100870479339593831}
+  - component: {fileID: 1900235868679418000}
   m_Layer: 0
   m_Name: Bed1_Bed:BedPillow
   m_TagString: Untagged
@@ -276,3 +307,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1900235868679418000
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8529669032966081440}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4282072671226273387, guid: 8c5ea72e5a6b3174ebbe44e6c215b3ae, type: 3}
