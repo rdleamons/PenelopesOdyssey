@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 261034525003045564}
   - component: {fileID: 8130457248666443786}
   - component: {fileID: 8980484942010008664}
+  - component: {fileID: 9144591464219513113}
   m_Layer: 0
   m_Name: wooden_Sword
   m_TagString: Untagged
@@ -81,6 +82,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &9144591464219513113
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484354423299192150}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1059073437341913833, guid: e0f470740307dd04bba1f168737cc17c, type: 3}
 --- !u!1 &6291081432234835882
 GameObject:
   m_ObjectHideFlags: 0

@@ -254,6 +254,7 @@ GameObject:
   - component: {fileID: 3618025840783914997}
   - component: {fileID: 5789341059701613080}
   - component: {fileID: 4367049996870339775}
+  - component: {fileID: 2912350451454223064}
   m_Layer: 0
   m_Name: PenRoom1_Pen_Apt
   m_TagString: Untagged
@@ -324,6 +325,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2912350451454223064
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010203455139092646}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4415076769132332537, guid: 4e86e3a29544ec749916b62b90a7ba7d, type: 3}
 --- !u!1 &3207315886221142178
 GameObject:
   m_ObjectHideFlags: 0

@@ -36,7 +36,7 @@ public class SubtitleManager : MonoBehaviour
         textBox.GetComponent<Text>().text = "";
 
         yield return new WaitForSeconds(1);
-        textBox.GetComponent<Text>().text = "Click to stop & sniff for objects that could lead to Penelope's owner.";
+        textBox.GetComponent<Text>().text = "Click & hold to stop and sniff for objects that could lead to Penelope's owner.";
         yield return new WaitForSeconds(5);
         textBox.GetComponent<Text>().text = "";
 
