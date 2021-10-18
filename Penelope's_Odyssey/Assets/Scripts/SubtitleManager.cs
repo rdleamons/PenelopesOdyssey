@@ -16,17 +16,32 @@ public class SubtitleManager : MonoBehaviour
     IEnumerator Sequence()
     {
         yield return new WaitForSeconds(1);
-        textBox.GetComponent<Text>().text = "WASD to move.";
+        textBox.GetComponent<Text>().text = "Penelope's owner hasn't been home in a few days, and she's getting worried.";
         yield return new WaitForSeconds(5);
         textBox.GetComponent<Text>().text = "";
 
         yield return new WaitForSeconds(1);
-        textBox.GetComponent<Text>().text = "Space to jump.";
+        textBox.GetComponent<Text>().text = "Thus, our brave hero sets out on a mission to find her owner.";
         yield return new WaitForSeconds(5);
         textBox.GetComponent<Text>().text = "";
 
         yield return new WaitForSeconds(1);
-        textBox.GetComponent<Text>().text = "Click to stop & sniff.";
+        textBox.GetComponent<Text>().text = "Use WASD to move.";
+        yield return new WaitForSeconds(5);
+        textBox.GetComponent<Text>().text = "";
+
+        yield return new WaitForSeconds(1);
+        textBox.GetComponent<Text>().text = "Use space to jump.";
+        yield return new WaitForSeconds(5);
+        textBox.GetComponent<Text>().text = "";
+
+        yield return new WaitForSeconds(1);
+        textBox.GetComponent<Text>().text = "Click to stop & sniff for objects that could lead to Penelope's owner.";
+        yield return new WaitForSeconds(5);
+        textBox.GetComponent<Text>().text = "";
+
+        yield return new WaitForSeconds(1);
+        textBox.GetComponent<Text>().text = "Sniffing will also show the location of food.";
         yield return new WaitForSeconds(5);
         textBox.GetComponent<Text>().text = "";
 
@@ -34,6 +49,17 @@ public class SubtitleManager : MonoBehaviour
         textBox.GetComponent<Text>().text = "Watch your hunger meter -- don't let Penelope starve!";
         yield return new WaitForSeconds(5);
         textBox.GetComponent<Text>().text = "";
+
+        yield return new WaitForSeconds(1);
+        textBox.GetComponent<Text>().text = "Press shift to sprint, but watch out! This will make your hunger decrease faster!";
+        yield return new WaitForSeconds(5);
+        textBox.GetComponent<Text>().text = "";
+
+        yield return new WaitForSeconds(1);
+        textBox.GetComponent<Text>().text = "And most importantly: good luck!";
+        yield return new WaitForSeconds(5);
+        textBox.GetComponent<Text>().text = "";
+
 
     }
 
