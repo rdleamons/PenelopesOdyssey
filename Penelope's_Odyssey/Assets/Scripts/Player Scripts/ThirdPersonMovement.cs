@@ -40,7 +40,7 @@ public class ThirdPersonMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && controller.isGrounded)
         {
             //velocity.y = Mathf.Sqrt(jumpHeight * -gravMultiplier * Physics.gravity.y);
-            velocity.y = jumpHeight;
+            velocity.y = jumpHeight + (Physics.gravity.y * gravMultiplier * Time.deltaTime);
         }
 
         //Sprint

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3228749186717386735}
   m_Layer: 0
-  m_Name: car without tires 1 (1)
+  m_Name: car without tires new
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

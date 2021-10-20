@@ -334,7 +334,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5147973949719884549}
   m_Layer: 0
-  m_Name: Full Chain
+  m_Name: Full Chain old
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
