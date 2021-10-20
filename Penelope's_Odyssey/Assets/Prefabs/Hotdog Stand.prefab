@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8884194118317576757}
   - component: {fileID: 9022645334204309593}
   - component: {fileID: 5769922600521143198}
+  - component: {fileID: 6015248897387557149}
   m_Layer: 0
   m_Name: Hotdog_Stand_L_Wheel
   m_TagString: Untagged
@@ -81,6 +82,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6015248897387557149
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153582054542102191}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7730325118625283832, guid: db799480bc4f62a40853c8a996d6cfcf, type: 3}
 --- !u!1 &1047042865033855144
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,6 +107,7 @@ GameObject:
   - component: {fileID: 1972546947926257458}
   - component: {fileID: 1016923324412259350}
   - component: {fileID: 5429873051811007003}
+  - component: {fileID: 8814351205651821449}
   m_Layer: 0
   m_Name: Hotdog_Stand
   m_TagString: Untagged
@@ -162,6 +178,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8814351205651821449
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047042865033855144}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6382277536171176004, guid: db799480bc4f62a40853c8a996d6cfcf, type: 3}
 --- !u!1 &1107245548444234347
 GameObject:
   m_ObjectHideFlags: 0
@@ -208,6 +238,7 @@ GameObject:
   - component: {fileID: 4760255326492328168}
   - component: {fileID: 3487317182605327547}
   - component: {fileID: 4328100682748181303}
+  - component: {fileID: 8337927490054508624}
   m_Layer: 0
   m_Name: Hotdog_Stand_Ketchup_Bottle
   m_TagString: Untagged
@@ -278,6 +309,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8337927490054508624
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2528035635209061579}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2351621453266137340, guid: db799480bc4f62a40853c8a996d6cfcf, type: 3}
 --- !u!1 &5984419152352248173
 GameObject:
   m_ObjectHideFlags: 0
@@ -289,6 +334,7 @@ GameObject:
   - component: {fileID: 9062211179473645998}
   - component: {fileID: 3256945561649487856}
   - component: {fileID: 3827690144236483436}
+  - component: {fileID: 3747107508101527912}
   m_Layer: 0
   m_Name: Hotdog_Stand_R_Wheel
   m_TagString: Untagged
@@ -359,6 +405,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3747107508101527912
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5984419152352248173}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6564025025436897062, guid: db799480bc4f62a40853c8a996d6cfcf, type: 3}
 --- !u!1 &9027818276228386041
 GameObject:
   m_ObjectHideFlags: 0
@@ -370,6 +430,7 @@ GameObject:
   - component: {fileID: 4183695198896025905}
   - component: {fileID: 7569572971326740768}
   - component: {fileID: 6680497397277461210}
+  - component: {fileID: 4974423916149917587}
   m_Layer: 0
   m_Name: Hotdog_Stand_Mustard_Bottle
   m_TagString: Untagged
@@ -440,3 +501,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4974423916149917587
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9027818276228386041}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3124241887263988158, guid: db799480bc4f62a40853c8a996d6cfcf, type: 3}
