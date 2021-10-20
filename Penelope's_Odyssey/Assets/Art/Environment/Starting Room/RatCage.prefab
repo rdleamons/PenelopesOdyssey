@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3406225472831129881}
   - component: {fileID: 5765217880805724043}
   - component: {fileID: 4113171996482427258}
+  - component: {fileID: 2239215887066688096}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel4_Bars7
   m_TagString: Untagged
@@ -81,6 +82,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2239215887066688096
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12312816269463652}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7895207394331555684, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &38069058073370330
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,6 +107,7 @@ GameObject:
   - component: {fileID: 530478895791844229}
   - component: {fileID: 2711842040254994647}
   - component: {fileID: 4387902407900224499}
+  - component: {fileID: 6685416309437867100}
   m_Layer: 0
   m_Name: RatCage_Bars10_Bar_Panel4
   m_TagString: Untagged
@@ -162,6 +178,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6685416309437867100
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38069058073370330}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6176415331994831458, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &191134676139960291
 GameObject:
   m_ObjectHideFlags: 0
@@ -173,6 +203,7 @@ GameObject:
   - component: {fileID: 6655927970325358121}
   - component: {fileID: 6026711241180685541}
   - component: {fileID: 8124245877914848233}
+  - component: {fileID: 8471456246122820808}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel1_Bars2
   m_TagString: Untagged
@@ -243,6 +274,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8471456246122820808
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191134676139960291}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -56154665722610308, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &413494518824062192
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,6 +299,7 @@ GameObject:
   - component: {fileID: 3440751429811612384}
   - component: {fileID: 6652119296951145288}
   - component: {fileID: 8799662573494615511}
+  - component: {fileID: 5469980030937074180}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel8_Bars7
   m_TagString: Untagged
@@ -324,6 +370,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5469980030937074180
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413494518824062192}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8301047649984860656, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &442207490264454523
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,6 +395,7 @@ GameObject:
   - component: {fileID: 3553940203707779837}
   - component: {fileID: 8260316703553113240}
   - component: {fileID: 1130852762620394150}
+  - component: {fileID: 4704766232519705270}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel_Door_Bars6
   m_TagString: Untagged
@@ -405,6 +466,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4704766232519705270
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442207490264454523}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 537786819688771044, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &570729032949386091
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,6 +491,7 @@ GameObject:
   - component: {fileID: 375369718732017902}
   - component: {fileID: 3155933707124697764}
   - component: {fileID: 5647685262311626512}
+  - component: {fileID: 1968036268390774420}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel6_Bars6
   m_TagString: Untagged
@@ -486,6 +562,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1968036268390774420
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570729032949386091}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2739555281243253935, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &591254117864100497
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,6 +587,7 @@ GameObject:
   - component: {fileID: 992882983661831200}
   - component: {fileID: 4178169153415723342}
   - component: {fileID: 9066046519390095806}
+  - component: {fileID: 2632057031788149833}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel7_Bars9
   m_TagString: Untagged
@@ -567,6 +658,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2632057031788149833
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591254117864100497}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5258141972031056851, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &618665117019166490
 GameObject:
   m_ObjectHideFlags: 0
@@ -578,6 +683,7 @@ GameObject:
   - component: {fileID: 8203049850289934805}
   - component: {fileID: 3493780699515236043}
   - component: {fileID: 6970329561248003936}
+  - component: {fileID: 5454080711833635315}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel8_Bars22
   m_TagString: Untagged
@@ -648,6 +754,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5454080711833635315
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618665117019166490}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5087972466876274467, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &624910467050453889
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,6 +779,7 @@ GameObject:
   - component: {fileID: 7565721849814211691}
   - component: {fileID: 2942052765129746524}
   - component: {fileID: 2599173767109014466}
+  - component: {fileID: 2526580594062893290}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel6_Bars3
   m_TagString: Untagged
@@ -729,6 +850,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2526580594062893290
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624910467050453889}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3793077406467941342, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &636562399377678273
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,6 +875,7 @@ GameObject:
   - component: {fileID: 6612552480843995902}
   - component: {fileID: 6459944430784324936}
   - component: {fileID: 6970253347492136088}
+  - component: {fileID: 497249752834320522}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel_Door_Bars3
   m_TagString: Untagged
@@ -810,6 +946,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &497249752834320522
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636562399377678273}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8037265531802194905, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &849467971371640901
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,6 +971,7 @@ GameObject:
   - component: {fileID: 5146880288047799793}
   - component: {fileID: 7678398673799719722}
   - component: {fileID: 8265042531598472033}
+  - component: {fileID: 1189097688904631131}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel5_Bars14
   m_TagString: Untagged
@@ -891,6 +1042,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1189097688904631131
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849467971371640901}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2161999750180666624, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &949718993077419854
 GameObject:
   m_ObjectHideFlags: 0
@@ -902,6 +1067,7 @@ GameObject:
   - component: {fileID: 3285862073394456168}
   - component: {fileID: 4647460147877054414}
   - component: {fileID: 6340145542497832243}
+  - component: {fileID: 1344142728875984411}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel4_Bars2
   m_TagString: Untagged
@@ -972,6 +1138,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1344142728875984411
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949718993077419854}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4852021678859288748, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &1029421561677428006
 GameObject:
   m_ObjectHideFlags: 0
@@ -983,6 +1163,7 @@ GameObject:
   - component: {fileID: 4121878724497765074}
   - component: {fileID: 7114256020272186244}
   - component: {fileID: 4184243776119002129}
+  - component: {fileID: 6451483001970535225}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel_Bars5
   m_TagString: Untagged
@@ -1053,6 +1234,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6451483001970535225
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029421561677428006}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7463974401622250374, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &1040909650571333032
 GameObject:
   m_ObjectHideFlags: 0
@@ -1064,6 +1259,7 @@ GameObject:
   - component: {fileID: 6502098533403536824}
   - component: {fileID: 8420801722715161875}
   - component: {fileID: 6321059629369576614}
+  - component: {fileID: 3822913052106516433}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel_Bars7
   m_TagString: Untagged
@@ -1134,6 +1330,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3822913052106516433
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040909650571333032}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -747788632583107554, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &1058226629407633670
 GameObject:
   m_ObjectHideFlags: 0
@@ -1145,6 +1355,7 @@ GameObject:
   - component: {fileID: 6952909507135834945}
   - component: {fileID: 2495541605990784021}
   - component: {fileID: 275540961106360417}
+  - component: {fileID: 692859660418309902}
   m_Layer: 0
   m_Name: RatCage_Cage_Siding1
   m_TagString: Untagged
@@ -1215,6 +1426,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &692859660418309902
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058226629407633670}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3410072907044275809, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &1094571078566734585
 GameObject:
   m_ObjectHideFlags: 0
@@ -1226,6 +1451,7 @@ GameObject:
   - component: {fileID: 4495501586048514408}
   - component: {fileID: 8940994392114767740}
   - component: {fileID: 3677702098170724229}
+  - component: {fileID: 6399097208267591868}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel1_Bars1
   m_TagString: Untagged
@@ -1296,6 +1522,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6399097208267591868
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094571078566734585}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6760532438303663172, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &1117611957406373291
 GameObject:
   m_ObjectHideFlags: 0
@@ -1307,6 +1547,7 @@ GameObject:
   - component: {fileID: 7094143693873012776}
   - component: {fileID: 8461269482292091805}
   - component: {fileID: 169688742427680894}
+  - component: {fileID: 4993889181710942321}
   m_Layer: 0
   m_Name: RatCage_Bars10_Bar_Panel6
   m_TagString: Untagged
@@ -1377,6 +1618,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4993889181710942321
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117611957406373291}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4082721281657247655, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &1205086368817804783
 GameObject:
   m_ObjectHideFlags: 0
@@ -1388,6 +1643,7 @@ GameObject:
   - component: {fileID: 2687130887950665107}
   - component: {fileID: 2089208005766432593}
   - component: {fileID: 6135223891324439710}
+  - component: {fileID: 5532845235201136330}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel_Bars9
   m_TagString: Untagged
@@ -1458,6 +1714,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5532845235201136330
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205086368817804783}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1261946779588536275, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &1211653238493121669
 GameObject:
   m_ObjectHideFlags: 0
@@ -1469,6 +1739,7 @@ GameObject:
   - component: {fileID: 4120302819309603773}
   - component: {fileID: 2179837893008695991}
   - component: {fileID: 2093159688469126998}
+  - component: {fileID: 3633022850742711445}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel5_Bars13
   m_TagString: Untagged
@@ -1539,6 +1810,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3633022850742711445
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211653238493121669}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3508702840879556317, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &1278829705913691951
 GameObject:
   m_ObjectHideFlags: 0
@@ -1550,6 +1835,7 @@ GameObject:
   - component: {fileID: 6671774258838853016}
   - component: {fileID: 7096612834258434448}
   - component: {fileID: 6150375044682943132}
+  - component: {fileID: 1484672309987882373}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel9_Bars4
   m_TagString: Untagged
@@ -1620,6 +1906,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1484672309987882373
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278829705913691951}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8518873714335939998, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &1317554490302270206
 GameObject:
   m_ObjectHideFlags: 0
@@ -1631,6 +1931,7 @@ GameObject:
   - component: {fileID: 7407498934887707669}
   - component: {fileID: 6768791588714908567}
   - component: {fileID: 3870263915796664778}
+  - component: {fileID: 403240844649672311}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel9_Bars21
   m_TagString: Untagged
@@ -1701,6 +2002,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &403240844649672311
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317554490302270206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6190214085434725683, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &1345822477055316099
 GameObject:
   m_ObjectHideFlags: 0
@@ -1712,6 +2027,7 @@ GameObject:
   - component: {fileID: 1096295710541079554}
   - component: {fileID: 1851361675526119535}
   - component: {fileID: 5188623463647776663}
+  - component: {fileID: 1772393201594515633}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel4_Bars11
   m_TagString: Untagged
@@ -1782,6 +2098,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1772393201594515633
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345822477055316099}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8341942745805274391, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &1364887228941107575
 GameObject:
   m_ObjectHideFlags: 0
@@ -1793,6 +2123,7 @@ GameObject:
   - component: {fileID: 5752273775710671336}
   - component: {fileID: 9036822408594056572}
   - component: {fileID: 3470049361720809007}
+  - component: {fileID: 6300278181717300281}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel8_Bars8
   m_TagString: Untagged
@@ -1863,6 +2194,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6300278181717300281
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364887228941107575}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -941982981161858000, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &1366380454802193935
 GameObject:
   m_ObjectHideFlags: 0
@@ -1874,6 +2219,7 @@ GameObject:
   - component: {fileID: 2707358461110366822}
   - component: {fileID: 5630105836019866541}
   - component: {fileID: 6438797787290549432}
+  - component: {fileID: 1314013540064473002}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel9_Bars11
   m_TagString: Untagged
@@ -1944,6 +2290,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1314013540064473002
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366380454802193935}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2161017379484670056, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &1380658421016428256
 GameObject:
   m_ObjectHideFlags: 0
@@ -1955,6 +2315,7 @@ GameObject:
   - component: {fileID: 2664678792417891325}
   - component: {fileID: 8696588770946353314}
   - component: {fileID: 9192638234549762726}
+  - component: {fileID: 5124025179184803590}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel6_Bars7
   m_TagString: Untagged
@@ -2025,6 +2386,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5124025179184803590
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380658421016428256}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2230544520510561704, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &1410200542343055365
 GameObject:
   m_ObjectHideFlags: 0
@@ -2036,6 +2411,7 @@ GameObject:
   - component: {fileID: 8959048546052343134}
   - component: {fileID: 4492738916955928159}
   - component: {fileID: 3855274693774268274}
+  - component: {fileID: 5931987733278030099}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel6_Bars4
   m_TagString: Untagged
@@ -2106,6 +2482,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5931987733278030099
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410200542343055365}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4839740235924435285, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &1513175018666339508
 GameObject:
   m_ObjectHideFlags: 0
@@ -2117,6 +2507,7 @@ GameObject:
   - component: {fileID: 2004736359291853533}
   - component: {fileID: 3222540727422676385}
   - component: {fileID: 8086656388694294457}
+  - component: {fileID: 4343931152695979767}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel6_Bars1
   m_TagString: Untagged
@@ -2187,6 +2578,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4343931152695979767
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513175018666339508}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -655695388842120342, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &1547359602191342199
 GameObject:
   m_ObjectHideFlags: 0
@@ -2198,6 +2603,7 @@ GameObject:
   - component: {fileID: 6222798752957087287}
   - component: {fileID: 3990413582591488172}
   - component: {fileID: 5562066578595157120}
+  - component: {fileID: 3219747046993196276}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel5_Bars16
   m_TagString: Untagged
@@ -2268,6 +2674,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3219747046993196276
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547359602191342199}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5793504426275332306, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &1563346262062334790
 GameObject:
   m_ObjectHideFlags: 0
@@ -2279,6 +2699,7 @@ GameObject:
   - component: {fileID: 2243805835695749170}
   - component: {fileID: 495902744098545058}
   - component: {fileID: 1179916195564801774}
+  - component: {fileID: 636692195263427415}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel7_Bars3
   m_TagString: Untagged
@@ -2349,6 +2770,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &636692195263427415
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563346262062334790}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5530534672453355989, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &1590512190938795372
 GameObject:
   m_ObjectHideFlags: 0
@@ -2360,6 +2795,7 @@ GameObject:
   - component: {fileID: 3034719337418545143}
   - component: {fileID: 9104214688494535137}
   - component: {fileID: 5306826773850937844}
+  - component: {fileID: 6132872570862486479}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel8_Bars6
   m_TagString: Untagged
@@ -2430,6 +2866,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6132872570862486479
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590512190938795372}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3137922451902330751, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &1628356366517881564
 GameObject:
   m_ObjectHideFlags: 0
@@ -2441,6 +2891,7 @@ GameObject:
   - component: {fileID: 639491402983988298}
   - component: {fileID: 1965331274609514928}
   - component: {fileID: 4093329928356046880}
+  - component: {fileID: 2665611513493469386}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel8_Bars5
   m_TagString: Untagged
@@ -2511,6 +2962,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2665611513493469386
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628356366517881564}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1743062735233966567, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &1725298979613123375
 GameObject:
   m_ObjectHideFlags: 0
@@ -2522,6 +2987,7 @@ GameObject:
   - component: {fileID: 8029995232303034045}
   - component: {fileID: 2879648880214877246}
   - component: {fileID: 7780016679407785666}
+  - component: {fileID: 7401128873516605864}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel1_Bars5
   m_TagString: Untagged
@@ -2592,6 +3058,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7401128873516605864
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725298979613123375}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5551295686376828463, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &1779491993247317196
 GameObject:
   m_ObjectHideFlags: 0
@@ -2603,6 +3083,7 @@ GameObject:
   - component: {fileID: 4571415919483600832}
   - component: {fileID: 799340003495597464}
   - component: {fileID: 7302326434768871974}
+  - component: {fileID: 5165912159062792302}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel7_Bars2
   m_TagString: Untagged
@@ -2673,6 +3154,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5165912159062792302
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779491993247317196}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4325795601004044099, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &1944932583339619982
 GameObject:
   m_ObjectHideFlags: 0
@@ -2684,6 +3179,7 @@ GameObject:
   - component: {fileID: 7737466835053144355}
   - component: {fileID: 3879898287450641586}
   - component: {fileID: 3639787246381987918}
+  - component: {fileID: 3766448730765869298}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel_Bars4
   m_TagString: Untagged
@@ -2754,6 +3250,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3766448730765869298
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944932583339619982}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5719466594006165455, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &1955026552427272431
 GameObject:
   m_ObjectHideFlags: 0
@@ -2765,6 +3275,7 @@ GameObject:
   - component: {fileID: 3660316338455800038}
   - component: {fileID: 2286391250446255298}
   - component: {fileID: 3158743721089683518}
+  - component: {fileID: 3428866540759184422}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel4_Bars15
   m_TagString: Untagged
@@ -2835,6 +3346,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3428866540759184422
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955026552427272431}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -380987701526320869, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &1991857537076631840
 GameObject:
   m_ObjectHideFlags: 0
@@ -2846,6 +3371,7 @@ GameObject:
   - component: {fileID: 7667747131430240431}
   - component: {fileID: 2663139887707770509}
   - component: {fileID: 5588859347750765743}
+  - component: {fileID: 7936445928741219921}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel9_Bars1
   m_TagString: Untagged
@@ -2916,6 +3442,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7936445928741219921
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991857537076631840}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7541622524448272119, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &2026102054705951862
 GameObject:
   m_ObjectHideFlags: 0
@@ -2927,6 +3467,7 @@ GameObject:
   - component: {fileID: 7620608778708318087}
   - component: {fileID: 6219767113083886858}
   - component: {fileID: 219030913823824559}
+  - component: {fileID: 7621310888471871183}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel7_Bars6
   m_TagString: Untagged
@@ -2997,6 +3538,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7621310888471871183
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026102054705951862}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2554294604199375767, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &2044984928261295206
 GameObject:
   m_ObjectHideFlags: 0
@@ -3008,6 +3563,7 @@ GameObject:
   - component: {fileID: 168567191841569810}
   - component: {fileID: 5928292061902706684}
   - component: {fileID: 9000940782462336026}
+  - component: {fileID: 2584154876257198899}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel2_Bars
   m_TagString: Untagged
@@ -3078,6 +3634,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2584154876257198899
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044984928261295206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8393264236230440936, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &2106787246789281462
 GameObject:
   m_ObjectHideFlags: 0
@@ -3089,6 +3659,7 @@ GameObject:
   - component: {fileID: 1180270814773653405}
   - component: {fileID: 125582015050316112}
   - component: {fileID: 2436594831915236556}
+  - component: {fileID: 4389101078187564780}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel7_Bars5
   m_TagString: Untagged
@@ -3159,6 +3730,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4389101078187564780
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2106787246789281462}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3014890040757715012, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &2127549383014993219
 GameObject:
   m_ObjectHideFlags: 0
@@ -3170,6 +3755,7 @@ GameObject:
   - component: {fileID: 6941561298773126462}
   - component: {fileID: 2552072447796378124}
   - component: {fileID: 6140925658597486979}
+  - component: {fileID: 7716041185922871144}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel6_Bars9
   m_TagString: Untagged
@@ -3240,6 +3826,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7716041185922871144
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2127549383014993219}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1295710658458625113, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &2196608630439530546
 GameObject:
   m_ObjectHideFlags: 0
@@ -3251,6 +3851,7 @@ GameObject:
   - component: {fileID: 2725230372595931193}
   - component: {fileID: 4530924656960684181}
   - component: {fileID: 6226325486792518137}
+  - component: {fileID: 5523000960643171988}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel8_Bars23
   m_TagString: Untagged
@@ -3321,6 +3922,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5523000960643171988
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2196608630439530546}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2481702113726496203, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &2245210316043462386
 GameObject:
   m_ObjectHideFlags: 0
@@ -3332,6 +3947,7 @@ GameObject:
   - component: {fileID: 3472587733828361597}
   - component: {fileID: 8801736924331375700}
   - component: {fileID: 3055052994834626567}
+  - component: {fileID: 1161638395011254513}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel4_Bars4
   m_TagString: Untagged
@@ -3402,6 +4018,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1161638395011254513
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2245210316043462386}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1722005427838049466, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &2326978727649242103
 GameObject:
   m_ObjectHideFlags: 0
@@ -3413,6 +4043,7 @@ GameObject:
   - component: {fileID: 9182239518959250183}
   - component: {fileID: 2906937288256051606}
   - component: {fileID: 8348105453657584284}
+  - component: {fileID: 6586548704231952771}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel2_Bars2
   m_TagString: Untagged
@@ -3483,6 +4114,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6586548704231952771
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2326978727649242103}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6027904954375579821, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &2346240925587110250
 GameObject:
   m_ObjectHideFlags: 0
@@ -3494,6 +4139,7 @@ GameObject:
   - component: {fileID: 6260436073551059032}
   - component: {fileID: 2171920192620769663}
   - component: {fileID: 2163772894811450473}
+  - component: {fileID: 3008772125500757912}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel9_Bars2
   m_TagString: Untagged
@@ -3564,6 +4210,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3008772125500757912
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2346240925587110250}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3598822287303019411, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &2346492002463224959
 GameObject:
   m_ObjectHideFlags: 0
@@ -3575,6 +4235,7 @@ GameObject:
   - component: {fileID: 3016049642262657829}
   - component: {fileID: 1784811319613411689}
   - component: {fileID: 8746558167037683480}
+  - component: {fileID: 725389709544855802}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel8_Bars14
   m_TagString: Untagged
@@ -3645,6 +4306,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &725389709544855802
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2346492002463224959}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1166460273002001676, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &2363871546646344798
 GameObject:
   m_ObjectHideFlags: 0
@@ -3656,6 +4331,7 @@ GameObject:
   - component: {fileID: 3501533567846239963}
   - component: {fileID: 954496781137871387}
   - component: {fileID: 1844976181719860173}
+  - component: {fileID: 1217214371012904151}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel9_Bars5
   m_TagString: Untagged
@@ -3726,6 +4402,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1217214371012904151
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2363871546646344798}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4588685154008246353, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &2440797729833914711
 GameObject:
   m_ObjectHideFlags: 0
@@ -3737,6 +4427,7 @@ GameObject:
   - component: {fileID: 5534281468230590078}
   - component: {fileID: 2311160506587657810}
   - component: {fileID: 7497420884976928546}
+  - component: {fileID: 5150940195418428982}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel5_Bars11
   m_TagString: Untagged
@@ -3807,6 +4498,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5150940195418428982
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2440797729833914711}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2889747282919872807, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &2544153596121323867
 GameObject:
   m_ObjectHideFlags: 0
@@ -3818,6 +4523,7 @@ GameObject:
   - component: {fileID: 1028271746292556326}
   - component: {fileID: 5649806229805743679}
   - component: {fileID: 7774088157085555161}
+  - component: {fileID: 7556168308625232841}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel_Door_Bars1
   m_TagString: Untagged
@@ -3888,6 +4594,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7556168308625232841
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2544153596121323867}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6819747298975141781, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &2625254964855363689
 GameObject:
   m_ObjectHideFlags: 0
@@ -3899,6 +4619,7 @@ GameObject:
   - component: {fileID: 3976623997263988738}
   - component: {fileID: 2044258599441594698}
   - component: {fileID: 7927225316508330164}
+  - component: {fileID: 167899735430386546}
   m_Layer: 0
   m_Name: RatCage_Bars10_Bar_Panel_Door
   m_TagString: Untagged
@@ -3969,6 +4690,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &167899735430386546
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2625254964855363689}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6170532640637535456, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &2639406460983466506
 GameObject:
   m_ObjectHideFlags: 0
@@ -3980,6 +4715,7 @@ GameObject:
   - component: {fileID: 3651414139244452262}
   - component: {fileID: 8966058464926402504}
   - component: {fileID: 693995379333806544}
+  - component: {fileID: 4905596017012881785}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel8_Bars1
   m_TagString: Untagged
@@ -4050,6 +4786,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4905596017012881785
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2639406460983466506}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3561017829593388597, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &2648829040123997808
 GameObject:
   m_ObjectHideFlags: 0
@@ -4061,6 +4811,7 @@ GameObject:
   - component: {fileID: 4209484119213365770}
   - component: {fileID: 7103546676972623257}
   - component: {fileID: 3532577666416532983}
+  - component: {fileID: 7414028244406340782}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel2_Bars5
   m_TagString: Untagged
@@ -4131,6 +4882,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7414028244406340782
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2648829040123997808}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3034281401006296700, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &2759672115135232818
 GameObject:
   m_ObjectHideFlags: 0
@@ -4142,6 +4907,7 @@ GameObject:
   - component: {fileID: 4615502171248746794}
   - component: {fileID: 3861279441661536349}
   - component: {fileID: 8804248417212596075}
+  - component: {fileID: 2983493587961141969}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel9_Bars23
   m_TagString: Untagged
@@ -4212,6 +4978,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2983493587961141969
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2759672115135232818}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3993044412525683365, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &2840120976995103414
 GameObject:
   m_ObjectHideFlags: 0
@@ -4223,6 +5003,7 @@ GameObject:
   - component: {fileID: 5448336820656348547}
   - component: {fileID: 5159837833010644694}
   - component: {fileID: 1890835210419736626}
+  - component: {fileID: 2147235315115399012}
   m_Layer: 0
   m_Name: RatCage_Bars10_Bar_Panel8
   m_TagString: Untagged
@@ -4293,6 +5074,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2147235315115399012
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2840120976995103414}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8098609687383596065, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &2905746690468901163
 GameObject:
   m_ObjectHideFlags: 0
@@ -4304,6 +5099,7 @@ GameObject:
   - component: {fileID: 86878581725376605}
   - component: {fileID: 7666971255633487370}
   - component: {fileID: 1455814971263209642}
+  - component: {fileID: 6077566181755988965}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel_Door_pCube3
   m_TagString: Untagged
@@ -4374,6 +5170,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6077566181755988965
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2905746690468901163}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2994731544194968312, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &2936942893935152923
 GameObject:
   m_ObjectHideFlags: 0
@@ -4385,6 +5195,7 @@ GameObject:
   - component: {fileID: 5155053188974277327}
   - component: {fileID: 5643348857762788991}
   - component: {fileID: 1690751415908720076}
+  - component: {fileID: 5833822854671221224}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel_Door_Bars4
   m_TagString: Untagged
@@ -4455,6 +5266,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5833822854671221224
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2936942893935152923}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3046831162063976242, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &2969303186294408843
 GameObject:
   m_ObjectHideFlags: 0
@@ -4466,6 +5291,7 @@ GameObject:
   - component: {fileID: 1386494852117503279}
   - component: {fileID: 3194835774963059539}
   - component: {fileID: 3888264383021738423}
+  - component: {fileID: 7963474910397504491}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel7_Bars4
   m_TagString: Untagged
@@ -4536,6 +5362,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7963474910397504491
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2969303186294408843}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5897480924274406527, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &2977487690047441246
 GameObject:
   m_ObjectHideFlags: 0
@@ -4547,6 +5387,7 @@ GameObject:
   - component: {fileID: 1600757290541816081}
   - component: {fileID: 1608018812954446441}
   - component: {fileID: 3581072695303958705}
+  - component: {fileID: 5908755713799079048}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel_Door_Bars2
   m_TagString: Untagged
@@ -4617,6 +5458,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5908755713799079048
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2977487690047441246}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1669259878678162046, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &3038213084726682633
 GameObject:
   m_ObjectHideFlags: 0
@@ -4628,6 +5483,7 @@ GameObject:
   - component: {fileID: 1216841918411729627}
   - component: {fileID: 8594369428261491132}
   - component: {fileID: 895450266916617379}
+  - component: {fileID: 1104520985185738810}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel9_Bars22
   m_TagString: Untagged
@@ -4698,6 +5554,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1104520985185738810
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3038213084726682633}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5905950698158302757, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &3042277924616866087
 GameObject:
   m_ObjectHideFlags: 0
@@ -4709,6 +5579,7 @@ GameObject:
   - component: {fileID: 7409990493686668573}
   - component: {fileID: 1509738400165736777}
   - component: {fileID: 3625748127187848325}
+  - component: {fileID: 4946694615411152023}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel6_Bars16
   m_TagString: Untagged
@@ -4779,6 +5650,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4946694615411152023
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3042277924616866087}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5498128328334015020, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &3179339037787966254
 GameObject:
   m_ObjectHideFlags: 0
@@ -4790,6 +5675,7 @@ GameObject:
   - component: {fileID: 1338787681983165114}
   - component: {fileID: 1557201601408681196}
   - component: {fileID: 1924393220443802394}
+  - component: {fileID: 780549521087886752}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel6_Bars
   m_TagString: Untagged
@@ -4860,6 +5746,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &780549521087886752
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3179339037787966254}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 703747516009782830, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &3238443840152283308
 GameObject:
   m_ObjectHideFlags: 0
@@ -4871,6 +5771,7 @@ GameObject:
   - component: {fileID: 3982740057331939817}
   - component: {fileID: 8958211207843652286}
   - component: {fileID: 1877736189632363630}
+  - component: {fileID: 4003605428163129605}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel9_Bars6
   m_TagString: Untagged
@@ -4941,6 +5842,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4003605428163129605
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3238443840152283308}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3298728968283431964, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &3242998223676858868
 GameObject:
   m_ObjectHideFlags: 0
@@ -4952,6 +5867,7 @@ GameObject:
   - component: {fileID: 8635509438711623154}
   - component: {fileID: 4264084755185465747}
   - component: {fileID: 8381066737997461148}
+  - component: {fileID: 3003123068883511421}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel9_Bars18
   m_TagString: Untagged
@@ -5022,6 +5938,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3003123068883511421
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3242998223676858868}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8528495956729431227, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &3252569498771084518
 GameObject:
   m_ObjectHideFlags: 0
@@ -5033,6 +5963,7 @@ GameObject:
   - component: {fileID: 8057470247466052224}
   - component: {fileID: 6281708201086995518}
   - component: {fileID: 1400547854506930767}
+  - component: {fileID: 2687709244396261162}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel8_Bars2
   m_TagString: Untagged
@@ -5103,6 +6034,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2687709244396261162
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3252569498771084518}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8438383509772676178, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &3373489958658259506
 GameObject:
   m_ObjectHideFlags: 0
@@ -5114,6 +6059,7 @@ GameObject:
   - component: {fileID: 3416948385062916928}
   - component: {fileID: 668367780675506860}
   - component: {fileID: 7781188938193451344}
+  - component: {fileID: 3558556263896739700}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel1_Bars6
   m_TagString: Untagged
@@ -5184,6 +6130,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3558556263896739700
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3373489958658259506}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4414567850133447268, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &3489034114469234312
 GameObject:
   m_ObjectHideFlags: 0
@@ -5195,6 +6155,7 @@ GameObject:
   - component: {fileID: 4468624939957928633}
   - component: {fileID: 1543821747124365177}
   - component: {fileID: 7128463950697252950}
+  - component: {fileID: 1604384508515816463}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel9_Bars14
   m_TagString: Untagged
@@ -5265,6 +6226,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1604384508515816463
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3489034114469234312}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7209353636458584230, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &3495698566740129532
 GameObject:
   m_ObjectHideFlags: 0
@@ -5276,6 +6251,7 @@ GameObject:
   - component: {fileID: 1367769419605068237}
   - component: {fileID: 3571364244593534636}
   - component: {fileID: 5582910938893145993}
+  - component: {fileID: 5007264694151127353}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel_Bars2
   m_TagString: Untagged
@@ -5346,6 +6322,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5007264694151127353
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3495698566740129532}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4902603925157908797, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &3526471014370987068
 GameObject:
   m_ObjectHideFlags: 0
@@ -5357,6 +6347,7 @@ GameObject:
   - component: {fileID: 8067262478480518939}
   - component: {fileID: 3021783370567798654}
   - component: {fileID: 8374146867475594168}
+  - component: {fileID: 2904470681034490859}
   m_Layer: 0
   m_Name: RatCage_Bars10_Bar_Panel5
   m_TagString: Untagged
@@ -5427,6 +6418,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2904470681034490859
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3526471014370987068}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -507799687875232206, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &3568416171668846871
 GameObject:
   m_ObjectHideFlags: 0
@@ -5438,6 +6443,7 @@ GameObject:
   - component: {fileID: 1520187981597978736}
   - component: {fileID: 8183015756382674289}
   - component: {fileID: 5814312450306206174}
+  - component: {fileID: 6008392733537749578}
   m_Layer: 0
   m_Name: RatCage_Bars10_Bar_Panel2
   m_TagString: Untagged
@@ -5508,6 +6514,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6008392733537749578
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3568416171668846871}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2542607232744120522, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &3591567059481834794
 GameObject:
   m_ObjectHideFlags: 0
@@ -5519,6 +6539,7 @@ GameObject:
   - component: {fileID: 1756273535850499762}
   - component: {fileID: 2391573604983360872}
   - component: {fileID: 5088074918586213171}
+  - component: {fileID: 3750699167670946718}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel6_Bars5
   m_TagString: Untagged
@@ -5589,6 +6610,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3750699167670946718
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3591567059481834794}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4503766283790036576, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &3597382623962718821
 GameObject:
   m_ObjectHideFlags: 0
@@ -5600,6 +6635,7 @@ GameObject:
   - component: {fileID: 8319649845385650359}
   - component: {fileID: 5580102669921410132}
   - component: {fileID: 2800693181231438213}
+  - component: {fileID: 6794659156333543986}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel7_Bars1
   m_TagString: Untagged
@@ -5670,6 +6706,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6794659156333543986
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3597382623962718821}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8257732717564570698, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &3682507885560280876
 GameObject:
   m_ObjectHideFlags: 0
@@ -5681,6 +6731,7 @@ GameObject:
   - component: {fileID: 7159637968083685055}
   - component: {fileID: 5850895055802355908}
   - component: {fileID: 1989864452958137615}
+  - component: {fileID: 3464817587649717238}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel1_Bars7
   m_TagString: Untagged
@@ -5751,6 +6802,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3464817587649717238
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3682507885560280876}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3425925254235961948, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &3714304512875931038
 GameObject:
   m_ObjectHideFlags: 0
@@ -5762,6 +6827,7 @@ GameObject:
   - component: {fileID: 6280715324702025583}
   - component: {fileID: 8039019112442483284}
   - component: {fileID: 858203303956576434}
+  - component: {fileID: 5334859125955750463}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel5_Bars
   m_TagString: Untagged
@@ -5832,6 +6898,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5334859125955750463
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3714304512875931038}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7575344846641885505, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &3768849283284533179
 GameObject:
   m_ObjectHideFlags: 0
@@ -5843,6 +6923,7 @@ GameObject:
   - component: {fileID: 6822334311274577644}
   - component: {fileID: 2741700008147719726}
   - component: {fileID: 1415801720738335873}
+  - component: {fileID: 2893231801372874292}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel2_Bars6
   m_TagString: Untagged
@@ -5913,6 +6994,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2893231801372874292
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3768849283284533179}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8354223365079094290, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &3903594949362981743
 GameObject:
   m_ObjectHideFlags: 0
@@ -5924,6 +7019,7 @@ GameObject:
   - component: {fileID: 3911464866594045545}
   - component: {fileID: 4482282613768657967}
   - component: {fileID: 2849480082711978434}
+  - component: {fileID: 4952970810599818278}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel_Door_Bars8
   m_TagString: Untagged
@@ -5994,6 +7090,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4952970810599818278
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3903594949362981743}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3838330203413839575, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &4060050394940053616
 GameObject:
   m_ObjectHideFlags: 0
@@ -6005,6 +7115,7 @@ GameObject:
   - component: {fileID: 2221237735065743975}
   - component: {fileID: 4187484544545534476}
   - component: {fileID: 7141651655909807149}
+  - component: {fileID: 9061975848180180986}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel6_Bars12
   m_TagString: Untagged
@@ -6075,6 +7186,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &9061975848180180986
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4060050394940053616}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4750434467250020815, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &4099095685381010770
 GameObject:
   m_ObjectHideFlags: 0
@@ -6086,6 +7211,7 @@ GameObject:
   - component: {fileID: 6029829850294051830}
   - component: {fileID: 3780743296801040033}
   - component: {fileID: 1023319287420713618}
+  - component: {fileID: 9090364285725374429}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel6_Bars11
   m_TagString: Untagged
@@ -6156,6 +7282,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &9090364285725374429
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4099095685381010770}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3044472219123130774, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &4138899591326562060
 GameObject:
   m_ObjectHideFlags: 0
@@ -6167,6 +7307,7 @@ GameObject:
   - component: {fileID: 2567556745437921019}
   - component: {fileID: 2501506828299107662}
   - component: {fileID: 9205285753330990953}
+  - component: {fileID: 3919261471854591996}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel1_Bars8
   m_TagString: Untagged
@@ -6237,6 +7378,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3919261471854591996
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4138899591326562060}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7607484965240884067, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &4232475489715177510
 GameObject:
   m_ObjectHideFlags: 0
@@ -6248,6 +7403,7 @@ GameObject:
   - component: {fileID: 6592832313411120384}
   - component: {fileID: 4732988295498023185}
   - component: {fileID: 5333815544758898001}
+  - component: {fileID: 3489818001577083997}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel6_Bars15
   m_TagString: Untagged
@@ -6318,6 +7474,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3489818001577083997
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4232475489715177510}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4225680437760271149, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &4288212015645393206
 GameObject:
   m_ObjectHideFlags: 0
@@ -6329,6 +7499,7 @@ GameObject:
   - component: {fileID: 3346229472123332919}
   - component: {fileID: 6287357981050239474}
   - component: {fileID: 5181916016043541111}
+  - component: {fileID: 4656046111159700074}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel7_Bars12
   m_TagString: Untagged
@@ -6399,6 +7570,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4656046111159700074
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4288212015645393206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7212308154743866645, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &4318070400662086981
 GameObject:
   m_ObjectHideFlags: 0
@@ -6410,6 +7595,7 @@ GameObject:
   - component: {fileID: 1507969292392755912}
   - component: {fileID: 2346952600635715024}
   - component: {fileID: 998534221937579264}
+  - component: {fileID: 4188487950325741268}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel7_Bars8
   m_TagString: Untagged
@@ -6480,6 +7666,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4188487950325741268
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4318070400662086981}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1677224352218132977, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &4348792769816436634
 GameObject:
   m_ObjectHideFlags: 0
@@ -6491,6 +7691,7 @@ GameObject:
   - component: {fileID: 4414538745927040308}
   - component: {fileID: 5007081251792674151}
   - component: {fileID: 1013045410783896311}
+  - component: {fileID: 2463911858550199214}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel5_Bars4
   m_TagString: Untagged
@@ -6561,6 +7762,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2463911858550199214
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4348792769816436634}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5162241181820257256, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &4365350087618725813
 GameObject:
   m_ObjectHideFlags: 0
@@ -6572,6 +7787,7 @@ GameObject:
   - component: {fileID: 2880872255135281321}
   - component: {fileID: 4209469416247521849}
   - component: {fileID: 6240415119979842009}
+  - component: {fileID: 6165060998494439561}
   m_Layer: 0
   m_Name: RatCage_Platforms
   m_TagString: Untagged
@@ -6642,6 +7858,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6165060998494439561
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4365350087618725813}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2398214197057601178, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &4498660569001741000
 GameObject:
   m_ObjectHideFlags: 0
@@ -6653,6 +7883,7 @@ GameObject:
   - component: {fileID: 177283558014792050}
   - component: {fileID: 8074683325078074502}
   - component: {fileID: 7376032557415201603}
+  - component: {fileID: 1314866842627459639}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel4_Bars12
   m_TagString: Untagged
@@ -6723,6 +7954,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1314866842627459639
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4498660569001741000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3313007855452644362, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &4558904493599840107
 GameObject:
   m_ObjectHideFlags: 0
@@ -6734,6 +7979,7 @@ GameObject:
   - component: {fileID: 2023827745914161616}
   - component: {fileID: 6909140725318033282}
   - component: {fileID: 7754752676439859125}
+  - component: {fileID: 7468526594790519610}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel5_Bars7
   m_TagString: Untagged
@@ -6804,6 +8050,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7468526594790519610
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4558904493599840107}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6183038644669599627, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &4637666151514148947
 GameObject:
   m_ObjectHideFlags: 0
@@ -6815,6 +8075,7 @@ GameObject:
   - component: {fileID: 277948295737631411}
   - component: {fileID: 3179613197894854841}
   - component: {fileID: 839484334194359723}
+  - component: {fileID: 8322391248117371489}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel4_Bars6
   m_TagString: Untagged
@@ -6885,6 +8146,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8322391248117371489
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4637666151514148947}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3282212699367972612, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &4720914238146064881
 GameObject:
   m_ObjectHideFlags: 0
@@ -6896,6 +8171,7 @@ GameObject:
   - component: {fileID: 2431054419960955670}
   - component: {fileID: 1781350593966877376}
   - component: {fileID: 1802753599092315817}
+  - component: {fileID: 478349045180317323}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel7_Bars16
   m_TagString: Untagged
@@ -6966,6 +8242,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &478349045180317323
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4720914238146064881}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7744312535896920694, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &4747986221420677946
 GameObject:
   m_ObjectHideFlags: 0
@@ -6977,6 +8267,7 @@ GameObject:
   - component: {fileID: 8428694279603521415}
   - component: {fileID: 407759354653038804}
   - component: {fileID: 2371180488828695233}
+  - component: {fileID: 4237712753422274685}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel9_Bars17
   m_TagString: Untagged
@@ -7047,6 +8338,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4237712753422274685
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4747986221420677946}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4949954930761433500, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &4751900660407723330
 GameObject:
   m_ObjectHideFlags: 0
@@ -7058,6 +8363,7 @@ GameObject:
   - component: {fileID: 2054283382569927540}
   - component: {fileID: 9078250107166990485}
   - component: {fileID: 7862646175315381463}
+  - component: {fileID: 1659625112424888359}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel4_Bars13
   m_TagString: Untagged
@@ -7128,6 +8434,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1659625112424888359
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4751900660407723330}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6836829740668418712, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &4816439413032079499
 GameObject:
   m_ObjectHideFlags: 0
@@ -7139,6 +8459,7 @@ GameObject:
   - component: {fileID: 6537541535365612869}
   - component: {fileID: 3285233037542612574}
   - component: {fileID: 7537698546715599259}
+  - component: {fileID: 5325831314087470415}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel8_Bars
   m_TagString: Untagged
@@ -7209,6 +8530,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5325831314087470415
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4816439413032079499}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3621531305821291508, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &4837106519571808790
 GameObject:
   m_ObjectHideFlags: 0
@@ -7220,6 +8555,7 @@ GameObject:
   - component: {fileID: 8125637374531960653}
   - component: {fileID: 1567352555858216146}
   - component: {fileID: 6490942866375244885}
+  - component: {fileID: 1588160454487070022}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel_Bars
   m_TagString: Untagged
@@ -7290,6 +8626,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1588160454487070022
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4837106519571808790}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8603290116251583286, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &4853625965720871014
 GameObject:
   m_ObjectHideFlags: 0
@@ -7301,6 +8651,7 @@ GameObject:
   - component: {fileID: 7607697189714276113}
   - component: {fileID: 2592125341663906871}
   - component: {fileID: 2803290468190649604}
+  - component: {fileID: 7742608368433894915}
   m_Layer: 0
   m_Name: RatCage_Bars10_Bar_Panel9
   m_TagString: Untagged
@@ -7371,6 +8722,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7742608368433894915
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4853625965720871014}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8673029088926056206, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &4873510296730239272
 GameObject:
   m_ObjectHideFlags: 0
@@ -7382,6 +8747,7 @@ GameObject:
   - component: {fileID: 3564993436341470494}
   - component: {fileID: 3083635753045873513}
   - component: {fileID: 6834421327228911005}
+  - component: {fileID: 6744434983176556001}
   m_Layer: 0
   m_Name: RatCage_Bars10_Bar_Panel7
   m_TagString: Untagged
@@ -7452,6 +8818,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6744434983176556001
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4873510296730239272}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 964154230895786432, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &5061199220371708524
 GameObject:
   m_ObjectHideFlags: 0
@@ -7463,6 +8843,7 @@ GameObject:
   - component: {fileID: 2679550983126353062}
   - component: {fileID: 6939734144738164919}
   - component: {fileID: 3654080533367138380}
+  - component: {fileID: 8406426109068990678}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel6_Bars8
   m_TagString: Untagged
@@ -7533,6 +8914,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8406426109068990678
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5061199220371708524}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6463803973131877343, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &5141855081545433574
 GameObject:
   m_ObjectHideFlags: 0
@@ -7544,6 +8939,7 @@ GameObject:
   - component: {fileID: 1561911568990602122}
   - component: {fileID: 4918702786815679358}
   - component: {fileID: 2642075290438880789}
+  - component: {fileID: 4164076928894907703}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel8_Bars17
   m_TagString: Untagged
@@ -7614,6 +9010,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4164076928894907703
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5141855081545433574}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 681353353791168417, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &5160771490749278957
 GameObject:
   m_ObjectHideFlags: 0
@@ -7625,6 +9035,7 @@ GameObject:
   - component: {fileID: 1063786962321960717}
   - component: {fileID: 2429925763996719037}
   - component: {fileID: 8362246370276557169}
+  - component: {fileID: 6055418276079291487}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel_Door_Bars7
   m_TagString: Untagged
@@ -7695,6 +9106,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6055418276079291487
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5160771490749278957}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4183848889023108745, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &5165832118000246350
 GameObject:
   m_ObjectHideFlags: 0
@@ -7706,6 +9131,7 @@ GameObject:
   - component: {fileID: 711199113139483628}
   - component: {fileID: 4426487185570609068}
   - component: {fileID: 7825501174940580351}
+  - component: {fileID: 9149202633245483866}
   m_Layer: 0
   m_Name: RatCage_Storage_Wheels
   m_TagString: Untagged
@@ -7776,6 +9202,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &9149202633245483866
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5165832118000246350}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8370606308229867966, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &5225747194653988095
 GameObject:
   m_ObjectHideFlags: 0
@@ -7787,6 +9227,7 @@ GameObject:
   - component: {fileID: 713619734299357381}
   - component: {fileID: 1672417249621692357}
   - component: {fileID: 7927511856861059639}
+  - component: {fileID: 3147643525949268540}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel9_Bars13
   m_TagString: Untagged
@@ -7857,6 +9298,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3147643525949268540
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5225747194653988095}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -624015628779049464, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &5247220452651368813
 GameObject:
   m_ObjectHideFlags: 0
@@ -7868,6 +9323,7 @@ GameObject:
   - component: {fileID: 1414626778851003144}
   - component: {fileID: 7079811016643443511}
   - component: {fileID: 139819723581436367}
+  - component: {fileID: 2519884948343682292}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel8_Bars12
   m_TagString: Untagged
@@ -7938,6 +9394,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2519884948343682292
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5247220452651368813}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7959215693482297071, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &5353581822445440677
 GameObject:
   m_ObjectHideFlags: 0
@@ -7949,6 +9419,7 @@ GameObject:
   - component: {fileID: 4236162041868230533}
   - component: {fileID: 6595646711298477845}
   - component: {fileID: 2929554738866539267}
+  - component: {fileID: 701747697167357064}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel8_Bars21
   m_TagString: Untagged
@@ -8019,6 +9490,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &701747697167357064
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5353581822445440677}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4214279908704821814, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &5391033778623304925
 GameObject:
   m_ObjectHideFlags: 0
@@ -8030,6 +9515,7 @@ GameObject:
   - component: {fileID: 2628077987883006921}
   - component: {fileID: 2888942011306968367}
   - component: {fileID: 5258804522747747978}
+  - component: {fileID: 1560038267705726541}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel7_Bars14
   m_TagString: Untagged
@@ -8100,6 +9586,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1560038267705726541
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5391033778623304925}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8795780230488295553, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &5433212062576949509
 GameObject:
   m_ObjectHideFlags: 0
@@ -8111,6 +9611,7 @@ GameObject:
   - component: {fileID: 8380132415030654431}
   - component: {fileID: 142010674944848301}
   - component: {fileID: 8890670424477561855}
+  - component: {fileID: 2332522300865423684}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel9_Bars16
   m_TagString: Untagged
@@ -8181,6 +9682,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2332522300865423684
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5433212062576949509}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4585901463447644014, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &5511978073543005375
 GameObject:
   m_ObjectHideFlags: 0
@@ -8192,6 +9707,7 @@ GameObject:
   - component: {fileID: 7296630149866048734}
   - component: {fileID: 4158923484128041132}
   - component: {fileID: 6964276526111152243}
+  - component: {fileID: 3319778757200514887}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel8_Bars4
   m_TagString: Untagged
@@ -8262,6 +9778,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3319778757200514887
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5511978073543005375}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5986344015629699261, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &5563774327585348862
 GameObject:
   m_ObjectHideFlags: 0
@@ -8273,6 +9803,7 @@ GameObject:
   - component: {fileID: 3318087079797972968}
   - component: {fileID: 7212127916170209562}
   - component: {fileID: 8575003507643455495}
+  - component: {fileID: 8793761600477731277}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel5_Bars9
   m_TagString: Untagged
@@ -8343,6 +9874,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8793761600477731277
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5563774327585348862}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1560831417907914888, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &5603939931625562855
 GameObject:
   m_ObjectHideFlags: 0
@@ -8354,6 +9899,7 @@ GameObject:
   - component: {fileID: 8866813829350302488}
   - component: {fileID: 2563735936722948868}
   - component: {fileID: 921093957302720414}
+  - component: {fileID: 8433851121788248822}
   m_Layer: 0
   m_Name: Cage_Bottom_RatCage
   m_TagString: Untagged
@@ -8424,6 +9970,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8433851121788248822
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5603939931625562855}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6014864245707079724, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &5608857217327800044
 GameObject:
   m_ObjectHideFlags: 0
@@ -8435,6 +9995,7 @@ GameObject:
   - component: {fileID: 2425415347437308056}
   - component: {fileID: 3158135423492899917}
   - component: {fileID: 4249187215238658872}
+  - component: {fileID: 7442224632298719459}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel6_Bars2
   m_TagString: Untagged
@@ -8505,6 +10066,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7442224632298719459
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5608857217327800044}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8933935764693827170, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &5644481763115063661
 GameObject:
   m_ObjectHideFlags: 0
@@ -8516,6 +10091,7 @@ GameObject:
   - component: {fileID: 1997606872198658167}
   - component: {fileID: 7134302558366710887}
   - component: {fileID: 9028296619411610227}
+  - component: {fileID: 1109881890171796588}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel8_Bars16
   m_TagString: Untagged
@@ -8586,6 +10162,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1109881890171796588
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5644481763115063661}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5518243629074209602, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &5666196404882465618
 GameObject:
   m_ObjectHideFlags: 0
@@ -8597,6 +10187,7 @@ GameObject:
   - component: {fileID: 6500264855528338093}
   - component: {fileID: 8670820841806992904}
   - component: {fileID: 3887994346879713113}
+  - component: {fileID: 8501353044621812441}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel9_Bars7
   m_TagString: Untagged
@@ -8667,6 +10258,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8501353044621812441
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5666196404882465618}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7753359766930918796, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &5723270081650596231
 GameObject:
   m_ObjectHideFlags: 0
@@ -8678,6 +10283,7 @@ GameObject:
   - component: {fileID: 2702406317932685707}
   - component: {fileID: 5699677301360608843}
   - component: {fileID: 1884576359927206975}
+  - component: {fileID: 2068612420600895674}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel9_Bars12
   m_TagString: Untagged
@@ -8748,6 +10354,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2068612420600895674
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5723270081650596231}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8948456102803844196, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &5758922404113468633
 GameObject:
   m_ObjectHideFlags: 0
@@ -8759,6 +10379,7 @@ GameObject:
   - component: {fileID: 2619498911995267900}
   - component: {fileID: 3717540139911580245}
   - component: {fileID: 8453963003556230826}
+  - component: {fileID: 6632906779305199749}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel4_Bars3
   m_TagString: Untagged
@@ -8829,6 +10450,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6632906779305199749
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5758922404113468633}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6468335583264434112, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &5809246739424979071
 GameObject:
   m_ObjectHideFlags: 0
@@ -8840,6 +10475,7 @@ GameObject:
   - component: {fileID: 4754982112534443263}
   - component: {fileID: 8780068406575000347}
   - component: {fileID: 6647148725236537432}
+  - component: {fileID: 7430791003562972696}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel9_Bars3
   m_TagString: Untagged
@@ -8910,6 +10546,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7430791003562972696
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5809246739424979071}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3173316333427984061, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &5831221873488123430
 GameObject:
   m_ObjectHideFlags: 0
@@ -8921,6 +10571,7 @@ GameObject:
   - component: {fileID: 8412083283465725330}
   - component: {fileID: 171648179629230289}
   - component: {fileID: 5899059918652899142}
+  - component: {fileID: 5326803982879377705}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel_Door_Bars9
   m_TagString: Untagged
@@ -8991,6 +10642,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5326803982879377705
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5831221873488123430}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3757103921994252598, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &5835744789043551014
 GameObject:
   m_ObjectHideFlags: 0
@@ -9200,6 +10865,7 @@ GameObject:
   - component: {fileID: 183508337132453303}
   - component: {fileID: 2390614362687229237}
   - component: {fileID: 5420142750675659989}
+  - component: {fileID: 7194353437041549579}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel8_Bars13
   m_TagString: Untagged
@@ -9270,6 +10936,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7194353437041549579
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5890015169479069091}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4734195817829338715, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &5898895293196301559
 GameObject:
   m_ObjectHideFlags: 0
@@ -9281,6 +10961,7 @@ GameObject:
   - component: {fileID: 4444727699071073799}
   - component: {fileID: 1379068908835691841}
   - component: {fileID: 7719498945635285134}
+  - component: {fileID: 1962659780439174086}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel4_Bars9
   m_TagString: Untagged
@@ -9351,6 +11032,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1962659780439174086
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5898895293196301559}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8412920510072196808, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &5901530890304706006
 GameObject:
   m_ObjectHideFlags: 0
@@ -9362,6 +11057,7 @@ GameObject:
   - component: {fileID: 277203057687675222}
   - component: {fileID: 2617007060859493773}
   - component: {fileID: 5878701989810945}
+  - component: {fileID: 4594813807241651789}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel1_Bars9
   m_TagString: Untagged
@@ -9432,6 +11128,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4594813807241651789
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5901530890304706006}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2686649673284102106, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &5913753450368852807
 GameObject:
   m_ObjectHideFlags: 0
@@ -9443,6 +11153,7 @@ GameObject:
   - component: {fileID: 5890598582863983430}
   - component: {fileID: 392848926867674063}
   - component: {fileID: 4171047313367786131}
+  - component: {fileID: 5756834755873945906}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel4_Bars8
   m_TagString: Untagged
@@ -9513,6 +11224,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5756834755873945906
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5913753450368852807}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4718052585179432431, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &5937670201668645375
 GameObject:
   m_ObjectHideFlags: 0
@@ -9524,6 +11249,7 @@ GameObject:
   - component: {fileID: 8781354926291900681}
   - component: {fileID: 1339222175472602568}
   - component: {fileID: 3432457474138275070}
+  - component: {fileID: 5892288195963967569}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel1_Bars3
   m_TagString: Untagged
@@ -9594,6 +11320,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5892288195963967569
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5937670201668645375}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2929357455044879045, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &5985658440667994825
 GameObject:
   m_ObjectHideFlags: 0
@@ -9605,6 +11345,7 @@ GameObject:
   - component: {fileID: 6701919574759779574}
   - component: {fileID: 1168899446355075004}
   - component: {fileID: 5519565480610587029}
+  - component: {fileID: 4698637264850906808}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel4_Bars1
   m_TagString: Untagged
@@ -9675,6 +11416,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4698637264850906808
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5985658440667994825}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1126644441424268796, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &6032387301900980791
 GameObject:
   m_ObjectHideFlags: 0
@@ -9686,6 +11441,7 @@ GameObject:
   - component: {fileID: 2486300154026682241}
   - component: {fileID: 3456186729553099483}
   - component: {fileID: 8437927273959941683}
+  - component: {fileID: 3274776846282272079}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel2_Bars3
   m_TagString: Untagged
@@ -9756,6 +11512,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3274776846282272079
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6032387301900980791}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5385032539423764698, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &6043711757223857063
 GameObject:
   m_ObjectHideFlags: 0
@@ -9767,6 +11537,7 @@ GameObject:
   - component: {fileID: 7911951539543210762}
   - component: {fileID: 2342195363275538908}
   - component: {fileID: 6770843274095882215}
+  - component: {fileID: 2468315905412095558}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel5_Bars1
   m_TagString: Untagged
@@ -9837,6 +11608,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2468315905412095558
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6043711757223857063}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1359563044180515951, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &6080806831451432930
 GameObject:
   m_ObjectHideFlags: 0
@@ -9848,6 +11633,7 @@ GameObject:
   - component: {fileID: 1286107312287732460}
   - component: {fileID: 8585687140661309383}
   - component: {fileID: 7798361705281304651}
+  - component: {fileID: 5974907851013728095}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel7_Bars13
   m_TagString: Untagged
@@ -9918,6 +11704,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5974907851013728095
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6080806831451432930}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5299194105971250610, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &6210588741733427352
 GameObject:
   m_ObjectHideFlags: 0
@@ -9929,6 +11729,7 @@ GameObject:
   - component: {fileID: 2284507699006981358}
   - component: {fileID: 9067132655185761015}
   - component: {fileID: 242772898366347554}
+  - component: {fileID: 3383311471447694372}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel_Bars8
   m_TagString: Untagged
@@ -9999,6 +11800,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3383311471447694372
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6210588741733427352}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5599257975235383194, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &6248306593189048883
 GameObject:
   m_ObjectHideFlags: 0
@@ -10010,6 +11825,7 @@ GameObject:
   - component: {fileID: 8610802678416658058}
   - component: {fileID: 1300227066132646245}
   - component: {fileID: 5669948975287193716}
+  - component: {fileID: 6698596365226316635}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel8_Bars24
   m_TagString: Untagged
@@ -10080,6 +11896,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6698596365226316635
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6248306593189048883}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4909429156339091437, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &6267357992784890500
 GameObject:
   m_ObjectHideFlags: 0
@@ -10091,6 +11921,7 @@ GameObject:
   - component: {fileID: 1316027263808331563}
   - component: {fileID: 5272517125375022459}
   - component: {fileID: 8550880613686271288}
+  - component: {fileID: 423100583746428148}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel_Door_Bars5
   m_TagString: Untagged
@@ -10161,6 +11992,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &423100583746428148
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6267357992784890500}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6406104144169781836, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &6318568159984086574
 GameObject:
   m_ObjectHideFlags: 0
@@ -10172,6 +12017,7 @@ GameObject:
   - component: {fileID: 6713719346388428961}
   - component: {fileID: 228407794406568605}
   - component: {fileID: 6394840388659283170}
+  - component: {fileID: 4909257488934050027}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel6_Bars13
   m_TagString: Untagged
@@ -10242,6 +12088,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4909257488934050027
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6318568159984086574}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2572123403657835540, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &6425994931534362881
 GameObject:
   m_ObjectHideFlags: 0
@@ -10253,6 +12113,7 @@ GameObject:
   - component: {fileID: 6680365650973863844}
   - component: {fileID: 5362306545919711800}
   - component: {fileID: 9073542661245169470}
+  - component: {fileID: 8390369115617009309}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel2_Bars7
   m_TagString: Untagged
@@ -10323,6 +12184,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8390369115617009309
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6425994931534362881}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6041006329065930002, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &6539174741546998041
 GameObject:
   m_ObjectHideFlags: 0
@@ -10334,6 +12209,7 @@ GameObject:
   - component: {fileID: 2255399841078241882}
   - component: {fileID: 847960235047231352}
   - component: {fileID: 3596261038995429563}
+  - component: {fileID: 1666620454565942499}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel9_Bars15
   m_TagString: Untagged
@@ -10404,6 +12280,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1666620454565942499
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6539174741546998041}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3751898861339876906, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &6594971396077106120
 GameObject:
   m_ObjectHideFlags: 0
@@ -10415,6 +12305,7 @@ GameObject:
   - component: {fileID: 6804859908472730396}
   - component: {fileID: 1803588702315602852}
   - component: {fileID: 2550052765809895446}
+  - component: {fileID: 2536457418931141357}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel4_Bars
   m_TagString: Untagged
@@ -10485,6 +12376,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2536457418931141357
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6594971396077106120}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6649068772109053693, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &6689736274669400116
 GameObject:
   m_ObjectHideFlags: 0
@@ -10496,6 +12401,7 @@ GameObject:
   - component: {fileID: 4665661058255435035}
   - component: {fileID: 9036323049144052221}
   - component: {fileID: 7485014680909252398}
+  - component: {fileID: 6050092282486673801}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel5_Bars5
   m_TagString: Untagged
@@ -10566,6 +12472,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6050092282486673801
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6689736274669400116}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7899675486047787500, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &6731594602763163993
 GameObject:
   m_ObjectHideFlags: 0
@@ -10577,6 +12497,7 @@ GameObject:
   - component: {fileID: 4977800495454185834}
   - component: {fileID: 256357306582199461}
   - component: {fileID: 8883175002681317007}
+  - component: {fileID: 3105941492313131661}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel8_Bars19
   m_TagString: Untagged
@@ -10647,6 +12568,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3105941492313131661
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6731594602763163993}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -9080737453236327995, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &6797298205301847758
 GameObject:
   m_ObjectHideFlags: 0
@@ -10658,6 +12593,7 @@ GameObject:
   - component: {fileID: 2497541364838308690}
   - component: {fileID: 8259898576504349067}
   - component: {fileID: 2321572680923148886}
+  - component: {fileID: 2577038135716971983}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel8_Bars18
   m_TagString: Untagged
@@ -10728,6 +12664,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2577038135716971983
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6797298205301847758}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2220970344844493034, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &6813835333777406728
 GameObject:
   m_ObjectHideFlags: 0
@@ -10739,6 +12689,7 @@ GameObject:
   - component: {fileID: 2994429469729972779}
   - component: {fileID: 2656366087206547391}
   - component: {fileID: 1240324872751411858}
+  - component: {fileID: 102077440577054615}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel5_Bars8
   m_TagString: Untagged
@@ -10809,6 +12760,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &102077440577054615
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6813835333777406728}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7318404921118433029, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &6856568613324871004
 GameObject:
   m_ObjectHideFlags: 0
@@ -10820,6 +12785,7 @@ GameObject:
   - component: {fileID: 6672582914881772568}
   - component: {fileID: 1836504441272307576}
   - component: {fileID: 8969373541537466231}
+  - component: {fileID: 94627937811965184}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel7_Bars
   m_TagString: Untagged
@@ -10890,6 +12856,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &94627937811965184
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6856568613324871004}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8596773670350919160, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &6927092921672485141
 GameObject:
   m_ObjectHideFlags: 0
@@ -10901,6 +12881,7 @@ GameObject:
   - component: {fileID: 697336047668834119}
   - component: {fileID: 6572240877984744069}
   - component: {fileID: 2466989191554286666}
+  - component: {fileID: 3093228997739776781}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel9_Bars
   m_TagString: Untagged
@@ -10971,6 +12952,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3093228997739776781
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6927092921672485141}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3821988227310541511, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &7003438027364012864
 GameObject:
   m_ObjectHideFlags: 0
@@ -10982,6 +12977,7 @@ GameObject:
   - component: {fileID: 9154811246610059565}
   - component: {fileID: 3828164838187533798}
   - component: {fileID: 3886808020904404527}
+  - component: {fileID: 2411906681356422596}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel8_Bars15
   m_TagString: Untagged
@@ -11052,6 +13048,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2411906681356422596
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7003438027364012864}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5663960768570153489, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &7069842214187882791
 GameObject:
   m_ObjectHideFlags: 0
@@ -11063,6 +13073,7 @@ GameObject:
   - component: {fileID: 6896306830968169702}
   - component: {fileID: 5118668527053892955}
   - component: {fileID: 1357694273371723995}
+  - component: {fileID: 1397459005669649106}
   m_Layer: 0
   m_Name: RatCage_Cage_Siding5
   m_TagString: Untagged
@@ -11133,6 +13144,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1397459005669649106
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7069842214187882791}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5390644993158259614, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &7088630754743426917
 GameObject:
   m_ObjectHideFlags: 0
@@ -11144,6 +13169,7 @@ GameObject:
   - component: {fileID: 6390123198459203058}
   - component: {fileID: 7887882638721093909}
   - component: {fileID: 4534031415987742475}
+  - component: {fileID: 4476870032597260409}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel8_Bars9
   m_TagString: Untagged
@@ -11214,6 +13240,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4476870032597260409
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7088630754743426917}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6316494581151434813, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &7187683414336315975
 GameObject:
   m_ObjectHideFlags: 0
@@ -11225,6 +13265,7 @@ GameObject:
   - component: {fileID: 8493290389948045599}
   - component: {fileID: 8857666428134217451}
   - component: {fileID: 1782884173646299208}
+  - component: {fileID: 924688428823938118}
   m_Layer: 0
   m_Name: RatCage_Bars10_Bar_Panel1
   m_TagString: Untagged
@@ -11295,6 +13336,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &924688428823938118
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7187683414336315975}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3816361159336508120, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &7221505131843617054
 GameObject:
   m_ObjectHideFlags: 0
@@ -11306,6 +13361,7 @@ GameObject:
   - component: {fileID: 7563865878886707281}
   - component: {fileID: 8739678190194419709}
   - component: {fileID: 552419806443541217}
+  - component: {fileID: 7700747911502470077}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel2_Bars4
   m_TagString: Untagged
@@ -11376,6 +13432,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7700747911502470077
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7221505131843617054}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 814878775554912962, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &7363327409927862250
 GameObject:
   m_ObjectHideFlags: 0
@@ -11387,6 +13457,7 @@ GameObject:
   - component: {fileID: 4922848801709950354}
   - component: {fileID: 3230768066316107720}
   - component: {fileID: 7979225747139784392}
+  - component: {fileID: 1288249522792923268}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel8_Bars11
   m_TagString: Untagged
@@ -11457,6 +13528,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1288249522792923268
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7363327409927862250}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -9021750813299690777, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &7375387407067460490
 GameObject:
   m_ObjectHideFlags: 0
@@ -11468,6 +13553,7 @@ GameObject:
   - component: {fileID: 1401509061047014392}
   - component: {fileID: 649353770804403273}
   - component: {fileID: 3758724018565838566}
+  - component: {fileID: 2272719577199620471}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel_Bars1
   m_TagString: Untagged
@@ -11538,6 +13624,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2272719577199620471
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7375387407067460490}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6045024218222621311, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &7424838794861107321
 GameObject:
   m_ObjectHideFlags: 0
@@ -11549,6 +13649,7 @@ GameObject:
   - component: {fileID: 3053897449112382516}
   - component: {fileID: 1315367831608549678}
   - component: {fileID: 2465511551104482537}
+  - component: {fileID: 8563531503725842543}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel8_Bars20
   m_TagString: Untagged
@@ -11619,6 +13720,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8563531503725842543
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7424838794861107321}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7009580037621214418, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &7469684294032587420
 GameObject:
   m_ObjectHideFlags: 0
@@ -11630,6 +13745,7 @@ GameObject:
   - component: {fileID: 2417720353346928284}
   - component: {fileID: 2917680624038803535}
   - component: {fileID: 4464089136503488368}
+  - component: {fileID: 3233461149727627034}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel5_Bars15
   m_TagString: Untagged
@@ -11700,6 +13816,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3233461149727627034
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7469684294032587420}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4350298086950215057, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &7489910071035751201
 GameObject:
   m_ObjectHideFlags: 0
@@ -11711,6 +13841,7 @@ GameObject:
   - component: {fileID: 5907384969690823855}
   - component: {fileID: 4216479181221445736}
   - component: {fileID: 8602447227327549880}
+  - component: {fileID: 3489472334667724950}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel2_Bars8
   m_TagString: Untagged
@@ -11781,6 +13912,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3489472334667724950
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7489910071035751201}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2830772872593631889, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &7524652729694878263
 GameObject:
   m_ObjectHideFlags: 0
@@ -11792,6 +13937,7 @@ GameObject:
   - component: {fileID: 978866052767937773}
   - component: {fileID: 8728231639262621500}
   - component: {fileID: 1173785084743849863}
+  - component: {fileID: 8994465200064354758}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel5_Bars2
   m_TagString: Untagged
@@ -11862,6 +14008,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8994465200064354758
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7524652729694878263}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4987541605833444102, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &7632877848359388951
 GameObject:
   m_ObjectHideFlags: 0
@@ -11873,6 +14033,7 @@ GameObject:
   - component: {fileID: 1767137797269437348}
   - component: {fileID: 1577734590652552557}
   - component: {fileID: 8412942552946697053}
+  - component: {fileID: 5689155422962476333}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel4_Bars14
   m_TagString: Untagged
@@ -11943,6 +14104,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5689155422962476333
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7632877848359388951}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -716236227395686873, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &7747892772229464596
 GameObject:
   m_ObjectHideFlags: 0
@@ -11954,6 +14129,7 @@ GameObject:
   - component: {fileID: 57557392506899989}
   - component: {fileID: 4949714110714370989}
   - component: {fileID: 6006315304110843529}
+  - component: {fileID: 2896095325281298400}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel5_Bars12
   m_TagString: Untagged
@@ -12024,6 +14200,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2896095325281298400
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7747892772229464596}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 272002364192775579, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &7867054878413213975
 GameObject:
   m_ObjectHideFlags: 0
@@ -12035,6 +14225,7 @@ GameObject:
   - component: {fileID: 2034804496412005107}
   - component: {fileID: 3778313745629283663}
   - component: {fileID: 4175944672194760673}
+  - component: {fileID: 3951944243640271754}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel8_Bars3
   m_TagString: Untagged
@@ -12105,6 +14296,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3951944243640271754
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7867054878413213975}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 409204651225736625, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &7912077805506451569
 GameObject:
   m_ObjectHideFlags: 0
@@ -12116,6 +14321,7 @@ GameObject:
   - component: {fileID: 1099921407304458851}
   - component: {fileID: 7888878736743498205}
   - component: {fileID: 6075999406969906593}
+  - component: {fileID: 6382118804541527850}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel9_Bars19
   m_TagString: Untagged
@@ -12186,6 +14392,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6382118804541527850
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7912077805506451569}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5440381931183996512, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &7914521391781443386
 GameObject:
   m_ObjectHideFlags: 0
@@ -12197,6 +14417,7 @@ GameObject:
   - component: {fileID: 2931130709632358776}
   - component: {fileID: 8654867858547857471}
   - component: {fileID: 2463270288076573580}
+  - component: {fileID: 7028804920663004868}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel4_Bars16
   m_TagString: Untagged
@@ -12267,6 +14488,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7028804920663004868
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7914521391781443386}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5067079122595567650, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &8023002833389716232
 GameObject:
   m_ObjectHideFlags: 0
@@ -12278,6 +14513,7 @@ GameObject:
   - component: {fileID: 4656402373010456963}
   - component: {fileID: 1890492140612546229}
   - component: {fileID: 1173564221644745183}
+  - component: {fileID: 624657821788428700}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel9_Bars9
   m_TagString: Untagged
@@ -12348,6 +14584,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &624657821788428700
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8023002833389716232}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6318752271880925609, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &8028077252022156523
 GameObject:
   m_ObjectHideFlags: 0
@@ -12359,6 +14609,7 @@ GameObject:
   - component: {fileID: 1501486963806097947}
   - component: {fileID: 1420916450209732761}
   - component: {fileID: 3410044038417814373}
+  - component: {fileID: 4741833450938579124}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel2_Bars9
   m_TagString: Untagged
@@ -12429,6 +14680,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4741833450938579124
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8028077252022156523}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5208102632135971419, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &8033908667462493753
 GameObject:
   m_ObjectHideFlags: 0
@@ -12440,6 +14705,7 @@ GameObject:
   - component: {fileID: 866160792496783837}
   - component: {fileID: 3655985413883876599}
   - component: {fileID: 7486730157721054283}
+  - component: {fileID: 7720490309104129710}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel6_Bars14
   m_TagString: Untagged
@@ -12510,6 +14776,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7720490309104129710
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8033908667462493753}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5392754725513127098, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &8097707840141580425
 GameObject:
   m_ObjectHideFlags: 0
@@ -12521,6 +14801,7 @@ GameObject:
   - component: {fileID: 2764253964134018005}
   - component: {fileID: 6197572355928534976}
   - component: {fileID: 4034094234398201727}
+  - component: {fileID: 7312251067147134520}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel5_Bars6
   m_TagString: Untagged
@@ -12591,6 +14872,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7312251067147134520
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8097707840141580425}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6263587128525162782, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &8201388849784086116
 GameObject:
   m_ObjectHideFlags: 0
@@ -12602,6 +14897,7 @@ GameObject:
   - component: {fileID: 7042840842569837858}
   - component: {fileID: 9030948385945485074}
   - component: {fileID: 595799147409775564}
+  - component: {fileID: 2352539583204510588}
   m_Layer: 0
   m_Name: RatCage_Cage_Top
   m_TagString: Untagged
@@ -12672,6 +14968,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2352539583204510588
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8201388849784086116}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4964416114427169577, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &8367614183079399146
 GameObject:
   m_ObjectHideFlags: 0
@@ -12683,6 +14993,7 @@ GameObject:
   - component: {fileID: 5290863965395103408}
   - component: {fileID: 4406008751621395725}
   - component: {fileID: 6187393320088009955}
+  - component: {fileID: 4344384921782473307}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel2_Bars1
   m_TagString: Untagged
@@ -12753,6 +15064,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4344384921782473307
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8367614183079399146}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -773695593549684378, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &8464909101083637512
 GameObject:
   m_ObjectHideFlags: 0
@@ -12764,6 +15089,7 @@ GameObject:
   - component: {fileID: 8953007472909204587}
   - component: {fileID: 8841356447380779300}
   - component: {fileID: 1845523221467867628}
+  - component: {fileID: 7000929657478908745}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel7_Bars11
   m_TagString: Untagged
@@ -12834,6 +15160,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7000929657478908745
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8464909101083637512}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6972722882046272347, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &8479964466328771129
 GameObject:
   m_ObjectHideFlags: 0
@@ -12845,6 +15185,7 @@ GameObject:
   - component: {fileID: 159342014553014097}
   - component: {fileID: 3645846521361880344}
   - component: {fileID: 8682184070592676999}
+  - component: {fileID: 7169887675135460375}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel9_Bars20
   m_TagString: Untagged
@@ -12915,6 +15256,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7169887675135460375
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8479964466328771129}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8619573416389038276, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &8591170516369383396
 GameObject:
   m_ObjectHideFlags: 0
@@ -12926,6 +15281,7 @@ GameObject:
   - component: {fileID: 503854469945030492}
   - component: {fileID: 3754090690971030448}
   - component: {fileID: 699053138642917635}
+  - component: {fileID: 3606324120107188819}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel1_Bars4
   m_TagString: Untagged
@@ -12996,6 +15352,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3606324120107188819
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8591170516369383396}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3270382976444102235, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &8643775375959660630
 GameObject:
   m_ObjectHideFlags: 0
@@ -13007,6 +15377,7 @@ GameObject:
   - component: {fileID: 3221963846989704297}
   - component: {fileID: 2978066705926635704}
   - component: {fileID: 1689950500108451241}
+  - component: {fileID: 6908633114859900898}
   m_Layer: 0
   m_Name: RatCage_Bars10_Bar_Panel
   m_TagString: Untagged
@@ -13077,6 +15448,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6908633114859900898
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8643775375959660630}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7852677301388542955, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &8674483895854440704
 GameObject:
   m_ObjectHideFlags: 0
@@ -13088,6 +15473,7 @@ GameObject:
   - component: {fileID: 5084616439638510538}
   - component: {fileID: 7135689166950015595}
   - component: {fileID: 1968171024081335969}
+  - component: {fileID: 1018675125219360384}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel4_Bars5
   m_TagString: Untagged
@@ -13158,6 +15544,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1018675125219360384
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8674483895854440704}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7280039168332611413, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &8687538655176040127
 GameObject:
   m_ObjectHideFlags: 0
@@ -13169,6 +15569,7 @@ GameObject:
   - component: {fileID: 576915172085541757}
   - component: {fileID: 4401437110379059686}
   - component: {fileID: 3781386034525603074}
+  - component: {fileID: 6013381340056102603}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel7_Bars7
   m_TagString: Untagged
@@ -13239,6 +15640,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6013381340056102603
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8687538655176040127}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1079928198353512175, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &8858891188264453160
 GameObject:
   m_ObjectHideFlags: 0
@@ -13250,6 +15665,7 @@ GameObject:
   - component: {fileID: 4950467193536715709}
   - component: {fileID: 2081705598029408175}
   - component: {fileID: 6366582373454017999}
+  - component: {fileID: 8203757986088882431}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel5_Bars3
   m_TagString: Untagged
@@ -13320,6 +15736,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8203757986088882431
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8858891188264453160}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -395786240763434247, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &8862055429231507945
 GameObject:
   m_ObjectHideFlags: 0
@@ -13331,6 +15761,7 @@ GameObject:
   - component: {fileID: 1463237351233841828}
   - component: {fileID: 3885833028711752094}
   - component: {fileID: 3712108415492853713}
+  - component: {fileID: 7093081136944102917}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel_Bars3
   m_TagString: Untagged
@@ -13401,6 +15832,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7093081136944102917
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8862055429231507945}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5465889799967877304, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &8879669467547261195
 GameObject:
   m_ObjectHideFlags: 0
@@ -13412,6 +15857,7 @@ GameObject:
   - component: {fileID: 8271101072609092976}
   - component: {fileID: 236998290490389168}
   - component: {fileID: 7581279661099964784}
+  - component: {fileID: 4841527357942743831}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel9_Bars24
   m_TagString: Untagged
@@ -13482,6 +15928,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4841527357942743831
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8879669467547261195}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3012337826499630871, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &9040340971313349004
 GameObject:
   m_ObjectHideFlags: 0
@@ -13493,6 +15953,7 @@ GameObject:
   - component: {fileID: 5900104561359325185}
   - component: {fileID: 2415570272038987935}
   - component: {fileID: 8280272690271778271}
+  - component: {fileID: 650254077743013149}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel1_Bars
   m_TagString: Untagged
@@ -13563,6 +16024,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &650254077743013149
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9040340971313349004}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7041666290641453201, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &9081442582273399972
 GameObject:
   m_ObjectHideFlags: 0
@@ -13574,6 +16049,7 @@ GameObject:
   - component: {fileID: 5907149336522972478}
   - component: {fileID: 4936390499217198203}
   - component: {fileID: 7637458188544007101}
+  - component: {fileID: 8495224812729675593}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel7_Bars15
   m_TagString: Untagged
@@ -13644,6 +16120,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8495224812729675593
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9081442582273399972}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7313247745756666246, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &9125811683448672293
 GameObject:
   m_ObjectHideFlags: 0
@@ -13655,6 +16145,7 @@ GameObject:
   - component: {fileID: 7609738438586594387}
   - component: {fileID: 5646181969912258237}
   - component: {fileID: 5929194199772253897}
+  - component: {fileID: 311982194569416369}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel9_Bars8
   m_TagString: Untagged
@@ -13725,6 +16216,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &311982194569416369
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9125811683448672293}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3695424043619247572, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
 --- !u!1 &9195567443328493160
 GameObject:
   m_ObjectHideFlags: 0
@@ -13736,6 +16241,7 @@ GameObject:
   - component: {fileID: 3474050890323007684}
   - component: {fileID: 1066402845756518034}
   - component: {fileID: 3595171446025189446}
+  - component: {fileID: 4781786530365742058}
   m_Layer: 0
   m_Name: RatCage_Bar_Panel_Bars6
   m_TagString: Untagged
@@ -13806,3 +16312,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4781786530365742058
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9195567443328493160}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 249644742512079575, guid: 44b9f8a115e73a443b7f0e448292d622, type: 3}
