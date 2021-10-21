@@ -9,11 +9,12 @@ public class ThirdPersonMovement : MonoBehaviour
     public Transform cam;
     public LayerMask groundMask;
 
-    public float speed = 6f;
-    public float jumpHeight = 3f;
+    public float speed;
+    private float speedVal;
+    public float jumpHeight;
     //private float groundDistance = 0.1f;
     private float turnSmoothTime = 0.1f;
-    public float gravMultiplier = 3f;
+    public float gravMultiplier;
     public bool canMove;
     public GameManager GameManager;
 
@@ -28,6 +29,7 @@ public class ThirdPersonMovement : MonoBehaviour
     private void Start()
     {
         canMove = true;
+        speedVal = speed;
     }
     void Update()
     {
@@ -52,7 +54,7 @@ public class ThirdPersonMovement : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.LeftShift) && controller.isGrounded)
         {
-            speed /= 2.5f;
+            speed = speedVal;
             GameManager.sub = 1;
         }
 
