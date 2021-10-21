@@ -21,12 +21,22 @@ public class SubtitleManager : MonoBehaviour
         textBox.GetComponent<Text>().text = "";
 
         yield return new WaitForSeconds(1);
-        textBox.GetComponent<Text>().text = "Thus, our brave hero sets out on a mission to find her owner.";
+        textBox.GetComponent<Text>().text = "It's been a while since she’s come to play with me. Is she okay?";
+        yield return new WaitForSeconds(5);
+        textBox.GetComponent<Text>().text = "";
+
+        yield return new WaitForSeconds(1);
+        textBox.GetComponent<Text>().text = "She’s never been gone so long. Oh no! Is she in trouble?! I have to find her!";
         yield return new WaitForSeconds(5);
         textBox.GetComponent<Text>().text = "";
 
         yield return new WaitForSeconds(1);
         textBox.GetComponent<Text>().text = "Use WASD to move.";
+        yield return new WaitForSeconds(5);
+        textBox.GetComponent<Text>().text = "";
+
+        yield return new WaitForSeconds(1);
+        textBox.GetComponent<Text>().text = "I’m real good at sneaking out of my cage! The big ones never seemed to like that very much though.";
         yield return new WaitForSeconds(5);
         textBox.GetComponent<Text>().text = "";
 
@@ -41,7 +51,17 @@ public class SubtitleManager : MonoBehaviour
         textBox.GetComponent<Text>().text = "";
 
         yield return new WaitForSeconds(1);
+        textBox.GetComponent<Text>().text = "This is hers. I can use its scent to find her! Hopefully I can find more along the way.";
+        yield return new WaitForSeconds(5);
+        textBox.GetComponent<Text>().text = "";
+
+        yield return new WaitForSeconds(1);
         textBox.GetComponent<Text>().text = "Sniffing will also show the location of food.";
+        yield return new WaitForSeconds(5);
+        textBox.GetComponent<Text>().text = "";
+
+        yield return new WaitForSeconds(1);
+        textBox.GetComponent<Text>().text = "Oh, I was getting hungry. Oh! She used to give me bits of these as treats!";
         yield return new WaitForSeconds(5);
         textBox.GetComponent<Text>().text = "";
 
@@ -56,7 +76,7 @@ public class SubtitleManager : MonoBehaviour
         textBox.GetComponent<Text>().text = "";
 
         yield return new WaitForSeconds(1);
-        textBox.GetComponent<Text>().text = "And most importantly: good luck!";
+        textBox.GetComponent<Text>().text = "She must have gone this way! Don’t worry I’m on my way! I’ll save you no matter what!";
         yield return new WaitForSeconds(5);
         textBox.GetComponent<Text>().text = "";
 
