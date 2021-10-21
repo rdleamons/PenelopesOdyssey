@@ -35,13 +35,20 @@ public class ThirdPersonMovement : MonoBehaviour
 
         // Apply gravity to the controller
         velocity.y += Physics.gravity.y * gravMultiplier * Time.deltaTime;
-        
+
         // Jump
         if (Input.GetButtonDown("Jump") && controller.isGrounded)
         {
-            //velocity.y = Mathf.Sqrt(jumpHeight * -gravMultiplier * Physics.gravity.y);
             velocity.y = jumpHeight + (Physics.gravity.y * gravMultiplier * Time.deltaTime);
+
+           if (Input.GetButtonDown("Jump"))
+            {
+                //Apply gravity when jumping
+                velocity.y += Physics.gravity.y * gravMultiplier * Time.deltaTime; 
+            }
         }
+        
+       
 
         //Sprint
         if (Input.GetKeyDown(KeyCode.LeftShift) && controller.isGrounded)
@@ -67,7 +74,7 @@ public class ThirdPersonMovement : MonoBehaviour
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
         }
-        
+
         // Move the controller
         controller.Move(velocity * Time.deltaTime);
 
