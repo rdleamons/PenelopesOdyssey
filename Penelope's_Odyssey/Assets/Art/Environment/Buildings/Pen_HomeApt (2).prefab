@@ -254,7 +254,6 @@ GameObject:
   - component: {fileID: 3618025840783914997}
   - component: {fileID: 5789341059701613080}
   - component: {fileID: 4367049996870339775}
-  - component: {fileID: 2912350451454223064}
   m_Layer: 0
   m_Name: PenRoom1_Pen_Apt
   m_TagString: Untagged
@@ -325,20 +324,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2912350451454223064
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2010203455139092646}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4415076769132332537, guid: 4e86e3a29544ec749916b62b90a7ba7d, type: 3}
 --- !u!1 &3207315886221142178
 GameObject:
   m_ObjectHideFlags: 0
@@ -1239,6 +1224,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8276677938041466382}
+  - component: {fileID: 7630621327431878307}
+  - component: {fileID: 3519016585310394385}
+  - component: {fileID: 1918966691401814601}
+  - component: {fileID: 2383439485726807890}
+  - component: {fileID: 2749657467551468792}
   m_Layer: 0
   m_Name: Pen_HomeApt (2)
   m_TagString: Untagged
@@ -1276,6 +1266,71 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!65 &7630621327431878307
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8761605840281433268}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 180.66353, y: 128.07959, z: 156.03076}
+  m_Center: {x: -5284.8936, y: 54.761353, z: 10.98645}
+--- !u!65 &3519016585310394385
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8761605840281433268}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 181.97652, y: 68.26681, z: 41.844227}
+  m_Center: {x: -5284.894, y: 24.854961, z: 166.95471}
+--- !u!65 &1918966691401814601
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8761605840281433268}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 181.97652, y: 33.246716, z: 43.563953}
+  m_Center: {x: -5284.894, y: 7.344909, z: 210.49084}
+--- !u!65 &2383439485726807890
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8761605840281433268}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 181.97652, y: 98.43026, z: 57.02684}
+  m_Center: {x: -5284.894, y: 39.936687, z: 117.40784}
+--- !u!65 &2749657467551468792
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8761605840281433268}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 902.6008, y: 1615.5778, z: 1301.5631}
+  m_Center: {x: -5488.1416, y: 798.51044, z: -638.9292}
 --- !u!1 &8880126379004245437
 GameObject:
   m_ObjectHideFlags: 0

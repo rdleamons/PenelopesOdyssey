@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1332338727822740729}
+  - component: {fileID: 5924173035680925793}
+  - component: {fileID: 4449808753479097055}
   m_Layer: 0
   m_Name: dresser1
   m_TagString: Untagged
@@ -31,6 +33,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!65 &5924173035680925793
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816845860167652931}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 127.936005, y: 66.35606, z: 40.420925}
+  m_Center: {x: -3.4706132, y: 31.9473, z: 5.1667805}
+--- !u!65 &4449808753479097055
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816845860167652931}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 92.4529, y: 85.056915, z: 7.3442383}
+  m_Center: {x: -1.0254319, y: 107.302444, z: 19.09497}
 --- !u!1 &6591693400437024798
 GameObject:
   m_ObjectHideFlags: 0

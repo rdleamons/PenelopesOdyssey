@@ -1726,6 +1726,7 @@ GameObject:
   - component: {fileID: 917580450560262976}
   - component: {fileID: 6868151273331641086}
   - component: {fileID: 7590148199993079300}
+  - component: {fileID: 3077447561685444371}
   m_Layer: 0
   m_Name: RichAprtments_Buildings:Building_3hcApartments
   m_TagString: Untagged
@@ -1796,6 +1797,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3077447561685444371
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3705800193774666796}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1138.7222, y: 2167.7754, z: 1278.5803}
+  m_Center: {x: 466.5632, y: 1084.9897, z: -629.26465}
 --- !u!1 &4184187271664301341
 GameObject:
   m_ObjectHideFlags: 0
@@ -2293,6 +2307,7 @@ GameObject:
   - component: {fileID: 2409790543467492087}
   - component: {fileID: 2189005960356224278}
   - component: {fileID: 8855401030706412225}
+  - component: {fileID: 6805024441037463603}
   m_Layer: 0
   m_Name: Shops_Building_Buildings:Building_2Shops
   m_TagString: Untagged
@@ -2363,6 +2378,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6805024441037463603
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4906624087089730410}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 886.07153, y: 1527.8634, z: 1278.5803}
+  m_Center: {x: 1649.516, y: 763.0562, z: -629.26465}
 --- !u!1 &5381918148657872685
 GameObject:
   m_ObjectHideFlags: 0
@@ -4237,6 +4265,7 @@ GameObject:
   - component: {fileID: 2360470839858517947}
   - component: {fileID: 6975380225568307103}
   - component: {fileID: 3279465474262444740}
+  - component: {fileID: 2043360389965819093}
   m_Layer: 0
   m_Name: CornerShop_Buildings:cornerShopBuilding_1
   m_TagString: Untagged
@@ -4307,6 +4336,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2043360389965819093
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7404854782255046391}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 886.07153, y: 1527.8634, z: 1278.5804}
+  m_Center: {x: 2544.0293, y: 763.0562, z: -629.2647}
 --- !u!1 &7473649953515060191
 GameObject:
   m_ObjectHideFlags: 0
@@ -5128,6 +5170,7 @@ GameObject:
   - component: {fileID: 1076408278561233308}
   - component: {fileID: 8257912731166577206}
   - component: {fileID: 3924139983881429686}
+  - component: {fileID: 8066693648293509596}
   m_Layer: 0
   m_Name: Apartments_Buildings:Building_4Apartments
   m_TagString: Untagged
@@ -5198,6 +5241,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8066693648293509596
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8773084771869037435}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 886.07117, y: 1527.8634, z: 1278.5803}
+  m_Center: {x: -657.4655, y: 763.0562, z: -629.26465}
 --- !u!1 &8829671790546666000
 GameObject:
   m_ObjectHideFlags: 0

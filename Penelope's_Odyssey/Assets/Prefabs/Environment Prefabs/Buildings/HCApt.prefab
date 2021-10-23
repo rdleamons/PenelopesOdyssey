@@ -578,6 +578,7 @@ GameObject:
   - component: {fileID: 4813395491559419069}
   - component: {fileID: 2090507420314374607}
   - component: {fileID: 9073025478261764427}
+  - component: {fileID: 6359766994693154907}
   m_Layer: 0
   m_Name: Buildings:Building_3hcApartments_HC_Apt
   m_TagString: Untagged
@@ -648,6 +649,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6359766994693154907
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2597264860191269129}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1442.1533, y: 2489.6096, z: 1266.1846}
+  m_Center: {x: 557.1389, y: 1245.9069, z: -616.4878}
 --- !u!1 &2828933984003980784
 GameObject:
   m_ObjectHideFlags: 0

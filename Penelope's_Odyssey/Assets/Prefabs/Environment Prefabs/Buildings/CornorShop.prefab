@@ -497,6 +497,7 @@ GameObject:
   - component: {fileID: 6451224948554104710}
   - component: {fileID: 1839946992249429922}
   - component: {fileID: 6108650384719938297}
+  - component: {fileID: 1262262042168115129}
   m_Layer: 0
   m_Name: CornerShop_Buildings:cornerShopBuilding_1
   m_TagString: Untagged
@@ -567,6 +568,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1262262042168115129
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2271535363521590986}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 916.8247, y: 1546.7448, z: 1270.4744}
+  m_Center: {x: 2558.3042, y: 772.4969, z: -633.31775}
 --- !u!1 &2882988791591343245
 GameObject:
   m_ObjectHideFlags: 0
@@ -578,6 +592,7 @@ GameObject:
   - component: {fileID: 5417214780096703711}
   - component: {fileID: 8217144430979871267}
   - component: {fileID: 305168082970032026}
+  - component: {fileID: 2886283371543726550}
   m_Layer: 0
   m_Name: CornerShop_awningcornerShop
   m_TagString: Untagged
@@ -648,6 +663,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2886283371543726550
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2882988791591343245}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4950953825494323012, guid: 1137778903e45a343a498bed5ee1b5e1, type: 3}
 --- !u!1 &2906749132799644709
 GameObject:
   m_ObjectHideFlags: 0
