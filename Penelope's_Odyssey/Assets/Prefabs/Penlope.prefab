@@ -115,7 +115,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   speed: 75
-  jumpHeight: 50
+  jumpHeight: 60
   gravMultiplier: 4.5
   canMove: 0
   GameManager: {fileID: 0}
