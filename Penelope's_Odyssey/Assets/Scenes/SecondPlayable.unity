@@ -609,6 +609,24 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8713523918291362138, guid: d96892337b8fa5247a41c1d3fd4005c7, type: 3}
+--- !u!1 &235472092 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2269668604263148034, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+  m_PrefabInstance: {fileID: 641882534}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &235472094
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235472092}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 16.227636, y: 884.0526, z: 52.7493}
+  m_Center: {x: 0.2605147, y: 376.47568, z: -164.4483}
 --- !u!1 &267541162 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 643218747954511096, guid: 66f154eac437d94479837d31ac00014f, type: 3}
@@ -2950,6 +2968,38 @@ PrefabInstance:
     - target: {fileID: 1402092914963496780, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_LocalPosition.y
       value: 8.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1455976864878588088, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2475
+      objectReference: {fileID: 0}
+    - target: {fileID: 1455976864878588088, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9040853
+      objectReference: {fileID: 0}
+    - target: {fileID: 1455976864878588088, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.096799076
+      objectReference: {fileID: 0}
+    - target: {fileID: 1455976864878588088, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.16889042
+      objectReference: {fileID: 0}
+    - target: {fileID: 1455976864878588088, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.38044173
+      objectReference: {fileID: 0}
+    - target: {fileID: 1455976864878588088, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 17.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 1455976864878588088, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 14.076
+      objectReference: {fileID: 0}
+    - target: {fileID: 1455976864878588088, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -43.444
       objectReference: {fileID: 0}
     - target: {fileID: 1513074709462448087, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11394,11 +11444,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7755361365689644252, guid: 38ca1171bb3075849a1152ff8f108bbf, type: 3}
       propertyPath: m_FollowOffset.y
-      value: 50.19635
+      value: 65.55106
       objectReference: {fileID: 0}
     - target: {fileID: 7755361365689644252, guid: 38ca1171bb3075849a1152ff8f108bbf, type: 3}
       propertyPath: m_FollowOffset.z
-      value: -113.1093
+      value: -98.00736
       objectReference: {fileID: 0}
     - target: {fileID: 7755361365689644252, guid: 38ca1171bb3075849a1152ff8f108bbf, type: 3}
       propertyPath: m_XAxis.m_InputAxisName
@@ -11406,11 +11456,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7755361365972925427, guid: 38ca1171bb3075849a1152ff8f108bbf, type: 3}
       propertyPath: m_FollowOffset.y
-      value: 50.19635
+      value: 65.55106
       objectReference: {fileID: 0}
     - target: {fileID: 7755361365972925427, guid: 38ca1171bb3075849a1152ff8f108bbf, type: 3}
       propertyPath: m_FollowOffset.z
-      value: -113.1093
+      value: -98.00736
       objectReference: {fileID: 0}
     - target: {fileID: 7755361365972925427, guid: 38ca1171bb3075849a1152ff8f108bbf, type: 3}
       propertyPath: m_XAxis.m_InputAxisName
@@ -11430,11 +11480,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7755361366532482616, guid: 38ca1171bb3075849a1152ff8f108bbf, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.0004254764
+      value: -0.00042549084
       objectReference: {fileID: 0}
     - target: {fileID: 7755361366532482616, guid: 38ca1171bb3075849a1152ff8f108bbf, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.00009292809
+      value: -0.000092931245
       objectReference: {fileID: 0}
     - target: {fileID: 7755361366532482616, guid: 38ca1171bb3075849a1152ff8f108bbf, type: 3}
       propertyPath: m_LocalRotation.y
@@ -11534,11 +11584,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7755361367313535677, guid: 38ca1171bb3075849a1152ff8f108bbf, type: 3}
       propertyPath: m_FollowOffset.y
-      value: 50.19635
+      value: 65.55106
       objectReference: {fileID: 0}
     - target: {fileID: 7755361367313535677, guid: 38ca1171bb3075849a1152ff8f108bbf, type: 3}
       propertyPath: m_FollowOffset.z
-      value: -113.1093
+      value: -98.00736
       objectReference: {fileID: 0}
     - target: {fileID: 7755361367313535677, guid: 38ca1171bb3075849a1152ff8f108bbf, type: 3}
       propertyPath: m_XAxis.m_InputAxisName
