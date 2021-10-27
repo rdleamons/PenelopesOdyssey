@@ -31,6 +31,49 @@ public class ThirdPersonMovement : MonoBehaviour
         canMove = true;
         speedVal = speed;
     }
+
+    void Jump()
+    {
+        // Jump
+        if (Input.GetButtonDown("Jump") && controller.isGrounded)
+        {
+            velocity.y = jumpHeight + (Physics.gravity.y * gravMultiplier * Time.deltaTime);
+
+            if (Input.GetButtonDown("Jump"))
+            {
+                //Apply gravity when jumping
+                velocity.y += Physics.gravity.y * gravMultiplier * Time.deltaTime;
+            }
+            if (Input.GetButtonUp("Jump"))
+            {
+                //Apply gravity when jumping
+                velocity.y += Physics.gravity.y * gravMultiplier * Time.deltaTime;
+            }
+        }
+    }
+
+
+    void Sprint()
+    {
+        //Sprint
+        // if (Input.GetKeyDown(KeyCode.LeftShift) && controller.isGrounded)
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            speed *= 2.5f;
+            GameManager.sub = 2;
+        }
+
+        //if (Input.GetKeyUp(KeyCode.LeftShift) && controller.isGrounded)
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            speed = speedVal;
+            GameManager.sub = 1;
+        }
+    }
+
+
+
+
     void Update()
     {
         Vector3 direction = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
@@ -38,32 +81,11 @@ public class ThirdPersonMovement : MonoBehaviour
         // Apply gravity to the controller
         velocity.y += Physics.gravity.y * gravMultiplier * Time.deltaTime;
 
-        // Jump
-        if (Input.GetButtonDown("Jump") && controller.isGrounded)
-        {
-            velocity.y = jumpHeight + (Physics.gravity.y * gravMultiplier * Time.deltaTime);
+        Jump();
 
-           if (Input.GetButtonDown("Jump"))
-            {
-                //Apply gravity when jumping
-                velocity.y += Physics.gravity.y * gravMultiplier * Time.deltaTime; 
-            }
-        }
+        Sprint();
+
         
-       
-
-        //Sprint
-        if (Input.GetKeyDown(KeyCode.LeftShift) && controller.isGrounded)
-        {
-            speed *= 2.5f;
-            GameManager.sub = 2;
-        }
-
-        if (Input.GetKeyUp(KeyCode.LeftShift) && controller.isGrounded)
-        {
-            speed = speedVal;
-            GameManager.sub = 1;
-        }
 
         // Determine movement direction
         if (direction.magnitude >= 0.1f && canMove)
