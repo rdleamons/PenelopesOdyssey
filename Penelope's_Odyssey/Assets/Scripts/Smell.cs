@@ -33,18 +33,23 @@ public class Smell : MonoBehaviour
         {
             DrawPath(path);
             audioSource.Play();
-
+        }
+        else if (Input.GetMouseButtonDown(1))
+        {
             for (int i = 0; i < hotdog.Length; i++)
             {
                 hotdog[i].Play();
             }
-
         }
 
         // Stop drawing path when no longer clicking
         if (Input.GetMouseButtonUp(0))
         {
             line.positionCount = 0;
+            
+        }
+        else if (Input.GetMouseButtonUp(1))
+        {
             for (int i = 0; i < hotdog.Length; i++)
             {
                 hotdog[i].Stop();
