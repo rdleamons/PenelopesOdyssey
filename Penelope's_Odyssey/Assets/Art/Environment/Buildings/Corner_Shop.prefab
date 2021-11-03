@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 3093323517204871301}
   - component: {fileID: 2230681627075756321}
   - component: {fileID: 4989213326378901348}
+  - component: {fileID: 6168369244700436782}
   m_Layer: 0
   m_Name: CornerShop
   m_TagString: Untagged
@@ -112,3 +113,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6168369244700436782
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5951526527457417837}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 896.03564, y: 1546.7449, z: 1280.9229}
+  m_Center: {x: 1992.0515, y: 772.4968, z: -628.0935}

@@ -91,8 +91,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6630910087782851856}
   - component: {fileID: 3317131402274635341}
-  - component: {fileID: 4871153266575001959}
-  - component: {fileID: 7928804025550642306}
   - component: {fileID: 6597068533268295373}
   m_Layer: 0
   m_Name: Toy Sword
@@ -127,34 +125,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 16.998047, y: 81.72382, z: 3.7085633}
-  m_Center: {x: -47.75537, y: 39.033356, z: -0.34357205}
---- !u!65 &4871153266575001959
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6291081432234835882}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3.3017578, y: 4.0844107, z: 1.1503489}
-  m_Center: {x: -37.373047, y: 75.76411, z: 0.075410984}
---- !u!65 &7928804025550642306
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6291081432234835882}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 4.4331055, y: 4.0844107, z: 1.1503489}
-  m_Center: {x: -57.965088, y: 75.7639, z: 0.07610796}
+  m_Size: {x: 23.503906, y: 81.723816, z: 3.7085633}
+  m_Center: {x: -48.140625, y: 39.033356, z: -0.34357315}
 --- !u!65 &6597068533268295373
 BoxCollider:
   m_ObjectHideFlags: 0
