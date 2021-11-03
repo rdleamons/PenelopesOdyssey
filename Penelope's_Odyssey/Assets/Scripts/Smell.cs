@@ -12,7 +12,8 @@ public class Smell : MonoBehaviour
     public AudioSource audioSource;
     public ParticleSystem[] hotdog;
 
-    public GameObject[] targets;
+    //public GameObject[] targets;
+    public List<GameObject> targets = new List<GameObject>();
     private GameObject target;
     private int index;
 
@@ -72,6 +73,10 @@ public class Smell : MonoBehaviour
         if (other.gameObject.name == target.name)
         {
             target = targets[index++];
+        }else if(other.gameObject.CompareTag("object"))// && other.gameObject.name != target.name)
+        {
+            targets.Remove(other.gameObject);
+                
         }
     }
 }

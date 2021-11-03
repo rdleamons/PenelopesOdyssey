@@ -119,8 +119,6 @@ MonoBehaviour:
   speed: 75
   jumpHeight: 60
   gravMultiplier: 4.5
-  canMove: 0
-  GameManager: {fileID: 0}
 --- !u!114 &6642687122302179939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -287,6 +285,25 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: b393ef403e58b1f4ab357e6417dd594e, type: 3}
   m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!95 &6409743774987915238
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948897855053748029}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 13dc9579491a1794a9a79422cf10a18c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -493,7 +510,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 04eee651695b7b043a6bc5a2782ad106, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 04eee651695b7b043a6bc5a2782ad106, type: 3}
       propertyPath: m_TagString
@@ -509,6 +526,11 @@ PrefabInstance:
 --- !u!4 &4019561998398011291 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 04eee651695b7b043a6bc5a2782ad106, type: 3}
+  m_PrefabInstance: {fileID: 3477591632710291568}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1948897855053748029 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3119027980201789261, guid: 04eee651695b7b043a6bc5a2782ad106, type: 3}
   m_PrefabInstance: {fileID: 3477591632710291568}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4744930633552112807
@@ -580,7 +602,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b393ef403e58b1f4ab357e6417dd594e, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b393ef403e58b1f4ab357e6417dd594e, type: 3}
