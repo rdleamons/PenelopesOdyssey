@@ -7,12 +7,12 @@ public class ThirdPersonMovement : MonoBehaviour
 {
     public CharacterController controller;
     public Transform cam;
-    public LayerMask groundMask;
+    
 
     public float speed;
     private float speedVal;
     public float jumpHeight;
-    //private float groundDistance = 0.1f;
+   
     private float turnSmoothTime = 0.1f;
     public float gravMultiplier;
     private bool canMove;
@@ -20,6 +20,11 @@ public class ThirdPersonMovement : MonoBehaviour
 
     private float turnSmoothVelocity;
     private Vector3 velocity;
+
+    public Transform groundCheck;
+    private float groundDistance = 0.1f;
+    public LayerMask groundMask;
+    bool isGrounded;
 
     private Animator anim;
 
@@ -36,23 +41,24 @@ public class ThirdPersonMovement : MonoBehaviour
         GameManager = GetComponent<GameManager>();
     }
 
+
+    void Grounded()
+    {
+        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+
+        if(isGrounded && velocity.y < 0)
+        {
+            velocity.y = -2f;
+        }
+    }
+
     void Jump()
     {
+        
         // Jump
         if (Input.GetButtonDown("Jump") && controller.isGrounded)
         {
             velocity.y = jumpHeight + (Physics.gravity.y * gravMultiplier * Time.deltaTime);
-
-            if (Input.GetButtonDown("Jump"))
-            {
-                //Apply gravity when jumping
-                velocity.y += Physics.gravity.y * gravMultiplier * Time.deltaTime;
-            }
-            if (Input.GetButtonUp("Jump"))
-            {
-                //Apply gravity when jumping
-                velocity.y += Physics.gravity.y * gravMultiplier * Time.deltaTime;
-            }
         }
     }
 
@@ -77,11 +83,13 @@ public class ThirdPersonMovement : MonoBehaviour
 
     void Move()
     {
+
         Vector3 direction = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 
         // Determine movement direction
         if (direction.magnitude >= 0.1f && canMove)
         {
+
             anim.SetBool("isWalking", true);
 
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
@@ -102,6 +110,7 @@ public class ThirdPersonMovement : MonoBehaviour
     {
         // Apply gravity to the controller
         velocity.y += Physics.gravity.y * gravMultiplier * Time.deltaTime;
+       
 
         Jump();
 
@@ -114,6 +123,9 @@ public class ThirdPersonMovement : MonoBehaviour
 
         if (Input.GetMouseButtonUp(0))
             canMove = true;
+
+       //Grounded();
     }
+        
 
 }
