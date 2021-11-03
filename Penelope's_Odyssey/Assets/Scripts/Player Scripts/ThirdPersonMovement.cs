@@ -15,11 +15,13 @@ public class ThirdPersonMovement : MonoBehaviour
     //private float groundDistance = 0.1f;
     private float turnSmoothTime = 0.1f;
     public float gravMultiplier;
-    public bool canMove;
-    public GameManager GameManager;
+    private bool canMove;
+    private GameManager GameManager;
 
     private float turnSmoothVelocity;
     private Vector3 velocity;
+
+    private Animator anim;
 
     // Notes:
     //    Doesn't work with a rigidbody, but will need to.
@@ -30,6 +32,8 @@ public class ThirdPersonMovement : MonoBehaviour
     {
         canMove = true;
         speedVal = speed;
+        anim = GetComponent<Animator>();
+        GameManager = GetComponent<GameManager>();
     }
 
     void Jump()
@@ -71,25 +75,15 @@ public class ThirdPersonMovement : MonoBehaviour
         }
     }
 
-
-
-
-    void Update()
+    void Move()
     {
         Vector3 direction = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-
-        // Apply gravity to the controller
-        velocity.y += Physics.gravity.y * gravMultiplier * Time.deltaTime;
-
-        Jump();
-
-        Sprint();
-
-        
 
         // Determine movement direction
         if (direction.magnitude >= 0.1f && canMove)
         {
+            anim.SetBool("isWalking", true);
+
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
 
@@ -98,9 +92,22 @@ public class ThirdPersonMovement : MonoBehaviour
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
         }
+        else anim.SetBool("isWalking", false);
 
         // Move the controller
         controller.Move(velocity * Time.deltaTime);
+    }
+
+    void Update()
+    {
+        // Apply gravity to the controller
+        velocity.y += Physics.gravity.y * gravMultiplier * Time.deltaTime;
+
+        Jump();
+
+        Sprint();
+
+        Move();
 
         if (Input.GetMouseButtonDown(0))
             canMove = false;
