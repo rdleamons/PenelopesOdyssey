@@ -503,7 +503,8 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: ec5517d585a2da14faf2fe5c86f40da1, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5866666021909216657, guid: 04eee651695b7b043a6bc5a2782ad106, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 04eee651695b7b043a6bc5a2782ad106, type: 3}
 --- !u!4 &4019561998398011291 stripped
 Transform:
@@ -576,6 +577,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b393ef403e58b1f4ab357e6417dd594e, type: 3}
       propertyPath: m_Name
       value: WalkCycle2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b393ef403e58b1f4ab357e6417dd594e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b393ef403e58b1f4ab357e6417dd594e, type: 3}
