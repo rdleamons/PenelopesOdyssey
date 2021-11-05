@@ -16,7 +16,7 @@ public class ThirdPersonMovement : MonoBehaviour
     private float turnSmoothTime = 0.1f;
     public float gravMultiplier;
     private bool canMove;
-    private GameManager GameManager;
+    public GameManager GameManager;
 
     private float turnSmoothVelocity;
     private Vector3 velocity;
@@ -38,7 +38,7 @@ public class ThirdPersonMovement : MonoBehaviour
         canMove = true;
         speedVal = speed;
         anim = GetComponent<Animator>();
-        GameManager = GetComponent<GameManager>();
+        //GameManager = GetComponent<GameManager>();
         anim.SetFloat("speed", 1);
     }
 
@@ -74,7 +74,7 @@ public class ThirdPersonMovement : MonoBehaviour
             speed *= 2.5f;
             GameManager.sub = 2;
 
-            anim.SetFloat("speed", 5);
+            anim.SetFloat("speed", 2);
         }
 
         //if (Input.GetKeyUp(KeyCode.LeftShift) && controller.isGrounded)

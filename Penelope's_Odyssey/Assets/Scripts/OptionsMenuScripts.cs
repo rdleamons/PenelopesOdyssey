@@ -14,6 +14,7 @@ public class OptionsMenuScripts : MonoBehaviour
    public AudioSource MyAudioSource;
     //Value from the slider, and it converts to volume level
    public float VolumeSliderValue;
+    public Camera cam;
 
     void Start()
     {
@@ -22,7 +23,8 @@ public class OptionsMenuScripts : MonoBehaviour
         //Initiate the Slider value to half way
         VolumeSliderValue = 0.5f;
         //Fetch the AudioSource from the GameObject
-        MyAudioSource = GetComponent<AudioSource>();
+        MyAudioSource = cam.GetComponent<AudioSource>();
+         
         //Play the AudioClip attached to the AudioSource on startup
         MyAudioSource.Play();
     }
