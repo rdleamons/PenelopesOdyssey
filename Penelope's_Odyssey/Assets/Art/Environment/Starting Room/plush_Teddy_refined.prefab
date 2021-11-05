@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7973624525571783276}
   - component: {fileID: 6935288300370027157}
   - component: {fileID: 5359457441805873096}
-  - component: {fileID: 8735949137946783331}
+  - component: {fileID: 7727026031498489101}
   m_Layer: 0
   m_Name: teddy_Plush
   m_TagString: Untagged
@@ -82,8 +82,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8735949137946783331
-MeshCollider:
+--- !u!136 &7727026031498489101
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -92,10 +92,10 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6167803199029428960, guid: 22cb4620f8ef354439256868977b9622, type: 3}
+  m_Radius: 13.416783
+  m_Height: 43.477127
+  m_Direction: 1
+  m_Center: {x: -3.2616253, y: 19.736557, z: -0.028068542}
 --- !u!1 &6811504881558196337
 GameObject:
   m_ObjectHideFlags: 0
