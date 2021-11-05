@@ -39,6 +39,7 @@ public class ThirdPersonMovement : MonoBehaviour
         speedVal = speed;
         anim = GetComponent<Animator>();
         GameManager = GetComponent<GameManager>();
+        anim.SetFloat("speed", 1);
     }
 
 
@@ -72,6 +73,8 @@ public class ThirdPersonMovement : MonoBehaviour
         {
             speed *= 2.5f;
             GameManager.sub = 2;
+
+            anim.SetFloat("speed", 5);
         }
 
         //if (Input.GetKeyUp(KeyCode.LeftShift) && controller.isGrounded)
@@ -79,6 +82,7 @@ public class ThirdPersonMovement : MonoBehaviour
         {
             speed = speedVal;
             GameManager.sub = 1;
+            anim.SetFloat("speed", 1);
         }
     }
 

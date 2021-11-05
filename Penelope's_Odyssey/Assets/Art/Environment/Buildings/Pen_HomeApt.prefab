@@ -99,7 +99,6 @@ GameObject:
   - component: {fileID: 2678792587123567417}
   - component: {fileID: 2881897501936966567}
   - component: {fileID: 3864486611245724099}
-  - component: {fileID: 3825252808638672032}
   - component: {fileID: 6575272480201537112}
   m_Layer: 0
   m_Name: PenApt
@@ -184,19 +183,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 906.91077, y: 1615.5778, z: 1307.9983}
   m_Center: {x: 961.3359, y: 798.51044, z: -635.7121}
---- !u!65 &3825252808638672032
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6039364164598547430}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 54.95946, y: 54.780396, z: 80.32951}
-  m_Center: {x: 621.7606, y: 584.69745, z: -41.157322}
 --- !u!65 &6575272480201537112
 BoxCollider:
   m_ObjectHideFlags: 0
