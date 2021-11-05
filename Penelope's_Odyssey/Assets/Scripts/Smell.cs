@@ -15,13 +15,11 @@ public class Smell : MonoBehaviour
     //public GameObject[] targets;
     public List<GameObject> targets = new List<GameObject>();
     private GameObject target;
-    private int index;
 
     void Start()
     {
         path = new NavMeshPath();
-        index = 0;
-        target = targets[index];
+        target = targets[0];
     }
 
     void Update()
@@ -72,8 +70,11 @@ public class Smell : MonoBehaviour
     {
         if (other.gameObject.name == target.name)
         {
-            target = targets[index++];
-        }else if(other.gameObject.CompareTag("object"))// && other.gameObject.name != target.name)
+            targets.Remove(other.gameObject);
+            target = targets[0];
+
+        }
+        else if(other.gameObject.CompareTag("object") && other.gameObject.name != target.name)
         {
             targets.Remove(other.gameObject);
                 
