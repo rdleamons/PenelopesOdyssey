@@ -945,12 +945,16 @@ PrefabInstance:
       objectReference: {fileID: 9000000, guid: a25a49b642651a84aa930f6e69c6393c, type: 3}
     - target: {fileID: 9092693516182046903, guid: 92f812c6d38502f43a2949b3991a851d, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9092693516182046903, guid: 92f812c6d38502f43a2949b3991a851d, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: f480f9dae91786745974a32a614de6a4, type: 2}
+    - target: {fileID: 9092693516182046903, guid: 92f812c6d38502f43a2949b3991a851d, type: 3}
+      propertyPath: m_WarningMessage
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5073779097853250628, guid: 92f812c6d38502f43a2949b3991a851d, type: 3}
     - {fileID: 127364369858949295, guid: 92f812c6d38502f43a2949b3991a851d, type: 3}
@@ -1058,6 +1062,10 @@ PrefabInstance:
     - target: {fileID: 6191368332895679185, guid: 330efb0e9eed825408809c121441b8a5, type: 3}
       propertyPath: m_Volume
       value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6191368332895679185, guid: 330efb0e9eed825408809c121441b8a5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 330efb0e9eed825408809c121441b8a5, type: 3}
