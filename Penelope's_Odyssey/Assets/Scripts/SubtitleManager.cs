@@ -69,7 +69,7 @@ public class SubtitleManager : MonoBehaviour
         textBox.GetComponent<Text>().text = "";
 
         yield return new WaitForSeconds(1);
-        textBox.GetComponent<Text>().text = "Sniffing will also show the location of food.";
+        textBox.GetComponent<Text>().text = "Click & hold the right mouse button to stop and sniff for food.";
         yield return new WaitForSeconds(5);
         textBox.GetComponent<Text>().text = "";
 
