@@ -1,24 +1,9 @@
 fileFormatVersion: 2
-guid: 2ba5b3259f11c5e4f983e91f294dd53f
+guid: c04c0b94fe0e73a40a81df11f1f3ddf6
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Streetlight_01_aiStandardSurface2SG_BaseMap
-    second: {fileID: 2800000, guid: 08705f37b362a8a40b35dce07057627a, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Streetlight_01_aiStandardSurface3SG_BaseMap
-    second: {fileID: 2800000, guid: 07370dc483be2814b93b6614866253b7, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Streetlight_01_aiStandardSurface3SG_Normal
-    second: {fileID: 2800000, guid: a743952f76971184799ef6c403b8d532, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
