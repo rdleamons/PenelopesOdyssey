@@ -245,6 +245,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3758573805739257388, guid: b3a9bd00d5bc6a44f864da0c74b4bbf9, type: 3}
+--- !u!1 &83898755 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8139523444207063846, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+  m_PrefabInstance: {fileID: 888299353}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &166529684 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 643218749168704338, guid: 66f154eac437d94479837d31ac00014f, type: 3}
@@ -581,6 +586,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &493913202 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3668345594730867845, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+  m_PrefabInstance: {fileID: 888299353}
+  m_PrefabAsset: {fileID: 0}
 --- !u!198 &502308566 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 618470610383090480, guid: 66f154eac437d94479837d31ac00014f, type: 3}
@@ -10583,6 +10593,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI
       objectReference: {fileID: 0}
+    - target: {fileID: 3328262381131441037, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+      propertyPath: subtitles
+      value: 
+      objectReference: {fileID: 493913202}
+    - target: {fileID: 3328262381131441037, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+      propertyPath: textBackground
+      value: 
+      objectReference: {fileID: 83898755}
     - target: {fileID: 3521303927087239723, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_Value
       value: 0.086
