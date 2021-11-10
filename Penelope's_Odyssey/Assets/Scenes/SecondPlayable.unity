@@ -681,6 +681,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: eb779b64c51d52342a523e6a3db12174, type: 2}
+    - target: {fileID: 5896588112233728443, guid: 92f812c6d38502f43a2949b3991a851d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6509642792990808061, guid: 92f812c6d38502f43a2949b3991a851d, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -704,9 +708,7 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 5073779097853250628, guid: 92f812c6d38502f43a2949b3991a851d, type: 3}
     - {fileID: 127364369858949295, guid: 92f812c6d38502f43a2949b3991a851d, type: 3}
-    - {fileID: 1492401526555950446, guid: 92f812c6d38502f43a2949b3991a851d, type: 3}
     - {fileID: 4838816296865747454, guid: 92f812c6d38502f43a2949b3991a851d, type: 3}
-    - {fileID: 5896588112233728443, guid: 92f812c6d38502f43a2949b3991a851d, type: 3}
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 92f812c6d38502f43a2949b3991a851d, type: 3}
 --- !u!4 &505442304 stripped
@@ -811,7 +813,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6191368332895679185, guid: 330efb0e9eed825408809c121441b8a5, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 330efb0e9eed825408809c121441b8a5, type: 3}
@@ -11401,8 +11403,8 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 35
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 45
+  m_Center: {x: 0.5, y: 0, z: 2.5}
 --- !u!1 &929883880 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 643218749264760909, guid: 66f154eac437d94479837d31ac00014f, type: 3}
