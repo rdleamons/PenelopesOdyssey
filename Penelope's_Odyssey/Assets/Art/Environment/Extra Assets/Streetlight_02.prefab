@@ -43,6 +43,8 @@ GameObject:
   - component: {fileID: 1094090904870938143}
   - component: {fileID: 8969093732850903649}
   - component: {fileID: 7172138030616574873}
+  - component: {fileID: 5377425996661461850}
+  - component: {fileID: 2349189599530337646}
   m_Layer: 0
   m_Name: StreetlightBase
   m_TagString: Untagged
@@ -113,6 +115,33 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &5377425996661461850
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3363097859599181724}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 4.7879276
+  m_Height: 527.7192
+  m_Direction: 1
+  m_Center: {x: 0.00024414062, y: 263.8596, z: 0.1919508}
+--- !u!65 &2349189599530337646
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3363097859599181724}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 35.48416, y: 68.66919, z: 205.1207}
+  m_Center: {x: 0.000003814698, y: 493.38452, z: 107.40792}
 --- !u!1 &8836038836272793785
 GameObject:
   m_ObjectHideFlags: 0
