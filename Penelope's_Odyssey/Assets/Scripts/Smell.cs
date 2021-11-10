@@ -77,7 +77,6 @@ public class Smell : MonoBehaviour
         else if(other.gameObject.CompareTag("object") && other.gameObject.name != target.name)
         {
             targets.Remove(other.gameObject);
-                
         }
     }
 }

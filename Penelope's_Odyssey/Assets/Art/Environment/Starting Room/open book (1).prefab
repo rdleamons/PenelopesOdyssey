@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1985621198258416540}
   - component: {fileID: 8961250720077776853}
   - component: {fileID: 6428666676388862241}
+  - component: {fileID: 8799267594399684160}
   m_Layer: 0
   m_Name: open_book:Book_S_basic22
   m_TagString: Untagged
@@ -81,6 +82,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8799267594399684160
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367269775321802234}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 53.616573, y: 6.124143, z: 36.824345}
+  m_Center: {x: 4.2609844, y: 3.310354, z: 4.5075946}
 --- !u!1 &5354809490650918721
 GameObject:
   m_ObjectHideFlags: 0

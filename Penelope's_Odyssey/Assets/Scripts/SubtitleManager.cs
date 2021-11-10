@@ -7,10 +7,23 @@ public class SubtitleManager : MonoBehaviour
 {
 
     public GameObject textBox;
+    public GameObject subtitles;
     
     void Start()
     {
         StartCoroutine("Sequence");
+    }
+
+    private void Update()
+    {
+        if(textBox.GetComponent<Text>().text == "")
+        {
+            subtitles.gameObject.SetActive(false);
+        }
+        else
+        {
+            subtitles.gameObject.SetActive(true);
+        }
     }
 
     IEnumerator Sequence()
