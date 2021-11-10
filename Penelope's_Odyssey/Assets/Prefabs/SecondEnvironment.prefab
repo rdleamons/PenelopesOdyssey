@@ -417,7 +417,7 @@ Transform:
   m_LocalPosition: {x: -279.1427, y: -127.8, z: 179.56006}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 7235366792521896610}
+  - {fileID: 7467519579894154933}
   - {fileID: 8489412295922905847}
   - {fileID: 7095721532640579416}
   - {fileID: 4788760154762723494}
@@ -3103,6 +3103,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (36)
@@ -3841,6 +3845,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (50)
@@ -4307,6 +4315,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (17)
@@ -4653,6 +4665,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (25)
@@ -5291,6 +5307,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1402092914402180220}
     m_Modifications:
+    - target: {fileID: 61052996749558910, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 3408060358774346651, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 5266705340300185837, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -5339,6 +5367,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: UVCarWithTires (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7305255529894283412, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 7505227692997629798, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8554221501874220218, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8960298585952001573, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8093207cc8d231745803b434379e583d, type: 3}
 --- !u!4 &6553568618105611908 stripped
@@ -7309,6 +7353,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1402092914402180220}
     m_Modifications:
+    - target: {fileID: 1001403926968872240, guid: ac9aba4b9b1bda242beced12b9685622, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: be65f6a0e7b269f4a8e81ec2ec1e2e63, type: 2}
+    - target: {fileID: 1402005282776536812, guid: ac9aba4b9b1bda242beced12b9685622, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: be65f6a0e7b269f4a8e81ec2ec1e2e63, type: 2}
     - target: {fileID: 3970816672519726042, guid: ac9aba4b9b1bda242beced12b9685622, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -7357,6 +7409,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UVCarWithoutTires (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5370968705145547213, guid: ac9aba4b9b1bda242beced12b9685622, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: be65f6a0e7b269f4a8e81ec2ec1e2e63, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac9aba4b9b1bda242beced12b9685622, type: 3}
 --- !u!4 &4296832899613489771 stripped
@@ -7371,6 +7427,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (18)
@@ -8063,6 +8123,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (44)
@@ -8281,6 +8345,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (24)
@@ -8343,6 +8411,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (10)
@@ -8471,6 +8543,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (27)
@@ -8941,6 +9017,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (1)
@@ -36283,6 +36363,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (28)
@@ -36411,6 +36495,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1402092914402180220}
     m_Modifications:
+    - target: {fileID: 61052996749558910, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 3408060358774346651, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 5266705340300185837, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -36459,6 +36555,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: UVCarWithTires (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7305255529894283412, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 7505227692997629798, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8554221501874220218, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8960298585952001573, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8093207cc8d231745803b434379e583d, type: 3}
 --- !u!4 &5102435360704224927 stripped
@@ -36737,6 +36849,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (7)
@@ -36939,6 +37055,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1402092914402180220}
     m_Modifications:
+    - target: {fileID: 61052996749558910, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 3408060358774346651, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 5266705340300185837, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -36987,6 +37115,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: UVCarWithTires (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7305255529894283412, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 7505227692997629798, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8554221501874220218, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8960298585952001573, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8093207cc8d231745803b434379e583d, type: 3}
 --- !u!4 &5057125930885941850 stripped
@@ -37001,6 +37145,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1402092914402180220}
     m_Modifications:
+    - target: {fileID: 61052996749558910, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 3408060358774346651, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 5266705340300185837, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -37049,6 +37205,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: UVCarWithTires (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7305255529894283412, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 7505227692997629798, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8554221501874220218, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8960298585952001573, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8093207cc8d231745803b434379e583d, type: 3}
 --- !u!4 &5184949134038783859 stripped
@@ -37129,6 +37301,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1402092914402180220}
     m_Modifications:
+    - target: {fileID: 1001403926968872240, guid: ac9aba4b9b1bda242beced12b9685622, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: be65f6a0e7b269f4a8e81ec2ec1e2e63, type: 2}
+    - target: {fileID: 1402005282776536812, guid: ac9aba4b9b1bda242beced12b9685622, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: be65f6a0e7b269f4a8e81ec2ec1e2e63, type: 2}
     - target: {fileID: 3970816672519726042, guid: ac9aba4b9b1bda242beced12b9685622, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -37177,6 +37357,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UVCarWithoutTires
       objectReference: {fileID: 0}
+    - target: {fileID: 5370968705145547213, guid: ac9aba4b9b1bda242beced12b9685622, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: be65f6a0e7b269f4a8e81ec2ec1e2e63, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac9aba4b9b1bda242beced12b9685622, type: 3}
 --- !u!4 &2468498867000958706 stripped
@@ -37191,6 +37375,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (30)
@@ -37253,6 +37441,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1402092914402180220}
     m_Modifications:
+    - target: {fileID: 61052996749558910, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 3408060358774346651, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 5266705340300185837, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -37301,6 +37501,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: UVCarWithTires (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7305255529894283412, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 7505227692997629798, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8554221501874220218, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8960298585952001573, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8093207cc8d231745803b434379e583d, type: 3}
 --- !u!4 &5142474626089705565 stripped
@@ -37393,6 +37609,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (11)
@@ -37809,6 +38029,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (46)
@@ -38447,6 +38671,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (42)
@@ -38641,6 +38869,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (22)
@@ -41905,6 +42137,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1402092914402180220}
     m_Modifications:
+    - target: {fileID: 61052996749558910, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 3408060358774346651, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 5266705340300185837, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -41953,6 +42197,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: UVCarWithTires (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7305255529894283412, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 7505227692997629798, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8554221501874220218, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8960298585952001573, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8093207cc8d231745803b434379e583d, type: 3}
 --- !u!4 &8277090698205945878 stripped
@@ -42099,6 +42359,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (48)
@@ -42577,6 +42841,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1402092914402180220}
     m_Modifications:
+    - target: {fileID: 61052996749558910, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 3408060358774346651, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 5266705340300185837, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -42625,6 +42901,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: UVCarWithTires
       objectReference: {fileID: 0}
+    - target: {fileID: 7305255529894283412, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 7505227692997629798, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8554221501874220218, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8960298585952001573, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8093207cc8d231745803b434379e583d, type: 3}
 --- !u!4 &8292538155253506933 stripped
@@ -44902,6 +45194,72 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6937810638008185950, guid: 12faacc74b0da0c429b6619e11fc6463, type: 3}
   m_PrefabInstance: {fileID: 2788533403698904006}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2790612250758394702
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1402092914344206923}
+    m_Modifications:
+    - target: {fileID: 4691566022452524539, guid: 6994810fd5d993546a77599b8d631e87, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4691566022452524539, guid: 6994810fd5d993546a77599b8d631e87, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 237.34827
+      objectReference: {fileID: 0}
+    - target: {fileID: 4691566022452524539, guid: 6994810fd5d993546a77599b8d631e87, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 81.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4691566022452524539, guid: 6994810fd5d993546a77599b8d631e87, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -17.452637
+      objectReference: {fileID: 0}
+    - target: {fileID: 4691566022452524539, guid: 6994810fd5d993546a77599b8d631e87, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.06252326
+      objectReference: {fileID: 0}
+    - target: {fileID: 4691566022452524539, guid: 6994810fd5d993546a77599b8d631e87, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4691566022452524539, guid: 6994810fd5d993546a77599b8d631e87, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99804354
+      objectReference: {fileID: 0}
+    - target: {fileID: 4691566022452524539, guid: 6994810fd5d993546a77599b8d631e87, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4691566022452524539, guid: 6994810fd5d993546a77599b8d631e87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4691566022452524539, guid: 6994810fd5d993546a77599b8d631e87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 187.169
+      objectReference: {fileID: 0}
+    - target: {fileID: 4691566022452524539, guid: 6994810fd5d993546a77599b8d631e87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5354809490650918721, guid: 6994810fd5d993546a77599b8d631e87, type: 3}
+      propertyPath: m_Name
+      value: open book (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6428666676388862241, guid: 6994810fd5d993546a77599b8d631e87, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c10250038cda574492e00e6db4484ed, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6994810fd5d993546a77599b8d631e87, type: 3}
+--- !u!4 &7467519579894154933 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4691566022452524539, guid: 6994810fd5d993546a77599b8d631e87, type: 3}
+  m_PrefabInstance: {fileID: 2790612250758394702}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2792453461278796482
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45103,6 +45461,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1402092914402180220}
     m_Modifications:
+    - target: {fileID: 61052996749558910, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 3408060358774346651, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 5266705340300185837, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -45151,6 +45521,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: UVCarWithTires (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7305255529894283412, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 7505227692997629798, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8554221501874220218, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8960298585952001573, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8093207cc8d231745803b434379e583d, type: 3}
 --- !u!4 &8469614315001934996 stripped
@@ -45309,6 +45695,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (5)
@@ -45882,68 +46272,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 618373302765582957, guid: 28d6facb516a28f4ea5c08967402bc5d, type: 3}
   m_PrefabInstance: {fileID: 3021852487407299002}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &3022943579420793327
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1402092914344206923}
-    m_Modifications:
-    - target: {fileID: 5102956904388235767, guid: e8458f4388bb0eb4986bc8bb8d0fba8b, type: 3}
-      propertyPath: m_Name
-      value: open book
-      objectReference: {fileID: 0}
-    - target: {fileID: 5591932417557416781, guid: e8458f4388bb0eb4986bc8bb8d0fba8b, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5591932417557416781, guid: e8458f4388bb0eb4986bc8bb8d0fba8b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 228.29993
-      objectReference: {fileID: 0}
-    - target: {fileID: 5591932417557416781, guid: e8458f4388bb0eb4986bc8bb8d0fba8b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 81.29999
-      objectReference: {fileID: 0}
-    - target: {fileID: 5591932417557416781, guid: e8458f4388bb0eb4986bc8bb8d0fba8b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -25.899902
-      objectReference: {fileID: 0}
-    - target: {fileID: 5591932417557416781, guid: e8458f4388bb0eb4986bc8bb8d0fba8b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5591932417557416781, guid: e8458f4388bb0eb4986bc8bb8d0fba8b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5591932417557416781, guid: e8458f4388bb0eb4986bc8bb8d0fba8b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5591932417557416781, guid: e8458f4388bb0eb4986bc8bb8d0fba8b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5591932417557416781, guid: e8458f4388bb0eb4986bc8bb8d0fba8b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5591932417557416781, guid: e8458f4388bb0eb4986bc8bb8d0fba8b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5591932417557416781, guid: e8458f4388bb0eb4986bc8bb8d0fba8b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e8458f4388bb0eb4986bc8bb8d0fba8b, type: 3}
---- !u!4 &7235366792521896610 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5591932417557416781, guid: e8458f4388bb0eb4986bc8bb8d0fba8b, type: 3}
-  m_PrefabInstance: {fileID: 3022943579420793327}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3034927316029222748
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45951,6 +46279,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (52)
@@ -46429,6 +46761,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1402092914402180220}
     m_Modifications:
+    - target: {fileID: 61052996749558910, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 3408060358774346651, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 5266705340300185837, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -46477,6 +46821,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: UVCarWithTires (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7305255529894283412, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 7505227692997629798, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8554221501874220218, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8960298585952001573, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8093207cc8d231745803b434379e583d, type: 3}
 --- !u!4 &9124289590356352268 stripped
@@ -46623,6 +46983,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1402092914402180220}
     m_Modifications:
+    - target: {fileID: 61052996749558910, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 3408060358774346651, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 5266705340300185837, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -46671,6 +47043,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: UVCarWithTires (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 7305255529894283412, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 7505227692997629798, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8554221501874220218, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8960298585952001573, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8093207cc8d231745803b434379e583d, type: 3}
 --- !u!4 &9100318389879375654 stripped
@@ -47231,6 +47619,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (51)
@@ -48993,6 +49385,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (12)
@@ -49389,6 +49785,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (4)
@@ -49780,7 +50180,7 @@ PrefabInstance:
     - target: {fileID: 4621931649799094782, guid: 2ec63a15a6c6c8f4f959fc943366b6a7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8c5de284552c06941b77aa966c8fbb1a, type: 2}
+      objectReference: {fileID: 2100000, guid: 4213f21767ccbbc4fa633618826bb89b, type: 2}
     - target: {fileID: 8232560537925488604, guid: 2ec63a15a6c6c8f4f959fc943366b6a7, type: 3}
       propertyPath: m_Name
       value: PlateA
@@ -50111,6 +50511,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1402092914402180220}
     m_Modifications:
+    - target: {fileID: 61052996749558910, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 3408060358774346651, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 5266705340300185837, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -50159,6 +50571,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: UVCarWithTires (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7305255529894283412, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 7505227692997629798, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8554221501874220218, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8960298585952001573, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8093207cc8d231745803b434379e583d, type: 3}
 --- !u!4 &7396084883841643061 stripped
@@ -50973,6 +51401,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (38)
@@ -51645,6 +52077,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1402092914402180220}
     m_Modifications:
+    - target: {fileID: 1001403926968872240, guid: ac9aba4b9b1bda242beced12b9685622, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: be65f6a0e7b269f4a8e81ec2ec1e2e63, type: 2}
+    - target: {fileID: 1402005282776536812, guid: ac9aba4b9b1bda242beced12b9685622, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: be65f6a0e7b269f4a8e81ec2ec1e2e63, type: 2}
     - target: {fileID: 3970816672519726042, guid: ac9aba4b9b1bda242beced12b9685622, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -51693,6 +52133,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UVCarWithoutTires (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5370968705145547213, guid: ac9aba4b9b1bda242beced12b9685622, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: be65f6a0e7b269f4a8e81ec2ec1e2e63, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac9aba4b9b1bda242beced12b9685622, type: 3}
 --- !u!4 &1150181644027336113 stripped
@@ -51987,6 +52431,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (31)
@@ -52115,6 +52563,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton
@@ -53383,6 +53835,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (33)
@@ -53593,6 +54049,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (3)
@@ -53721,6 +54181,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1402092914402180220}
     m_Modifications:
+    - target: {fileID: 61052996749558910, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 3408060358774346651, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 5266705340300185837, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -53769,6 +54241,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: UVCarWithTires (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7305255529894283412, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 7505227692997629798, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8554221501874220218, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8960298585952001573, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8093207cc8d231745803b434379e583d, type: 3}
 --- !u!4 &8032903929886508674 stripped
@@ -53783,6 +54271,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (21)
@@ -53989,6 +54481,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (8)
@@ -55979,6 +56475,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (45)
@@ -56531,6 +57031,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1402092914402180220}
     m_Modifications:
+    - target: {fileID: 61052996749558910, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 3408060358774346651, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 5266705340300185837, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -56579,6 +57091,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: UVCarWithTires (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7305255529894283412, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 7505227692997629798, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8554221501874220218, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8960298585952001573, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8093207cc8d231745803b434379e583d, type: 3}
 --- !u!4 &1472822388307037838 stripped
@@ -56659,6 +57187,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (14)
@@ -56919,6 +57451,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (23)
@@ -59177,6 +59713,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (16)
@@ -60471,6 +61011,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1402092914402180220}
     m_Modifications:
+    - target: {fileID: 61052996749558910, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 3408060358774346651, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 5266705340300185837, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -60519,6 +61071,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: UVCarWithTires (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 7305255529894283412, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 7505227692997629798, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8554221501874220218, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8960298585952001573, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8093207cc8d231745803b434379e583d, type: 3}
 --- !u!4 &215235891885881140 stripped
@@ -61529,6 +62097,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (15)
@@ -62667,6 +63239,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (29)
@@ -63017,6 +63593,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1402092914402180220}
     m_Modifications:
+    - target: {fileID: 61052996749558910, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 3408060358774346651, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 5266705340300185837, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -63065,6 +63653,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: UVCarWithTires (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7305255529894283412, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 7505227692997629798, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8554221501874220218, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8960298585952001573, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8093207cc8d231745803b434379e583d, type: 3}
 --- !u!4 &790690421969303707 stripped
@@ -63783,6 +64387,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (13)
@@ -65151,6 +65759,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (9)
@@ -65213,6 +65825,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1402092914402180220}
     m_Modifications:
+    - target: {fileID: 61052996749558910, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 3408060358774346651, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 5266705340300185837, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -65261,6 +65885,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: UVCarWithTires (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7305255529894283412, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 7505227692997629798, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8554221501874220218, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8960298585952001573, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8093207cc8d231745803b434379e583d, type: 3}
 --- !u!4 &957371258675747036 stripped
@@ -65485,6 +66125,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1402092914402180220}
     m_Modifications:
+    - target: {fileID: 1001403926968872240, guid: ac9aba4b9b1bda242beced12b9685622, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: be65f6a0e7b269f4a8e81ec2ec1e2e63, type: 2}
+    - target: {fileID: 1402005282776536812, guid: ac9aba4b9b1bda242beced12b9685622, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: be65f6a0e7b269f4a8e81ec2ec1e2e63, type: 2}
     - target: {fileID: 3970816672519726042, guid: ac9aba4b9b1bda242beced12b9685622, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -65533,6 +66181,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UVCarWithoutTires (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5370968705145547213, guid: ac9aba4b9b1bda242beced12b9685622, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: be65f6a0e7b269f4a8e81ec2ec1e2e63, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac9aba4b9b1bda242beced12b9685622, type: 3}
 --- !u!4 &6318052667092471762 stripped
@@ -66741,6 +67393,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (39)
@@ -66947,6 +67603,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (34)
@@ -68813,6 +69473,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (47)
@@ -69135,6 +69799,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (6)
@@ -69679,6 +70347,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (2)
@@ -70013,6 +70685,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1402092914402180220}
     m_Modifications:
+    - target: {fileID: 61052996749558910, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 3408060358774346651, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 5266705340300185837, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -70061,6 +70745,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: UVCarWithTires (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 7305255529894283412, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 7505227692997629798, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8554221501874220218, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8960298585952001573, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8093207cc8d231745803b434379e583d, type: 3}
 --- !u!4 &4596943440190775870 stripped
@@ -70141,6 +70841,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (20)
@@ -71683,6 +72387,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1402092914402180220}
     m_Modifications:
+    - target: {fileID: 61052996749558910, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 3408060358774346651, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 5266705340300185837, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -71731,6 +72447,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: UVCarWithTires (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 7305255529894283412, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 7505227692997629798, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8554221501874220218, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8960298585952001573, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8093207cc8d231745803b434379e583d, type: 3}
 --- !u!4 &2536682997923765086 stripped
@@ -72993,6 +73725,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (41)
@@ -73319,6 +74055,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (37)
@@ -74287,6 +75027,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (32)
@@ -74349,6 +75093,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1402092914402180220}
     m_Modifications:
+    - target: {fileID: 61052996749558910, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 3408060358774346651, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 5266705340300185837, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -74397,6 +75153,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: UVCarWithTires (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7305255529894283412, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 7505227692997629798, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8554221501874220218, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8960298585952001573, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8093207cc8d231745803b434379e583d, type: 3}
 --- !u!4 &3056065754658753641 stripped
@@ -74555,6 +75327,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (26)
@@ -75223,6 +75999,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (19)
@@ -75351,6 +76131,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (35)
@@ -75833,6 +76617,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (49)
@@ -76167,13 +76955,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1402092914402180220}
     m_Modifications:
+    - target: {fileID: 61052996749558910, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 3408060358774346651, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 5266705340300185837, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -435
+      value: -424.8833
       objectReference: {fileID: 0}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -76181,40 +76981,56 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -101
+      value: -104.97632
       objectReference: {fileID: 0}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8895488
+      value: 0.89341784
       objectReference: {fileID: 0}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.11529769
+      value: -0.06646633
       objectReference: {fileID: 0}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.4383844
+      value: -0.44392467
       objectReference: {fileID: 0}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.056820627
+      value: -0.017827021
       objectReference: {fileID: 0}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -7.735
       objectReference: {fileID: 0}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -52.95
       objectReference: {fileID: 0}
     - target: {fileID: 5969930306849462668, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 1.571
       objectReference: {fileID: 0}
     - target: {fileID: 6454400811964924726, guid: 8093207cc8d231745803b434379e583d, type: 3}
       propertyPath: m_Name
       value: UVCarWithTires (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7305255529894283412, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 7505227692997629798, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8554221501874220218, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
+    - target: {fileID: 8960298585952001573, guid: 8093207cc8d231745803b434379e583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5edf1ba828e160e4d84f4810c69a4e61, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8093207cc8d231745803b434379e583d, type: 3}
 --- !u!4 &3439128552171990998 stripped
@@ -76789,6 +77605,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5189368925940472839}
     m_Modifications:
+    - target: {fileID: 2522248159922299451, guid: a5483f72751713649b4142d4c73f617c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd91e0fe3508ffd45863390790d590bd, type: 2}
     - target: {fileID: 2649929701257459485, guid: a5483f72751713649b4142d4c73f617c, type: 3}
       propertyPath: m_Name
       value: CorrectMilkCarton (43)
