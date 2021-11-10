@@ -42,6 +42,8 @@ GameObject:
   - component: {fileID: 5669539605559759487}
   - component: {fileID: 4228618627491578041}
   - component: {fileID: 397330691447382057}
+  - component: {fileID: 5172854056220483686}
+  - component: {fileID: 7612628943457039750}
   m_Layer: 0
   m_Name: Hat
   m_TagString: Untagged
@@ -112,3 +114,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!135 &5172854056220483686
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6268752634965254274}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &7612628943457039750
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6268752634965254274}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 15.419975, y: 10.561947, z: 24.021364}
+  m_Center: {x: -0.3166597, y: 8.3144655, z: 4.0913076}
