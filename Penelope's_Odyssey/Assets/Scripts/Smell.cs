@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.AI;
 
 public class Smell : MonoBehaviour
@@ -16,10 +17,36 @@ public class Smell : MonoBehaviour
     public List<GameObject> targets = new List<GameObject>();
     private GameObject target;
 
+    public GameObject backpackFoundIcon;
+    public GameObject compassFoundIcon;
+    public GameObject squishFoundIcon;
+    public GameObject bookFoundIcon;
+    public GameObject crownFoundIcon;
+
+    /*
+    public GameObject backpackIcon;
+    public GameObject compassIcon;
+    public GameObject squishIcon;
+    public GameObject bookIcon;
+    public GameObject crownIcon;
+    */
     void Start()
     {
         path = new NavMeshPath();
         target = targets[0];
+        /*
+        backpackIcon.gameObject.SetActive(true);
+        compassIcon.gameObject.SetActive(true);
+        squishIcon.gameObject.SetActive(true);
+        bookIcon.gameObject.SetActive(true);
+        crownIcon.gameObject.SetActive(true);
+        */
+        backpackFoundIcon.gameObject.SetActive(false);
+        compassFoundIcon.gameObject.SetActive(false);
+        squishFoundIcon.gameObject.SetActive(false);
+        bookFoundIcon.gameObject.SetActive(false);
+        crownFoundIcon.gameObject.SetActive(false);
+        
     }
 
     void Update()
@@ -68,6 +95,18 @@ public class Smell : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+       
+        if (other.gameObject.name == "Backpack")
+            backpackFoundIcon.gameObject.SetActive(true);
+        else if (other.gameObject.name == "Compass")
+            compassFoundIcon.gameObject.SetActive(true);
+        else if (other.gameObject.name == "SquishMouse")
+            squishFoundIcon.gameObject.SetActive(true);
+        else if (other.gameObject.name == "Book")
+            bookFoundIcon.gameObject.SetActive(true);
+        else if (other.gameObject.name == "BaseballHat")
+            crownFoundIcon.gameObject.SetActive(true);
+       
         if (other.gameObject.name == target.name)
         {
             targets.Remove(other.gameObject);
@@ -78,5 +117,7 @@ public class Smell : MonoBehaviour
         {
             targets.Remove(other.gameObject);
         }
+
+        
     }
 }

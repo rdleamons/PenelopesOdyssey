@@ -277,6 +277,11 @@ MonoBehaviour:
   hotdog: []
   targets:
   - {fileID: 0}
+  backpackFoundIcon: {fileID: 0}
+  compassFoundIcon: {fileID: 0}
+  squishFoundIcon: {fileID: 0}
+  bookFoundIcon: {fileID: 0}
+  crownFoundIcon: {fileID: 0}
 --- !u!95 &9092693516182046903
 Animator:
   serializedVersion: 3
@@ -484,7 +489,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a25a49b642651a84aa930f6e69c6393c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a25a49b642651a84aa930f6e69c6393c, type: 3}
       propertyPath: m_LocalPosition.z
