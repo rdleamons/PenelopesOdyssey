@@ -9,7 +9,6 @@ public class Smell : MonoBehaviour
     public LineRenderer line; //to hold the line Renderer
     //public Transform target;
     private NavMeshPath path;
-    public CharacterController controller;
     public AudioSource audioSource;
     public ParticleSystem[] hotdog;
 
@@ -94,8 +93,19 @@ public class Smell : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other)
-    {
-       
+    {  
+        if (other.gameObject.name == target.name)
+        {
+            targets.Remove(other.gameObject);
+            target = targets[0];
+            Debug.Log("Hit");
+
+        }
+        else if(other.gameObject.CompareTag("object") && other.gameObject.name != target.name)
+        {
+            targets.Remove(other.gameObject);
+        }
+
         if (other.gameObject.name == "Backpack")
             backpackFoundIcon.gameObject.SetActive(true);
         else if (other.gameObject.name == "Compass")
@@ -106,18 +116,5 @@ public class Smell : MonoBehaviour
             bookFoundIcon.gameObject.SetActive(true);
         else if (other.gameObject.name == "BaseballHat")
             crownFoundIcon.gameObject.SetActive(true);
-       
-        if (other.gameObject.name == target.name)
-        {
-            targets.Remove(other.gameObject);
-            target = targets[0];
-
-        }
-        else if(other.gameObject.CompareTag("object") && other.gameObject.name != target.name)
-        {
-            targets.Remove(other.gameObject);
-        }
-
-        
     }
 }

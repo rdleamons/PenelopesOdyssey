@@ -10,14 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4937637527768272080}
   - component: {fileID: 2715087327397952568}
-  - component: {fileID: 1492401526555950446}
   - component: {fileID: 5896588112233728443}
   - component: {fileID: 6642687122302179939}
   - component: {fileID: 881670630843122732}
-  - component: {fileID: 127364369858949295}
-  - component: {fileID: 5073779097853250628}
   - component: {fileID: 4434870891930621870}
-  - component: {fileID: 9092693516182046903}
   m_Layer: 6
   m_Name: Penlope
   m_TagString: Player
@@ -65,24 +61,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!143 &1492401526555950446
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 811187696550066529}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 2
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5896588112233728443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95,7 +73,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a799e5ed75ea7fd4ea3b463447d1a78e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 1492401526555950446}
+  controller: {fileID: 0}
   cam: {fileID: 0}
   speed: 75
   jumpHeight: 60
@@ -215,33 +193,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!136 &127364369858949295
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 811187696550066529}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 4.880552
-  m_Height: 23.972511
-  m_Direction: 2
-  m_Center: {x: 0, y: 4.408529, z: 2.0611267}
---- !u!65 &5073779097853250628
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 811187696550066529}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 6.0744357, y: 0.16218543, z: 15.940127}
-  m_Center: {x: 0.084302664, y: -0.7782918, z: -0.23283815}
 --- !u!114 &4434870891930621870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -255,7 +206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   line: {fileID: 1260677946282965600}
-  controller: {fileID: 1492401526555950446}
+  controller: {fileID: 0}
   audioSource: {fileID: 881670630843122732}
   hotdog: []
   targets:
@@ -265,25 +216,6 @@ MonoBehaviour:
   squishFoundIcon: {fileID: 0}
   bookFoundIcon: {fileID: 0}
   crownFoundIcon: {fileID: 0}
---- !u!95 &9092693516182046903
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 811187696550066529}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: b393ef403e58b1f4ab357e6417dd594e, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6601637727055293843
 GameObject:
   m_ObjectHideFlags: 0
