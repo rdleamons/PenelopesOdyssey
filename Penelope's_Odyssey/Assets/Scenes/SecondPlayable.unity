@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.19980243, g: 0.096176, b: 0.16559477, a: 1}
+  m_IndirectSpecularColor: {r: 0.99999905, g: 0, b: 0.99999905, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -611,7 +611,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4937637527768272080, guid: 92f812c6d38502f43a2949b3991a851d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4937637527768272080, guid: 92f812c6d38502f43a2949b3991a851d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -766,12 +766,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2700874171910072507, guid: 330efb0e9eed825408809c121441b8a5, type: 3}
+      propertyPath: height
+      value: 15.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2700874171910072507, guid: 330efb0e9eed825408809c121441b8a5, type: 3}
       propertyPath: target
       value: 
       objectReference: {fileID: 8035483712916046912}
     - target: {fileID: 2700874171910072507, guid: 330efb0e9eed825408809c121441b8a5, type: 3}
+      propertyPath: lockCamera
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2700874171910072507, guid: 330efb0e9eed825408809c121441b8a5, type: 3}
       propertyPath: defaultDistance
-      value: 100
+      value: 100.57
       objectReference: {fileID: 0}
     - target: {fileID: 2700874171910072509, guid: 330efb0e9eed825408809c121441b8a5, type: 3}
       propertyPath: far clip plane
@@ -13630,7 +13638,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 811187698155509395}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: dc2fe2c783780ed4c9c09ef3f513488a, type: 3}
@@ -13890,7 +13898,7 @@ LineRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6601637727597478497}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -15044,7 +15052,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 811187698155509395}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ac26b2339c7779e4786b5797ada45b0c, type: 3}
   m_Name: 
@@ -15206,16 +15214,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 811187698155509395}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: -0.0000001872535}
+  m_LocalPosition: {x: 5575, y: 5.84, z: 5387}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4019561997851777129}
   - {fileID: 3765479983723578240}
   - {fileID: 5067631743430960318}
   - {fileID: 5559706211481323014}
-  m_Father: {fileID: 8035483712916046912}
-  m_RootOrder: 1
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &5067631743430960318
 Transform:
@@ -16135,7 +16143,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 505442304}
-  - {fileID: 4937637528333542178}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: -180.00002, z: 0}
@@ -16180,10 +16187,10 @@ MonoBehaviour:
     animationSmooth: 0.2
     rotationSpeed: 16
     walkByDefault: 0
-    rotateWithCamera: 0
+    rotateWithCamera: 1
     walkSpeed: 50
-    runningSpeed: 100
-    sprintSpeed: 150
+    runningSpeed: 75
+    sprintSpeed: 100
   strafeSpeed:
     movementSmooth: 6
     animationSmooth: 0.2
@@ -16194,16 +16201,16 @@ MonoBehaviour:
     runningSpeed: 4
     sprintSpeed: 6
   jumpWithRigidbodyForce: 1
-  jumpAndRotate: 0
+  jumpAndRotate: 1
   jumpTimer: 0.3
-  jumpHeight: 30
-  airSpeed: 100
+  jumpHeight: 40
+  airSpeed: 10
   airSmooth: 6
-  extraGravity: 0
+  extraGravity: -15
   limitFallVelocity: -15
   groundLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 129
   groundMinDistance: 0.25
   groundMaxDistance: 0.5
   slopeLimit: 45
@@ -16258,7 +16265,7 @@ CapsuleCollider:
   m_Radius: 5.19
   m_Height: 33.92
   m_Direction: 2
-  m_Center: {x: 0, y: 5.35, z: -2.1}
+  m_Center: {x: 0, y: 13.8, z: -2.98}
 --- !u!1 &8035483712916046918
 GameObject:
   m_ObjectHideFlags: 0
@@ -16850,7 +16857,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 811187698155509395}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: b393ef403e58b1f4ab357e6417dd594e, type: 3}
   m_Controller: {fileID: 9100000, guid: ec5517d585a2da14faf2fe5c86f40da1, type: 2}
   m_CullingMode: 0
