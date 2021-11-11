@@ -93,18 +93,18 @@ public class Smell : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other)
-    {  
-        if (other.gameObject.name == target.name)
+    {
+        if (other.gameObject.CompareTag("object"))//other.gameObject.name == target.name )
         {
             targets.Remove(other.gameObject);
             target = targets[0];
-            Debug.Log("Hit");
-
         }
+        /*
         else if(other.gameObject.CompareTag("object") && other.gameObject.name != target.name)
         {
             targets.Remove(other.gameObject);
         }
+        */
 
         if (other.gameObject.name == "Backpack")
             backpackFoundIcon.gameObject.SetActive(true);
