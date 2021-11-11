@@ -2491,7 +2491,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1402092914160822877, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1402092914160822877, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_LocalScale.x
@@ -11450,7 +11450,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2700874171910072505, guid: 330efb0e9eed825408809c121441b8a5, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2700874171910072505, guid: 330efb0e9eed825408809c121441b8a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11530,7 +11530,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6191368332895679185, guid: 330efb0e9eed825408809c121441b8a5, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 330efb0e9eed825408809c121441b8a5, type: 3}
@@ -11542,6 +11542,11 @@ Camera:
 --- !u!82 &1221614288 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 6191368332895679185, guid: 330efb0e9eed825408809c121441b8a5, type: 3}
+  m_PrefabInstance: {fileID: 1221614286}
+  m_PrefabAsset: {fileID: 0}
+--- !u!81 &1276281509 stripped
+AudioListener:
+  m_CorrespondingSourceObject: {fileID: 2700874171910072506, guid: 330efb0e9eed825408809c121441b8a5, type: 3}
   m_PrefabInstance: {fileID: 1221614286}
   m_PrefabAsset: {fileID: 0}
 --- !u!198 &1317306088 stripped
@@ -11675,7 +11680,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1105561392990391160, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1323531944412047654, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_Name
@@ -11686,6 +11691,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1382034254997307531, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1413163925287300300, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -11779,7 +11788,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: ac0c8122f9fc5064cb44fc9503e6bb48, type: 3}
     - target: {fileID: 2888100448263371327, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.086
       objectReference: {fileID: 0}
     - target: {fileID: 2888100448263371327, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_AnchorMax.y
@@ -12025,6 +12034,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: cf2ff47fc38d87442993e5127b1fe11c, type: 3}
+    - target: {fileID: 3900276366488344964, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4138972855253607250, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_Name
       value: CompassIcon
@@ -12039,7 +12052,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4308924142386406206, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.086
       objectReference: {fileID: 0}
     - target: {fileID: 4308924142386406206, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_AnchorMax.y
@@ -12047,7 +12060,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4308924142386406206, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.086
       objectReference: {fileID: 0}
     - target: {fileID: 4348952357725772003, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_Sprite
@@ -12165,6 +12178,14 @@ PrefabInstance:
       propertyPath: MyAudioSource
       value: 
       objectReference: {fileID: 1221614288}
+    - target: {fileID: 6959855638587752804, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7146147317883748064, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+      propertyPath: audioList
+      value: 
+      objectReference: {fileID: 1276281509}
     - target: {fileID: 7264093329051560057, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_Name
       value: bookIcon
@@ -12241,13 +12262,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: CloseOptionsMenu
       objectReference: {fileID: 0}
-    - target: {fileID: 9194558435380486211, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 9194558435380486211, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
-    - {fileID: 6501911577407489288, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
 --- !u!1 &1506263415 stripped
 GameObject:
