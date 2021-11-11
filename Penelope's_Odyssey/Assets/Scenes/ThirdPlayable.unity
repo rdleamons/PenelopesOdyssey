@@ -12901,6 +12901,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 21020540315525430, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1759939951312030368, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -13013,6 +13017,42 @@ PrefabInstance:
       propertyPath: targets.Array.data[5]
       value: 
       objectReference: {fileID: 1998442921}
+    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: airSmooth
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: jumpHeight
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: rotateByWorld
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: useRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 129
+      objectReference: {fileID: 0}
+    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: freeSpeed.walkSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: freeSpeed.sprintSpeed
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: freeSpeed.runningSpeed
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: jumpWithRigidbodyForce
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2731226034943971639, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -13057,6 +13097,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2731226034943971656, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: m_Drag
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2731226034943971656, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2731226034943971656, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2731226034943971656, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2731226034943971656, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2731226034943971656, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2731226034943971657, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: e52fb17f9b1e7fd48b8955f1391d3688, type: 2}
+    - target: {fileID: 2731226034943971659, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2731226034943971662, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
       propertyPath: m_Name
       value: ThirdPersonController_LITE
@@ -13065,5 +13137,6 @@ PrefabInstance:
       propertyPath: GameManager
       value: 
       objectReference: {fileID: 627927267}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8373212322067240117, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
