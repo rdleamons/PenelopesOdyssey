@@ -78,9 +78,9 @@ MonoBehaviour:
     rotationSpeed: 16
     walkByDefault: 1
     rotateWithCamera: 0
-    walkSpeed: 6
-    runningSpeed: 10
-    sprintSpeed: 15
+    walkSpeed: 5
+    runningSpeed: 9
+    sprintSpeed: 12
   strafeSpeed:
     movementSmooth: 6
     animationSmooth: 0.2
@@ -95,12 +95,12 @@ MonoBehaviour:
   jumpTimer: 0.3
   jumpHeight: 5
   airSpeed: 1
-  airSmooth: 6
+  airSmooth: 8
   extraGravity: 0
   limitFallVelocity: -15
   groundLayer:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 129
   groundMinDistance: 0.25
   groundMaxDistance: 0.5
   slopeLimit: 45

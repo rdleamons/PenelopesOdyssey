@@ -11639,39 +11639,7 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1998442921}
     - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
-      propertyPath: airSmooth
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
-      propertyPath: jumpHeight
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
-      propertyPath: rotateByWorld
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
-      propertyPath: useRootMotion
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
-      propertyPath: groundLayer.m_Bits
-      value: 129
-      objectReference: {fileID: 0}
-    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
-      propertyPath: freeSpeed.walkSpeed
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
-      propertyPath: freeSpeed.sprintSpeed
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
-      propertyPath: freeSpeed.runningSpeed
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
-      propertyPath: jumpWithRigidbodyForce
+      propertyPath: freeSpeed.movementSmooth
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2731226034943971639, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
