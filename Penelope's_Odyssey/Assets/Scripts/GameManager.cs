@@ -18,6 +18,8 @@ public class GameManager : MonoBehaviour
     public Slider HungerBar;
     public TextMeshProUGUI loseText;
     public TextMeshProUGUI winText;
+
+    public bool paused;
     //public Movement movement;
 
     private void Start()
@@ -99,6 +101,7 @@ public class GameManager : MonoBehaviour
         {
             Cursor.visible = true;
             Time.timeScale = 0f;
+            paused = true;
 
             EventSystem.current.SetSelectedGameObject(null);
         }
@@ -106,6 +109,7 @@ public class GameManager : MonoBehaviour
         {
             Cursor.visible = false;
             Time.timeScale = 1f;
+            paused = false;
         }
 
     }

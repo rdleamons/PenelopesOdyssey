@@ -6,6 +6,7 @@ using UnityEngine.AI;
 
 public class Smell : MonoBehaviour
 {
+    public GameManager gm;
     public LineRenderer line; //to hold the line Renderer
     //public Transform target;
     private NavMeshPath path;
@@ -33,13 +34,7 @@ public class Smell : MonoBehaviour
     {
         path = new NavMeshPath();
         target = targets[0];
-        /*
-        backpackIcon.gameObject.SetActive(true);
-        compassIcon.gameObject.SetActive(true);
-        squishIcon.gameObject.SetActive(true);
-        bookIcon.gameObject.SetActive(true);
-        crownIcon.gameObject.SetActive(true);
-        */
+
         backpackFoundIcon.gameObject.SetActive(false);
         compassFoundIcon.gameObject.SetActive(false);
         squishFoundIcon.gameObject.SetActive(false);
@@ -57,7 +52,9 @@ public class Smell : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             DrawPath(path);
-            audioSource.Play();
+
+            if(gm.paused == false)
+                audioSource.Play();
         }
         else if (Input.GetMouseButtonDown(1))
         {
