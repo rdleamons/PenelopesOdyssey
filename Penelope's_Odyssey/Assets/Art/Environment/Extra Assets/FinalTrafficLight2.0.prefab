@@ -1321,6 +1321,7 @@ GameObject:
   - component: {fileID: 5832149166692194727}
   - component: {fileID: 1086653597952499019}
   - component: {fileID: 710157569375541960}
+  - component: {fileID: 309640251275927621}
   m_Layer: 0
   m_Name: pCube23
   m_TagString: Untagged
@@ -1391,6 +1392,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &309640251275927621
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8913149278853462770}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1013006867569979, guid: c5bfd2412ab9fad458c262f8ee74357f, type: 3}
 --- !u!1 &8996185282226981336
 GameObject:
   m_ObjectHideFlags: 0
@@ -1431,6 +1446,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8441663381411494073}
+  - component: {fileID: 635406821645383418}
   m_Layer: 0
   m_Name: FinalTrafficLight2.0
   m_TagString: Untagged
@@ -1474,3 +1490,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &635406821645383418
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9109938385757413891}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}

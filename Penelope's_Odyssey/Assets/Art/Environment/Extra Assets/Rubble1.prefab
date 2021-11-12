@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 5096133199534354278}
   - component: {fileID: 7753323116329312772}
   - component: {fileID: 1571698108549582507}
+  - component: {fileID: 603481060142540237}
   m_Layer: 0
   m_Name: Rubble1:Rubble_Pile
   m_TagString: Untagged
@@ -112,3 +113,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &603481060142540237
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6343589049704066904}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1334544696592185844, guid: ab1b23dfe7c6b7c43ba55017f1523aa7, type: 3}
