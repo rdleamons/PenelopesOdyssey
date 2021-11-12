@@ -59,15 +59,6 @@ public class GameManager : MonoBehaviour
             StartCoroutine("lose");
         }
 
-        /*
-        getHunger();
-        UpdateScreen();
-
-        if(hunger <= 0)
-        {
-            StartCoroutine("lose");
-        }
-        */
     }
 
     public float getHunger()
@@ -77,7 +68,16 @@ public class GameManager : MonoBehaviour
 
     public float changeHunger()
     {
-        hunger = hunger - sub / subDivisor;
+        
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            hunger -= sub / (subDivisor * 10000);
+            Debug.Log("Shift");
+        }
+        else
+            hunger -= sub / subDivisor;
+        
+        //hunger -= sub / subDivisor;
         return hunger;
     }
 
