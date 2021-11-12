@@ -1647,6 +1647,14 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 461042016558293412, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: food
+      objectReference: {fileID: 0}
+    - target: {fileID: 468132568497152177, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: food
+      objectReference: {fileID: 0}
     - target: {fileID: 559673963015495726, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_LocalPosition.y
       value: -16
@@ -1819,6 +1827,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -3.6
       objectReference: {fileID: 0}
+    - target: {fileID: 758842254923534977, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: food
+      objectReference: {fileID: 0}
+    - target: {fileID: 759178143445481107, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: food
+      objectReference: {fileID: 0}
     - target: {fileID: 824751125946590273, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -1827,6 +1843,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Particle Effect 4
       objectReference: {fileID: 0}
+    - target: {fileID: 868637935058486566, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: food
+      objectReference: {fileID: 0}
     - target: {fileID: 933126325896629769, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_NavMeshLayer
       value: 1
@@ -1834,6 +1854,10 @@ PrefabInstance:
     - target: {fileID: 933126325896629769, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 941688928951719814, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: food
       objectReference: {fileID: 0}
     - target: {fileID: 943740932637164495, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_Enabled
@@ -1870,6 +1894,10 @@ PrefabInstance:
     - target: {fileID: 1150757572858269893, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_Center.z
       value: -15.699242
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196544415701510958, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: food
       objectReference: {fileID: 0}
     - target: {fileID: 1209563644712138936, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_RootOrder
@@ -2278,6 +2306,10 @@ PrefabInstance:
     - target: {fileID: 1257146692114724123, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_LocalPosition.z
       value: -829
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262918102603938496, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: food
       objectReference: {fileID: 0}
     - target: {fileID: 1287605180103483914, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_Size.x
@@ -6935,6 +6967,10 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: -641.89056
       objectReference: {fileID: 0}
+    - target: {fileID: 3569394873647859298, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: food
+      objectReference: {fileID: 0}
     - target: {fileID: 3601350461950479025, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_Size.x
       value: 69.104965
@@ -7359,6 +7395,14 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3931801942603577735, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: food
+      objectReference: {fileID: 0}
+    - target: {fileID: 3983431814987678322, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: food
+      objectReference: {fileID: 0}
     - target: {fileID: 3998750834714713147, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_NavMeshLayer
       value: 1
@@ -7466,6 +7510,10 @@ PrefabInstance:
     - target: {fileID: 4443579932065480797, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_Center.z
       value: -4.98665
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468720346642481521, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: food
       objectReference: {fileID: 0}
     - target: {fileID: 4483487413534681417, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7919,6 +7967,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 86
       objectReference: {fileID: 0}
+    - target: {fileID: 4899325605279878436, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: food
+      objectReference: {fileID: 0}
     - target: {fileID: 4919591738492759896, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_Name
       value: Hotdog
@@ -8235,6 +8287,14 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 6427732892277801208, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: food
+      objectReference: {fileID: 0}
+    - target: {fileID: 6493037447016213847, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: food
+      objectReference: {fileID: 0}
     - target: {fileID: 6557820997420569598, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_NavMeshLayer
       value: 1
@@ -8278,6 +8338,10 @@ PrefabInstance:
     - target: {fileID: 6679468711529551306, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -25.057
+      objectReference: {fileID: 0}
+    - target: {fileID: 6706710446936348637, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: food
       objectReference: {fileID: 0}
     - target: {fileID: 6894053871431585865, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_Size.x
@@ -8546,6 +8610,10 @@ PrefabInstance:
     - target: {fileID: 8106224585199896078, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_LocalPosition.y
       value: -16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8188484428538457148, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: food
       objectReference: {fileID: 0}
     - target: {fileID: 8265201195613450529, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_RootOrder
@@ -9961,7 +10029,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2700874171910072507, guid: 330efb0e9eed825408809c121441b8a5, type: 3}
       propertyPath: smoothCameraRotation
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2700874171910072509, guid: 330efb0e9eed825408809c121441b8a5, type: 3}
       propertyPath: far clip plane
@@ -11049,7 +11117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4410412e75c59e44fae57dbdc5a8469b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  foodEaten: 0
+  foodEaten: 50
   GameManager: {fileID: 627927267}
 --- !u!114 &1694768701
 MonoBehaviour:
@@ -11545,6 +11613,18 @@ PrefabInstance:
       propertyPath: targets.Array.data[5]
       value: 
       objectReference: {fileID: 1998442921}
+    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: freeSpeed.walkSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: freeSpeed.sprintSpeed
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: freeSpeed.runningSpeed
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2731226034943971639, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -11603,7 +11683,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2731226034943971656, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
       propertyPath: m_AngularDrag
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2731226034943971656, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
       propertyPath: m_IsKinematic

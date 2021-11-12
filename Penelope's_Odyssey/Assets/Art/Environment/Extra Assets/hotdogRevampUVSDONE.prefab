@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 4577623360962582870}
   - component: {fileID: 5138223556281647913}
   - component: {fileID: 6282830360821658216}
+  - component: {fileID: 8528783969390420867}
   m_Layer: 0
   m_Name: hotdog
-  m_TagString: Untagged
+  m_TagString: food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81,6 +82,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!135 &8528783969390420867
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4503699627128594806}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 13.287482
+  m_Center: {x: -0.91358364, y: 0.759755, z: 0.70378464}
 --- !u!1 &7125989612692614288
 GameObject:
   m_ObjectHideFlags: 0
