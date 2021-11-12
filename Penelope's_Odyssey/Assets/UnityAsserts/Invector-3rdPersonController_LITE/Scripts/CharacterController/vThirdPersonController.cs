@@ -4,14 +4,6 @@ namespace Invector.vCharacterController
 {
     public class vThirdPersonController : vThirdPersonAnimator
     {
-        public void Update()
-        {
-            if (Input.GetMouseButtonDown(0))
-                lockMovement = true;
-            else if (Input.GetMouseButtonUp(0))
-                lockMovement = false;
-        }
-
         public virtual void ControlAnimatorRootMotion()
         {
             if (!this.enabled) return;

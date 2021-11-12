@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.AI;
+using Invector.vCharacterController;
 
 public class Smell : MonoBehaviour
 {
@@ -23,6 +24,8 @@ public class Smell : MonoBehaviour
     public GameObject bookFoundIcon;
     public GameObject crownFoundIcon;
 
+    private vThirdPersonController controller;
+
     /*
     public GameObject backpackIcon;
     public GameObject compassIcon;
@@ -34,6 +37,7 @@ public class Smell : MonoBehaviour
     {
         path = new NavMeshPath();
         target = targets[0];
+        controller = GetComponent<vThirdPersonController>();
 
         backpackFoundIcon.gameObject.SetActive(false);
         compassFoundIcon.gameObject.SetActive(false);
@@ -51,6 +55,7 @@ public class Smell : MonoBehaviour
         // Draw the path on mouse click
         if (Input.GetMouseButtonDown(0))
         {
+            controller.lockMovement = true;
             DrawPath(path);
 
             if(gm.paused == false)
@@ -67,6 +72,7 @@ public class Smell : MonoBehaviour
         // Stop drawing path when no longer clicking
         if (Input.GetMouseButtonUp(0))
         {
+            controller.lockMovement = false;
             line.positionCount = 0;
             
         }
