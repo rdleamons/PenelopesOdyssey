@@ -13,25 +13,11 @@ public class SubtitleManager : MonoBehaviour
 
     List<string> lines; 
 
-    /*
-    private void Start()
-    {
-        string readFromFilePath = Application.streamingAssetsPath + "/Scripts/" + "tutorialText" + ".txt";
-        List<string> fileLines = File.ReadAllLines(readFromFilePath).ToList();
-
-        foreach(string line in fileLines)
-        {
-            Instantiate(subtitles, textBox.transform);
-            subtitles.GetComponent<Text>().text = line;
-        }
-    }
-    */
-
     void Start()
     {
-        lines = new List<string>(System.IO.File.ReadAllLines(Application.dataPath + "/Scripts/" + "tutorialText.txt"));
+        lines = new List<string>(System.IO.File.ReadAllLines(Application.streamingAssetsPath + "/Scripts/" + "tutorialText.txt"));
         index = 0;
-        textBox.GetComponent<Text>().text = lines[index];
+        textBox.GetComponent<Text>().text = lines[0];
     }
 
     private void Update()
