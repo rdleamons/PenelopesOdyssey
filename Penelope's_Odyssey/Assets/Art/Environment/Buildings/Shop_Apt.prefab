@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2086344717029525749}
   - component: {fileID: 1421423259507595334}
   - component: {fileID: 3154398217221291702}
+  - component: {fileID: 584735913594473812}
   m_Layer: 0
   m_Name: Shops_apt
   m_TagString: Untagged
@@ -81,6 +82,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &584735913594473812
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521455602142801359}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 886.07153, y: 1554.3168, z: 1306.4292}
+  m_Center: {x: 3153.4573, y: 776.28284, z: -615.3404}
 --- !u!1 &6951666945153391427
 GameObject:
   m_ObjectHideFlags: 0
