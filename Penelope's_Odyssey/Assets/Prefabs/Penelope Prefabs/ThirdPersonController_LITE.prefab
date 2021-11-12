@@ -73,7 +73,7 @@ MonoBehaviour:
   sprintOnlyFree: 1
   locomotionType: 2
   freeSpeed:
-    movementSmooth: 6
+    movementSmooth: 1
     animationSmooth: 0.2
     rotationSpeed: 16
     walkByDefault: 1

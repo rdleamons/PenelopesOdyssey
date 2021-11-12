@@ -2,16 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.IO;
+using System.Linq;
 
 public class SubtitleManager : MonoBehaviour
 {
-
     public GameObject textBox;
     public GameObject subtitles;
-    
+    private int index;
+
+    List<string> lines; 
+
+    /*
+    private void Start()
+    {
+        string readFromFilePath = Application.streamingAssetsPath + "/Scripts/" + "tutorialText" + ".txt";
+        List<string> fileLines = File.ReadAllLines(readFromFilePath).ToList();
+
+        foreach(string line in fileLines)
+        {
+            Instantiate(subtitles, textBox.transform);
+            subtitles.GetComponent<Text>().text = line;
+        }
+    }
+    */
+
     void Start()
     {
-        StartCoroutine("Sequence");
+        lines = new List<string>(System.IO.File.ReadAllLines(Application.dataPath + "/Scripts/" + "tutorialText.txt"));
+        index = 0;
+        textBox.GetComponent<Text>().text = lines[index];
     }
 
     private void Update()
@@ -24,8 +44,29 @@ public class SubtitleManager : MonoBehaviour
         {
             subtitles.gameObject.SetActive(true);
         }
+
+        if(Input.GetKeyDown(KeyCode.Return))
+        {
+            index++;
+            textBox.GetComponent<Text>().text = lines[index];
+        }
+
+        if(index == lines.Count)
+        {
+            textBox.GetComponent<Text>().text = "";
+        }
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.CompareTag("food"))
+        {
+            textBox.GetComponent<Text>().text = "I am getting hungry. Oh! She used to give me bits of these as treats!";
+        }
+    }
+
+
+    /*
     IEnumerator Sequence()
     {
         yield return new WaitForSeconds(1);
@@ -92,8 +133,7 @@ public class SubtitleManager : MonoBehaviour
         textBox.GetComponent<Text>().text = "She must have gone this way! Don’t worry I’m on my way! I’ll save you no matter what!";
         yield return new WaitForSeconds(5);
         textBox.GetComponent<Text>().text = "";
-
-
     }
+    */
 
 }

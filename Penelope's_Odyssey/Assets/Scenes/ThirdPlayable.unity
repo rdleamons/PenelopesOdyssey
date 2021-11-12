@@ -10907,6 +10907,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 811092461932604043, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
   m_PrefabInstance: {fileID: 1506263414}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1506263425 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3328262380658300319, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+  m_PrefabInstance: {fileID: 1506263414}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1508183180
 GameObject:
   m_ObjectHideFlags: 0
@@ -11133,6 +11138,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   foodEaten: 0
   GameManager: {fileID: 627927267}
+--- !u!114 &1694768701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694768699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b50f95e845be8fe4e85a7c6670551c8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textBox: {fileID: 1506263425}
 --- !u!4 &1694768706 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2731226034943971639, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
@@ -11638,10 +11656,6 @@ PrefabInstance:
       propertyPath: targets.Array.data[5]
       value: 
       objectReference: {fileID: 1998442921}
-    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
-      propertyPath: freeSpeed.movementSmooth
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2731226034943971639, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
       propertyPath: m_RootOrder
       value: 6

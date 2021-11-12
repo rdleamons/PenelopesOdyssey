@@ -381,7 +381,7 @@ namespace Invector.vCharacterController
         [System.Serializable]
         public class vMovementSpeed
         {
-            [Range(1f, 20f)]
+            [Range(0.0f, 20f)]
             public float movementSmooth = 6f;
             [Range(0f, 1f)]
             public float animationSmooth = 0.2f;
