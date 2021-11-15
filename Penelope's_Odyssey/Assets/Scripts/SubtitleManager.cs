@@ -17,6 +17,8 @@ public class SubtitleManager : MonoBehaviour
     {
         lines = new List<string>(System.IO.File.ReadAllLines(Application.streamingAssetsPath + "/Scripts/" + "tutorialText.txt"));
         index = 0;
+        subtitles.SetActive(true);
+        textBox.SetActive(true);
         textBox.GetComponent<Text>().text = lines[0];
     }
 

@@ -15,6 +15,9 @@ GameObject:
   - component: {fileID: 2731226034943971659}
   - component: {fileID: 2731226034943971656}
   - component: {fileID: 2731226034943971657}
+  - component: {fileID: 4032290304591376616}
+  - component: {fileID: 7427741772513299335}
+  - component: {fileID: 6625316886773311042}
   m_Layer: 0
   m_Name: ThirdPersonController_LITE
   m_TagString: Player
@@ -175,6 +178,77 @@ CapsuleCollider:
   m_Height: 0.37771606
   m_Direction: 2
   m_Center: {x: 0, y: 0.05568701, z: 0}
+--- !u!114 &4032290304591376616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2731226034943971662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4410412e75c59e44fae57dbdc5a8469b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodEaten: 50
+  GameManager: {fileID: 0}
+--- !u!114 &7427741772513299335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2731226034943971662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b50f95e845be8fe4e85a7c6670551c8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textBox: {fileID: 0}
+--- !u!114 &6625316886773311042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2731226034943971662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac26b2339c7779e4786b5797ada45b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gm: {fileID: 0}
+  line: {fileID: 3790219381810341742}
+  audioSource: {fileID: 3016023477683149090}
+  hotdog:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  targets:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  backpackFoundIcon: {fileID: 0}
+  compassFoundIcon: {fileID: 0}
+  squishFoundIcon: {fileID: 0}
+  bookFoundIcon: {fileID: 0}
+  crownFoundIcon: {fileID: 0}
 --- !u!1001 &2731226036011687182
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -431,5 +505,15 @@ PrefabInstance:
 --- !u!4 &7016960820512969182 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4937637527768272080, guid: 92f812c6d38502f43a2949b3991a851d, type: 3}
+  m_PrefabInstance: {fileID: 2731226036011687182}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &3016023477683149090 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 881670630843122732, guid: 92f812c6d38502f43a2949b3991a851d, type: 3}
+  m_PrefabInstance: {fileID: 2731226036011687182}
+  m_PrefabAsset: {fileID: 0}
+--- !u!120 &3790219381810341742 stripped
+LineRenderer:
+  m_CorrespondingSourceObject: {fileID: 1260677946282965600, guid: 92f812c6d38502f43a2949b3991a851d, type: 3}
   m_PrefabInstance: {fileID: 2731226036011687182}
   m_PrefabAsset: {fileID: 0}

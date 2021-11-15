@@ -42,6 +42,8 @@ GameObject:
   - component: {fileID: 7880385664697619235}
   - component: {fileID: 4751500499183626982}
   - component: {fileID: 1630729031079275838}
+  - component: {fileID: 5410416042108211690}
+  - component: {fileID: 3415484824058187920}
   m_Layer: 0
   m_Name: ClosedChestUVSDone1
   m_TagString: Untagged
@@ -112,3 +114,30 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &5410416042108211690
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5417027213723671356}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 32.523106
+  m_Height: 153.41391
+  m_Direction: 0
+  m_Center: {x: 3.6061606, y: 47.207474, z: -12.124132}
+--- !u!65 &3415484824058187920
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5417027213723671356}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 102.23584, y: 43.56987, z: 65.54872}
+  m_Center: {x: 8.064636, y: 26.81571, z: -13.789585}

@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 7094103220754057341}
   - component: {fileID: 6186972675513976792}
   - component: {fileID: 8230466409283449618}
+  - component: {fileID: 3605063056399671832}
+  - component: {fileID: 2632458629944703584}
   m_Layer: 0
   m_Name: dresser4
   m_TagString: Untagged
@@ -81,3 +83,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3605063056399671832
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7581952804293464775}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.952837, y: 6.6413, z: 3.932099}
+  m_Center: {x: 0, y: -3.050081, z: -0.00012207635}
+--- !u!65 &2632458629944703584
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7581952804293464775}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.937727, y: 6.1142116, z: 0.91985196}
+  m_Center: {x: 0.11769617, y: 3.3136241, z: 1.506003}
