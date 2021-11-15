@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7629907815435962691}
   - component: {fileID: 3279428780022866189}
   - component: {fileID: 3467751115398634337}
+  - component: {fileID: 1871983036269117320}
   m_Layer: 0
   m_Name: Newspaper
   m_TagString: Untagged
@@ -81,6 +82,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1871983036269117320
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785174997101704698}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 45.540604, y: 4.998672, z: 65.12858}
+  m_Center: {x: 7.6924295, y: 2.8346887, z: 1.6644716}
 --- !u!1 &5066372616167875917
 GameObject:
   m_ObjectHideFlags: 0
