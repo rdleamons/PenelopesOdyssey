@@ -11,11 +11,11 @@ public class SubtitleManager : MonoBehaviour
     public GameObject subtitles;
     private int index;
 
-    List<string> lines; 
+    private List<string> lines;
 
     void Start()
     {
-        lines = new List<string>(System.IO.File.ReadAllLines(Application.streamingAssetsPath + "/Scripts/" + "tutorialText.txt"));
+        lines = new List<string>(File.ReadAllLines(Application.streamingAssetsPath + "/Scripts/" + "tutorialText.txt")); 
         index = 0;
         subtitles.SetActive(true);
         textBox.SetActive(true);
