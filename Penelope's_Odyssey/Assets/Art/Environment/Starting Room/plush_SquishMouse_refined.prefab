@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 4812160292877589535}
   - component: {fileID: 763161878111588595}
   - component: {fileID: 4043202253217805970}
-  - component: {fileID: 5410634250796752476}
+  - component: {fileID: 1695428688283947311}
   m_Layer: 0
   m_Name: squish_Plush
   m_TagString: Untagged
@@ -113,8 +113,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5410634250796752476
-MeshCollider:
+--- !u!136 &1695428688283947311
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -123,7 +123,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8735680844321850668, guid: e4d8dc9b4c26f4347be8a8692cddb344, type: 3}
+  m_Radius: 16.96882
+  m_Height: 46.042454
+  m_Direction: 1
+  m_Center: {x: -5.4572988, y: 20.418955, z: -0.12242721}
