@@ -49,7 +49,7 @@ public class loadScene : MonoBehaviour
         //movement.canMove = false;
         winText.enabled = true;
         yield return new WaitForSeconds(3);
-        SceneManager.LoadScene("StartScreen");
+        SceneManager.LoadScene(2);
 
     }
 }

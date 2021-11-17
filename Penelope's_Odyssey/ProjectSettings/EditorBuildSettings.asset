@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ThirdPlayable.unity
     guid: 1a538251e25b98c48949e269baea579f
+  - enabled: 1
+    path: Assets/Scenes/CreditScroll.unity
+    guid: cce9b641fb7becf428166eb61f6c7e55
   m_configObjects: {}
