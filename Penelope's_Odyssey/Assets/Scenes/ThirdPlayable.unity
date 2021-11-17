@@ -347,6 +347,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 105771511506229819, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 161741474831402046, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_Size.x
       value: 134.18982
@@ -1686,6 +1690,10 @@ PrefabInstance:
     - target: {fileID: 344326770401762343, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 384818339701427486, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 390370980829778050, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_NavMeshLayer
@@ -6187,6 +6195,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -25.057
       objectReference: {fileID: 0}
+    - target: {fileID: 2276892391682818242, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 2312767422477943770, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_NavMeshLayer
       value: 1
@@ -6850,6 +6862,10 @@ PrefabInstance:
     - target: {fileID: 3286139160976340159, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3298768027985617370, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3322575820289992756, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_NavMeshLayer
@@ -8551,6 +8567,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Particle Effect 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5547935499365656264, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 5566561460085359048, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_Name
       value: Particle Effect 8
@@ -8558,6 +8578,10 @@ PrefabInstance:
     - target: {fileID: 5570584792913438170, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_Name
       value: Particle Effect 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5612059551168444198, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 5696550168766117346, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8582,6 +8606,14 @@ PrefabInstance:
     - target: {fileID: 5781431282129041271, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5794662289889200320, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 5869683624138267232, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 5882845462000451722, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_NavMeshLayer
@@ -8727,6 +8759,14 @@ PrefabInstance:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6260900948057759591, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263916923015887733, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 6286101173067359735, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -8775,9 +8815,13 @@ PrefabInstance:
       propertyPath: m_TagString
       value: food
       objectReference: {fileID: 0}
+    - target: {fileID: 6485518240089451586, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 6493037447016213847, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_TagString
-      value: food
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 6557820997420569598, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_NavMeshLayer
@@ -8983,6 +9027,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hotdog
       objectReference: {fileID: 0}
+    - target: {fileID: 7088901408233753751, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 7206934844893987415, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_RootOrder
       value: 290
@@ -9115,6 +9163,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -4.28
       objectReference: {fileID: 0}
+    - target: {fileID: 7706875255154160737, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 7720081386860777364, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 7728928813468160487, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_NavMeshLayer
       value: 1
@@ -9146,6 +9202,10 @@ PrefabInstance:
     - target: {fileID: 7875116194277207817, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_Convex
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7921209999999896452, guid: 66f154eac437d94479837d31ac00014f, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7922629323909913187, guid: 66f154eac437d94479837d31ac00014f, type: 3}
       propertyPath: m_Height
@@ -12626,6 +12686,10 @@ PrefabInstance:
       propertyPath: backpackFoundIcon
       value: 
       objectReference: {fileID: 1506263424}
+    - target: {fileID: 6625316886773311042, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: hotdog.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6625316886773311042, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
       propertyPath: hotdog.Array.data[0]
       value: 

@@ -9,7 +9,6 @@ public class Smell : MonoBehaviour
 {
     public GameManager gm;
     public LineRenderer line; //to hold the line Renderer
-    //public Transform target;
     private NavMeshPath path;
     public AudioSource audioSource;
     public ParticleSystem[] hotdog;
@@ -26,25 +25,19 @@ public class Smell : MonoBehaviour
 
     private vThirdPersonController controller;
 
-    /*
-    public GameObject backpackIcon;
-    public GameObject compassIcon;
-    public GameObject squishIcon;
-    public GameObject bookIcon;
-    public GameObject crownIcon;
-    */
     void Start()
     {
         path = new NavMeshPath();
         target = targets[0];
         controller = GetComponent<vThirdPersonController>();
 
+        hotdog = FindObjectsOfType<ParticleSystem>();
+
         backpackFoundIcon.gameObject.SetActive(false);
         compassFoundIcon.gameObject.SetActive(false);
         squishFoundIcon.gameObject.SetActive(false);
         bookFoundIcon.gameObject.SetActive(false);
-        crownFoundIcon.gameObject.SetActive(false);
-        
+        crownFoundIcon.gameObject.SetActive(false);   
     }
 
     void Update()
