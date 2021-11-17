@@ -14,7 +14,7 @@ public class Collection : MonoBehaviour
         {
             foodEaten += 1;
             GameManager.hunger = 100;
-            Destroy(other.gameObject);
+            other.gameObject.SetActive(false);
         }
     }
 
