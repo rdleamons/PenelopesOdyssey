@@ -49,8 +49,7 @@ public class Smell : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             controller.lockMovement = true;
-            //DrawPath(path);
-            drawCombined(target.transform.position, 0.5f, 0.75f, path);
+            DrawPath(path);
 
             if(gm.paused == false)
                 audioSource.Play();
