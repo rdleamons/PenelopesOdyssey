@@ -49,7 +49,8 @@ public class Smell : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             controller.lockMovement = true;
-            DrawPath(path);
+            //DrawPath(path);
+            drawCombined(target.transform.position, 0.5f, 0.75f, path);
 
             if(gm.paused == false)
                 audioSource.Play();
@@ -88,6 +89,34 @@ public class Smell : MonoBehaviour
         line.SetPositions(path.corners);
     }
 
+    void drawCombined(Vector3 startPoint, float amplitude, float wavelength, NavMeshPath path)
+    {
+        float x = 0f;
+        float y;
+        float k = 2 * Mathf.PI / wavelength;
+        line.positionCount = path.corners.Length;
+        for (int i = 0; i < line.positionCount; i++)
+        {
+            x += i * 0.001f;
+            y = amplitude * Mathf.Sin(k * x);
+            line.SetPosition(i,new Vector3(x, y, 0) + startPoint);
+        }
+    }
+
+    void DrawSineWave(Vector3 startPoint, float amplitude, float wavelength)
+    {
+        float x = 0f;
+        float y;
+        float k = 2 * Mathf.PI / wavelength;
+        line.positionCount = 200;
+        for (int i = 0; i < line.positionCount; i++)
+        {
+            x += i * 0.001f;
+            y = amplitude * Mathf.Sin(k * x);
+            line.SetPosition(i, new Vector3(x, y, 0) + startPoint);
+        }
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("object"))//other.gameObject.name == target.name )
@@ -113,4 +142,6 @@ public class Smell : MonoBehaviour
         else if (other.gameObject.name == "BaseballHat")
             crownFoundIcon.gameObject.SetActive(true);
     }
+
+
 }
