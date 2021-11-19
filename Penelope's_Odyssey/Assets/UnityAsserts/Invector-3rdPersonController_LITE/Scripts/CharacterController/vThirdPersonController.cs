@@ -124,5 +124,21 @@ namespace Invector.vCharacterController
             else
                 animator.CrossFadeInFixedTime("JumpMove", .2f);
         }
+
+#region
+
+        public virtual void SniffObject()
+        {
+
+        }
+
+        public virtual void SniffFood()
+        {
+
+        }
+
+
+#endregion
+
     }
 }
