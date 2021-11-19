@@ -11324,19 +11324,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3328262379317072287, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 7.0874
+      value: 6.8274
       objectReference: {fileID: 0}
     - target: {fileID: 3328262379317072287, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -11.0382
+      value: -11.3848
       objectReference: {fileID: 0}
     - target: {fileID: 3328262379317072287, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -4.7901
+      value: -4.99
       objectReference: {fileID: 0}
     - target: {fileID: 3328262379317072287, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.10410023
+      value: -0.0000009536743
       objectReference: {fileID: 0}
     - target: {fileID: 3328262379403358018, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_SizeDelta.x
@@ -11610,6 +11610,22 @@ PrefabInstance:
       propertyPath: textBackground
       value: 
       objectReference: {fileID: 1506263419}
+    - target: {fileID: 3328262381296098998, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+      propertyPath: m_Colors.m_DisabledColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3328262381296098998, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+      propertyPath: m_Colors.m_DisabledColor.b
+      value: 0.9622642
+      objectReference: {fileID: 0}
+    - target: {fileID: 3328262381296098998, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+      propertyPath: m_Colors.m_DisabledColor.g
+      value: 0.9622642
+      objectReference: {fileID: 0}
+    - target: {fileID: 3328262381296098998, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+      propertyPath: m_Colors.m_DisabledColor.r
+      value: 0.9622642
+      objectReference: {fileID: 0}
     - target: {fileID: 3521303927087239723, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_Value
       value: 0.086
