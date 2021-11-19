@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3279428780022866189}
   - component: {fileID: 3467751115398634337}
   - component: {fileID: 1871983036269117320}
+  - component: {fileID: 8150687128267416258}
   m_Layer: 0
   m_Name: Newspaper
   m_TagString: Untagged
@@ -95,6 +96,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 45.540604, y: 4.998672, z: 65.12858}
   m_Center: {x: 7.6924295, y: 2.8346887, z: 1.6644716}
+--- !u!54 &8150687128267416258
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785174997101704698}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &5066372616167875917
 GameObject:
   m_ObjectHideFlags: 0

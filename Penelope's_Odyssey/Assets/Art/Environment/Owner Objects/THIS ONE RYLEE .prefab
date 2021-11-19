@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 1907898162222777715}
   - component: {fileID: 3302806281536391894}
   - component: {fileID: 734398560580615708}
+  - component: {fileID: 7772519524095180573}
+  - component: {fileID: 2094260199742741142}
   m_Layer: 0
   m_Name: 'THIS ONE RYLEE '
   m_TagString: Untagged
@@ -81,3 +83,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7772519524095180573
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239026363509809097}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 75, y: 50, z: 75}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &2094260199742741142
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239026363509809097}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 23.381535, y: 12.286813, z: 25.727367}
+  m_Center: {x: 0, y: 0, z: 0}
