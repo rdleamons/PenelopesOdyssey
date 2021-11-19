@@ -65,7 +65,6 @@ public class SubtitleManager : MonoBehaviour
         }
         else if(other.CompareTag("exit"))
         {
-            controller.lockMovement = true;
             StartCoroutine("Win");
         }
     }

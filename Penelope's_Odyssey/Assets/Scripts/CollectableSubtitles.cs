@@ -8,6 +8,7 @@ public class CollectableSubtitles : MonoBehaviour
 
     public GameObject textBox;
     private GameObject foundObj;
+    public SubtitleManager sm;
 
     void OnTriggerEnter(Collider other)
     {
@@ -15,6 +16,11 @@ public class CollectableSubtitles : MonoBehaviour
         {
             foundObj = other.gameObject;
             StartCoroutine("Found");
+        }
+
+        if(other.tag == "exit")
+        {
+            sm.StartCoroutine("Win");
         }
     }
 
