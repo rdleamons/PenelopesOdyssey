@@ -44,21 +44,11 @@ public class GameManager : MonoBehaviour
         }
 
 
-        // Lock cursor when clicking outside of menu
-        if (!MenuRoot.activeSelf && Input.GetMouseButtonDown(0))
-        {
-            Cursor.visible = false;
-        }
-
+        // Show cursor in menus
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
             SetPauseMenuActivation(!MenuRoot.activeSelf);
-        }
-
-        if (hunger <= 0)
-        {
-            StartCoroutine("lose");
         }
 
     }
@@ -74,7 +64,6 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             hunger -= sub / (subDivisor * 10000);
-            Debug.Log("Shift");
         }
         else
             hunger -= sub / subDivisor;
@@ -114,20 +103,4 @@ public class GameManager : MonoBehaviour
 
     }
 
-    IEnumerator lose()
-    {
-        //movement.canMove = false;
-        loseText.enabled = true;
-        yield return new WaitForSeconds(3);
-        SceneManager.LoadScene("StartScreen");
-    }
-
-    IEnumerator win()
-    {
-        //movement.canMove = false;
-        winText.enabled = true;
-        yield return new WaitForSeconds(3);
-        SceneManager.LoadScene("StartScreen");
-
-    }
 }

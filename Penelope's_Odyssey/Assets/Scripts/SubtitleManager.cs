@@ -4,18 +4,21 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
 using System.Linq;
+using UnityEngine.SceneManagement;
+using Invector.vCharacterController;
 
 public class SubtitleManager : MonoBehaviour
 {
     public GameObject textBox;
     public GameObject subtitles;
     private int index;
+    public vThirdPersonController controller;
+    public GameManager gm;
 
     private List<string> lines;
 
     void Start()
     {
-        //lines = new List<string>(File.ReadAllLines("D:/Senior Project/PenelopesOdyssey/Penelope's_Odyssey/Assets/tutorialText.txt"));
         lines = new List<string>(File.ReadAllLines(Application.streamingAssetsPath + "/tutorialText.txt"));
         index = 0;
         subtitles.SetActive(true);
@@ -39,10 +42,19 @@ public class SubtitleManager : MonoBehaviour
             textBox.GetComponent<Text>().text = lines[index];
         }
 
+        
         if(index == lines.Count)
         {
             textBox.GetComponent<Text>().text = "";
         }
+       
+        if (gm.hunger <= 0)
+        {
+            controller.lockMovement = true;
+            StartCoroutine("Lose");
+        }
+
+
     }
 
     private void OnTriggerEnter(Collider other)
@@ -51,8 +63,29 @@ public class SubtitleManager : MonoBehaviour
         {
             textBox.GetComponent<Text>().text = "I am getting hungry. Oh! She used to give me bits of these as treats!";
         }
+        else if(other.CompareTag("exit"))
+        {
+            controller.lockMovement = true;
+            StartCoroutine("Win");
+        }
     }
 
+    IEnumerator Win()
+    {
+        subtitles.gameObject.SetActive(true);
+        textBox.GetComponent<Text>().text = "She must have gone this way! Don’t worry I’m on my way! I’ll save you no matter what!";
+        yield return new WaitForSeconds(5);
+        SceneManager.LoadScene("CreditScroll");
+
+    }
+
+    IEnumerator Lose()
+    {
+        subtitles.gameObject.SetActive(true);
+        textBox.GetComponent<Text>().text = "I don't feel too good... ";
+        yield return new WaitForSeconds(5);
+        SceneManager.LoadScene("CreditScroll");
+    }
 
     /*
     IEnumerator Sequence()

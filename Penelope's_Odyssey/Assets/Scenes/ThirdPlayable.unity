@@ -10695,6 +10695,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &848773258 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+  m_PrefabInstance: {fileID: 2731226035430772597}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73fbf3aa05f6be24780438449f505aa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1053639021
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11348,7 +11359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3328262379625879021, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3328262379625879022, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_fontSize
@@ -11424,7 +11435,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3328262380504679510, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3328262380658300313, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_FontData.m_MinSize
@@ -11571,9 +11582,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3328262381131441037, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+      propertyPath: gm
+      value: 
+      objectReference: {fileID: 627927267}
+    - target: {fileID: 3328262381131441037, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: subtitles
       value: 
       objectReference: {fileID: 1506263420}
+    - target: {fileID: 3328262381131441037, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 848773258}
     - target: {fileID: 3328262381131441037, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: textBackground
       value: 
@@ -11853,17 +11872,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1331310668522131989, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
   m_PrefabInstance: {fileID: 1506263414}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1506263416 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3328262380504679505, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
-  m_PrefabInstance: {fileID: 1506263414}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1506263417 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6824849760949781167, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
@@ -12463,7 +12471,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: CreditsScroll
-  winText: {fileID: 1506263416}
   currentScene:
     m_Handle: 0
 --- !u!65 &1998442923
@@ -12556,7 +12563,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 1592106c327917447868cbaa0bcdd32f, type: 2}
     - target: {fileID: 3736082614879423581, guid: 80078ed06b15c0d479d091b4da404dc0, type: 3}
       propertyPath: m_Name
-      value: backpack_FINAL
+      value: Backpack
       objectReference: {fileID: 0}
     - target: {fileID: 4076580077835835111, guid: 80078ed06b15c0d479d091b4da404dc0, type: 3}
       propertyPath: m_RootOrder

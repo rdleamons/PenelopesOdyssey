@@ -9,7 +9,7 @@ using UnityEngine.EventSystems;
 public class loadScene : MonoBehaviour
 {
     public string sceneName;
-    public TextMeshProUGUI winText;
+    //public TextMeshProUGUI winText;
 
     public Scene currentScene;
     //public Movement movement;
@@ -24,6 +24,10 @@ public class loadScene : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
         }
+        else if(currentScene.buildIndex == 1)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+        }
     }
 
     public void LoadScene()
@@ -36,20 +40,13 @@ public class loadScene : MonoBehaviour
         Application.Quit();
     }
 
+    /*
     public void OnTriggerEnter(Collider col)
     {
         if(col.CompareTag("Player"))
         {
-            StartCoroutine("win");
+            //StartCoroutine("win");
         }
     }
-
-    IEnumerator win()
-    {
-        //movement.canMove = false;
-        winText.enabled = true;
-        yield return new WaitForSeconds(3);
-        SceneManager.LoadScene(2);
-
-    }
+    */
 }
