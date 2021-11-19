@@ -46,39 +46,75 @@ public class Smell : MonoBehaviour
         NavMesh.CalculatePath(transform.position, target.transform.position, NavMesh.AllAreas, path);
 
         // Draw the path on mouse click
-        if (Input.GetMouseButtonDown(0))
-        {
-            controller.lockMovement = true;
-            DrawPath(path);
-            //drawCombined(gameObject.transform.position, 0.5f, 2f, path);
+         if (Input.GetMouseButtonDown(0))
+         {
+             controller.lockMovement = true;
+             DrawPath(path);
+             //drawCombined(gameObject.transform.position, 0.5f, 2f, path);
 
-            if (gm.paused == false)
-                audioSource.Play();
-        }
-        else if (Input.GetMouseButtonDown(1))
-        {
-            for (int i = 0; i < hotdog.Length; i++)
-            {
-                hotdog[i].Play();
-            }
-        }
+             if (gm.paused == false)
+                 audioSource.Play();
+         }
+         else if (Input.GetMouseButtonDown(1))
+         {
+             for (int i = 0; i < hotdog.Length; i++)
+             {
+                 hotdog[i].Play();
+             }
+         }
 
-        // Stop drawing path when no longer clicking
+         // Stop drawing path when no longer clicking
+         if (Input.GetMouseButtonUp(0))
+         {
+             controller.lockMovement = false;
+             line.positionCount = 0;
+
+         }
+         else if (Input.GetMouseButtonUp(1))
+         {
+             for (int i = 0; i < hotdog.Length; i++)
+             {
+                 hotdog[i].Stop();
+             }
+         }
+        
+    }
+
+   /*
+    public virtual void SniffObject()
+    {
+       
+        controller.lockMovement = true;
+        DrawPath(path);
+        //drawCombined(gameObject.transform.position, 0.5f, 2f, path);
+
+        if (gm.paused == false)
+            audioSource.Play();
+
         if (Input.GetMouseButtonUp(0))
         {
             controller.lockMovement = false;
             line.positionCount = 0;
-            
+
         }
-        else if (Input.GetMouseButtonUp(1))
+    }
+
+    public virtual void SniffFood()
+    {
+        for (int i = 0; i < hotdog.Length; i++)
+        {
+            hotdog[i].Play();
+        }
+
+        if (Input.GetMouseButtonUp(1))
         {
             for (int i = 0; i < hotdog.Length; i++)
             {
                 hotdog[i].Stop();
             }
         }
-
     }
+   */
 
     void DrawPath(NavMeshPath path)
     {

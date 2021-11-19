@@ -6,6 +6,7 @@ namespace Invector.vCharacterController
     {
         #region Variables       
 
+
         [Header("Controller Input")]
         public string horizontalInput = "Horizontal";
         public string verticallInput = "Vertical";
@@ -27,6 +28,7 @@ namespace Invector.vCharacterController
         {
             InitilizeController();
             InitializeTpCamera();
+         
         }
 
         protected virtual void FixedUpdate()
@@ -79,8 +81,30 @@ namespace Invector.vCharacterController
             SprintInput();
             StrafeInput();
             JumpInput();
+            SniffObjectInput();
+            SniffFoodInput();
         }
 
+#region
+        public virtual void SniffObjectInput()
+        {
+           // if (Input.GetMouseButtonDown(1))
+           // {
+                //smell.SniffObject();
+           // }
+        }
+
+        public virtual void SniffFoodInput()
+        {
+           // if (Input.GetMouseButtonDown(0))
+            //{
+             //   smell.SniffFood();
+            //}
+        }
+
+
+
+#endregion
         public virtual void MoveInput()
         {
             cc.input.x = Input.GetAxis(horizontalInput);
