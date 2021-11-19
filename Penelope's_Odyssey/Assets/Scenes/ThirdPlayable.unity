@@ -12599,11 +12599,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42d7b423eec204e4694a001832c3bd93, type: 3}
---- !u!82 &1964739931 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 9058854811406836220, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
-  m_PrefabInstance: {fileID: 2731226035430772597}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1998442921
 GameObject:
   m_ObjectHideFlags: 0
@@ -13105,7 +13100,7 @@ PrefabInstance:
     - target: {fileID: 6625316886773311042, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
       propertyPath: audioSource
       value: 
-      objectReference: {fileID: 1964739931}
+      objectReference: {fileID: 0}
     - target: {fileID: 6625316886773311042, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
       propertyPath: bookFoundIcon
       value: 
@@ -13209,11 +13204,11 @@ PrefabInstance:
     - target: {fileID: 6625316886773311042, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
       propertyPath: targets.Array.data[3]
       value: 
-      objectReference: {fileID: 619382866}
+      objectReference: {fileID: 92199451}
     - target: {fileID: 6625316886773311042, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
       propertyPath: targets.Array.data[4]
       value: 
-      objectReference: {fileID: 92199451}
+      objectReference: {fileID: 619382866}
     - target: {fileID: 6625316886773311042, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
       propertyPath: targets.Array.data[5]
       value: 
