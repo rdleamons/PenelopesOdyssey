@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.19980243, g: 0.096176, b: 0.16559477, a: 1}
+  m_IndirectSpecularColor: {r: 0.19980265, g: 0.09617598, b: 0.16559477, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -11258,6 +11258,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Compass_Off
       objectReference: {fileID: 0}
+    - target: {fileID: 3122972153501900629, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -3.9999957
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122972153501900629, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 39.614002
+      objectReference: {fileID: 0}
     - target: {fileID: 3137103150233996614, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -11586,6 +11594,22 @@ PrefabInstance:
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1506263418}
+    - target: {fileID: 3658014660111653701, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 292.1353
+      objectReference: {fileID: 0}
+    - target: {fileID: 3658014660111653701, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 69.2288
+      objectReference: {fileID: 0}
+    - target: {fileID: 3658014660111653701, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3658014660111653701, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -21
+      objectReference: {fileID: 0}
     - target: {fileID: 3668345594730867845, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -11674,6 +11698,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4738730554137447304, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5100528689044627917, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_SizeDelta.x
       value: 332.9481
@@ -11713,6 +11741,18 @@ PrefabInstance:
     - target: {fileID: 5149010831289081312, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5260786632850238718, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+      propertyPath: m_Color.b
+      value: 0.86274517
+      objectReference: {fileID: 0}
+    - target: {fileID: 5260786632850238718, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+      propertyPath: m_Color.g
+      value: 0.8705883
+      objectReference: {fileID: 0}
+    - target: {fileID: 5260786632850238718, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+      propertyPath: m_Color.r
+      value: 0.909804
       objectReference: {fileID: 0}
     - target: {fileID: 5436741766907057878, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: MyAudioSource
@@ -11845,6 +11885,18 @@ PrefabInstance:
     - target: {fileID: 8903504171834062784, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: CloseOptionsMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 8941022169687876350, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 8941022169687876350, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8941022169687876350, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
