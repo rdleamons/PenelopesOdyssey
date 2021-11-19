@@ -171,8 +171,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3970816672519726042}
-  - component: {fileID: 6199335560611664875}
-  - component: {fileID: 5032456360465953875}
+  - component: {fileID: 4465113614073013996}
   m_Layer: 0
   m_Name: UVCarWithoutTires
   m_TagString: Untagged
@@ -197,8 +196,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &6199335560611664875
-BoxCollider:
+--- !u!64 &4465113614073013996
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -207,22 +206,10 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 218.47844, y: 105.14877, z: 197.66376}
-  m_Center: {x: -84.979355, y: 38.227535, z: 288.47717}
---- !u!65 &5032456360465953875
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4346250808259311968}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 218.47076, y: 148.98242, z: 296.5013}
-  m_Center: {x: -84.977135, y: 60.14167, z: 43.897354}
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 664456749670281567, guid: 2b4425c3aae61484a813c2a1aebf24bf, type: 3}
 --- !u!1 &7614243436125855545
 GameObject:
   m_ObjectHideFlags: 0
