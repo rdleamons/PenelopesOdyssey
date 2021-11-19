@@ -83,9 +83,9 @@ MonoBehaviour:
     rotationSpeed: 16
     walkByDefault: 1
     rotateWithCamera: 0
-    walkSpeed: 5
+    walkSpeed: 4
     runningSpeed: 9
-    sprintSpeed: 12
+    sprintSpeed: 9
   strafeSpeed:
     movementSmooth: 6
     animationSmooth: 0.2
@@ -207,6 +207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textBox: {fileID: 0}
+  sm: {fileID: 0}
 --- !u!114 &6625316886773311042
 MonoBehaviour:
   m_ObjectHideFlags: 0

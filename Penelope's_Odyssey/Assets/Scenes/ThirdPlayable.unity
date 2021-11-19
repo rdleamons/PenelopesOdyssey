@@ -12930,18 +12930,6 @@ PrefabInstance:
       propertyPath: groundMinDistance
       value: 0.15
       objectReference: {fileID: 0}
-    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
-      propertyPath: freeSpeed.walkSpeed
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
-      propertyPath: freeSpeed.sprintSpeed
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
-      propertyPath: freeSpeed.runningSpeed
-      value: 9
-      objectReference: {fileID: 0}
     - target: {fileID: 2731226034943971639, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
       propertyPath: m_RootOrder
       value: 6
