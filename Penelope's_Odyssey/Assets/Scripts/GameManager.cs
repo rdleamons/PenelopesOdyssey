@@ -16,8 +16,6 @@ public class GameManager : MonoBehaviour
     public float sub = 1;
     public int subDivisor = 3000000;
     public Slider HungerBar;
-    public TextMeshProUGUI loseText;
-    public TextMeshProUGUI winText;
 
     public bool paused;
     //public Movement movement;
@@ -25,8 +23,6 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         MenuRoot.SetActive(false);
-        loseText.enabled = false;
-        winText.enabled = false;
         Time.timeScale = 1f;
     }
 

@@ -50,8 +50,9 @@ public class Smell : MonoBehaviour
         {
             controller.lockMovement = true;
             DrawPath(path);
+            //drawCombined(gameObject.transform.position, 0.5f, 2f, path);
 
-            if(gm.paused == false)
+            if (gm.paused == false)
                 audioSource.Play();
         }
         else if (Input.GetMouseButtonDown(1))
@@ -93,12 +94,12 @@ public class Smell : MonoBehaviour
         float x = 0f;
         float y;
         float k = 2 * Mathf.PI / wavelength;
-        line.positionCount = path.corners.Length;
+        line.positionCount = path.corners.Length + 50;
         for (int i = 0; i < line.positionCount; i++)
         {
             x += i * 0.001f;
             y = amplitude * Mathf.Sin(k * x);
-            line.SetPosition(i,new Vector3(x, y, 0) + startPoint);
+            line.SetPosition(i ,new Vector3(x, y, 0) + startPoint);
         }
     }
 
