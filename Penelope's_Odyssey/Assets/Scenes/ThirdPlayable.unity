@@ -267,11 +267,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 75
   m_Center: {x: 0, y: 0, z: 0}
---- !u!82 &435270730 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 3016023477683149090, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
-  m_PrefabInstance: {fileID: 2731226035430772597}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &453235407
 GameObject:
   m_ObjectHideFlags: 0
@@ -11364,7 +11359,7 @@ PrefabInstance:
     - target: {fileID: 3328262380305763344, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: sniffSound
       value: 
-      objectReference: {fileID: 435270730}
+      objectReference: {fileID: 0}
     - target: {fileID: 3328262380305763344, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: subDivisor
       value: 250
@@ -12532,6 +12527,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42d7b423eec204e4694a001832c3bd93, type: 3}
+--- !u!82 &1964739931 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 9058854811406836220, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+  m_PrefabInstance: {fileID: 2731226035430772597}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1998442921
 GameObject:
   m_ObjectHideFlags: 0
@@ -12735,6 +12735,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: eb779b64c51d52342a523e6a3db12174, type: 2}
+    - target: {fileID: 1264821536820884497, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1759939951312030368, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -13036,6 +13040,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 627927267}
     - target: {fileID: 6625316886773311042, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: line
+      value: 
+      objectReference: {fileID: 2731226035430772598}
+    - target: {fileID: 6625316886773311042, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1964739931}
+    - target: {fileID: 6625316886773311042, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
       propertyPath: bookFoundIcon
       value: 
       objectReference: {fileID: 1506263421}
@@ -13159,4 +13171,10 @@ PrefabInstance:
     - {fileID: 8373212322067240117, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
     - {fileID: 1759939951312030368, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
     - {fileID: 8775496032669943661, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+    - {fileID: 1264821536820884497, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+--- !u!120 &2731226035430772598 stripped
+LineRenderer:
+  m_CorrespondingSourceObject: {fileID: 5059104024065948139, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+  m_PrefabInstance: {fileID: 2731226035430772597}
+  m_PrefabAsset: {fileID: 0}
