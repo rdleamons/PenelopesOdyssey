@@ -370,8 +370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab86589f88bf479468d953da84d64111, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: ThirdPlayable
-  winText: {fileID: 0}
+  sceneName: OpenCut
   currentScene:
     m_Handle: 0
 --- !u!1 &874469944

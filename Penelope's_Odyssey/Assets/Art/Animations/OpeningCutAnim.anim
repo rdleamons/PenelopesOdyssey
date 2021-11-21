@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CreditsRoll
+  m_Name: OpeningCutAnim
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -30,7 +30,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 4.95
+        time: 30
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -41,7 +41,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: goToStart
+    attribute: goToGame
     path: 
     classID: 114
     script: {fileID: 11500000, guid: 4fec5e6e166658e44ada50f2555fe9e6, type: 3}
@@ -55,7 +55,7 @@ AnimationClip:
     genericBindings:
     - serializedVersion: 2
       path: 0
-      attribute: 1633859433
+      attribute: 3973226772
       script: {fileID: 11500000, guid: 4fec5e6e166658e44ada50f2555fe9e6, type: 3}
       typeID: 114
       customType: 0
@@ -66,12 +66,12 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 4.95
+    m_StopTime: 30
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
     m_HasAdditiveReferencePose: 0
-    m_LoopTime: 1
+    m_LoopTime: 0
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0
@@ -95,7 +95,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 4.95
+        time: 30
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -106,7 +106,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: goToStart
+    attribute: goToGame
     path: 
     classID: 114
     script: {fileID: 11500000, guid: 4fec5e6e166658e44ada50f2555fe9e6, type: 3}

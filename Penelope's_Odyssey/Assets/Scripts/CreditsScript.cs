@@ -8,9 +8,12 @@ public class CreditsScript : MonoBehaviour
 {
     // Start is called before the first frame update
     public bool goToStart;
+    public bool goToGame;
     void Start()
     {
         goToStart = false;
+        goToGame = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame
@@ -18,5 +21,8 @@ public class CreditsScript : MonoBehaviour
     {
         if(goToStart)
             SceneManager.LoadScene(0);
+
+        if (goToGame)
+            SceneManager.LoadScene(2);
     }
 }
