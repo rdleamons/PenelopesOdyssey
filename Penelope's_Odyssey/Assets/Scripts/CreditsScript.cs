@@ -20,7 +20,7 @@ public class CreditsScript : MonoBehaviour
     void Update()
     {
         if(goToStart)
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("StartScreen");
 
         if (goToGame)
             SceneManager.LoadScene(2);

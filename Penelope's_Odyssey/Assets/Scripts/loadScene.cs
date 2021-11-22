@@ -24,7 +24,7 @@ public class loadScene : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
         }
-        else if(currentScene.buildIndex == 1)
+        else
         {
             Cursor.lockState = CursorLockMode.Locked;
         }

@@ -7,3 +7,4 @@ Click & hold the left mouse button to stop and sniff for objects that could lead
 Click & hold the right mouse button to sniff for food.
 Watch your hunger meter -- don't let Penelope starve!
 Press shift to sprint, but watch out! This will make your hunger decrease faster!
+
