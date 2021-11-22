@@ -23,6 +23,6 @@ public class CreditsScript : MonoBehaviour
             SceneManager.LoadScene("StartScreen");
 
         if (goToGame)
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene("ThirdPlayable");
     }
 }
