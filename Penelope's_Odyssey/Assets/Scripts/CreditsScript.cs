@@ -2,12 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class CreditsScript : MonoBehaviour
 {
-    // Start is called before the first frame update
     public bool goToStart;
+
     void Start()
     {
         goToStart = false;
@@ -17,6 +16,9 @@ public class CreditsScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Return))
+            goToStart = true;
+
         if(goToStart)
             SceneManager.LoadScene("StartScreen");
     }

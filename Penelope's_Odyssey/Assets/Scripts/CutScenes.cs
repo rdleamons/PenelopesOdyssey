@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class CutScenes : MonoBehaviour
 {
-
     public bool goToGame;
+
     void Start()
     {
         goToGame = false;
@@ -16,6 +16,9 @@ public class CutScenes : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Return))
+            goToGame = true;
+
         if (goToGame)
             SceneManager.LoadScene("ThirdPlayable");
     }
