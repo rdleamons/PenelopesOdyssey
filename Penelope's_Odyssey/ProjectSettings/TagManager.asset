@@ -9,6 +9,7 @@ TagManager:
   - Climable
   - object
   - exit
+  - Light
   layers:
   - Default
   - TransparentFX

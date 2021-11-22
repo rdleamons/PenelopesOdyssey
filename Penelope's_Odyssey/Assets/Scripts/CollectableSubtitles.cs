@@ -28,13 +28,13 @@ public class CollectableSubtitles : MonoBehaviour
     {
         if(foundObj.name == "BaseballHat")
         {
-            textBox.GetComponent<Text>().text = "She tried to put this on me while we were playing, but it was too bigÖ";
+            textBox.GetComponent<Text>().text = "She tried to put this on me while we were playing, but it was too bigÅE";
             yield return new WaitForSeconds(5);
             textBox.GetComponent<Text>().text = "";
         }
         else if(foundObj.name == "Compass")
         {
-            textBox.GetComponent<Text>().text = "She used this whenever we would play out the stories from her books. I wonder what itís used forÖ";
+            textBox.GetComponent<Text>().text = "She used this whenever we would play out the stories from her books. I wonder what itís used forÅE";
             yield return new WaitForSeconds(5);
             textBox.GetComponent<Text>().text = "";
         }
@@ -46,7 +46,7 @@ public class CollectableSubtitles : MonoBehaviour
         }
         else if (foundObj.name == "Book")
         {
-            textBox.GetComponent<Text>().text = "She would read this to me every night. Itís about someone trying to get home to their family no matter whatÖ I miss hearing it.";
+            textBox.GetComponent<Text>().text = "She would read this to me every night. Itís about someone trying to get home to their family no matter whatÅEI miss hearing it.";
             yield return new WaitForSeconds(5);
             textBox.GetComponent<Text>().text = "";
         }
