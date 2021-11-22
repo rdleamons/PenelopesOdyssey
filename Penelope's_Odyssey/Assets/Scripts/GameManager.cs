@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         MenuRoot.SetActive(false);
+        Cursor.lockState = CursorLockMode.Locked;
         Time.timeScale = 1f;
     }
 
@@ -93,6 +94,7 @@ public class GameManager : MonoBehaviour
         else
         {
             Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
             Time.timeScale = 1f;
             paused = false;
         }
