@@ -16374,7 +16374,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1433187868}
   m_LocalRotation: {x: -0.064789474, y: 0.835332, z: 0.10087499, w: 0.5365138}
-  m_LocalPosition: {x: -292.7, y: -43.2, z: 62.6}
+  m_LocalPosition: {x: -225.1, y: -25, z: 31.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 345599711}
@@ -21219,6 +21219,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: eb779b64c51d52342a523e6a3db12174, type: 2}
     - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: airSpeed
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: airSmooth
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
       propertyPath: jumpTimer
       value: 0.5
       objectReference: {fileID: 0}
@@ -21227,12 +21235,28 @@ PrefabInstance:
       value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: extraGravity
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
       propertyPath: groundMaxDistance
       value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
       propertyPath: groundMinDistance
       value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: freeSpeed.rotationSpeed
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: freeSpeed.movementSmooth
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2731226034943971637, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: freeSpeed.animationSmooth
+      value: 0.205
       objectReference: {fileID: 0}
     - target: {fileID: 2731226034943971639, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
       propertyPath: m_RootOrder
@@ -21244,7 +21268,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2731226034943971639, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 16.804
+      value: 16.821
       objectReference: {fileID: 0}
     - target: {fileID: 2731226034943971639, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -21306,6 +21330,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 13400000, guid: e52fb17f9b1e7fd48b8955f1391d3688, type: 2}
+    - target: {fileID: 2731226034943971657, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2731226034943971658, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
       propertyPath: smell
       value: 

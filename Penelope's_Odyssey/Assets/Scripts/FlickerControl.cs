@@ -26,5 +26,7 @@ public class FlickerControl : MonoBehaviour
         timeDelay = Random.Range(0.01f, 2.52f);
         yield return new WaitForSeconds(timeDelay);
         isFlickering = false;
+    
     }
 }
+
