@@ -18,6 +18,7 @@ public class TextManager : MonoBehaviour
 
     public vThirdPersonController controller;
     public GameManager gm;
+    public Collection collection;
 
     private List<string> lines;
     private int index;
@@ -63,10 +64,20 @@ public class TextManager : MonoBehaviour
             StartCoroutine("Win");
 
         // Check if player finds an object
-        else if(other.CompareTag("object") || other.CompareTag("food"))
+        else if(other.CompareTag("object"))// Doesnt have any hotdogs .))
         {
             foundObj = other.gameObject;
             StartCoroutine("Found");
+        }
+
+        if(other.CompareTag("food"))
+        {
+            if(collection.foodEaten == 1)
+            {
+                foundObj = other.gameObject;
+                StartCoroutine("Found");
+            }
+            
         }
     }
 
@@ -81,7 +92,7 @@ public class TextManager : MonoBehaviour
     IEnumerator Win()
     {
         subtitles.gameObject.SetActive(true);
-        textBox.GetComponent<Text>().text = "I think I can smell her!";
+        textBox.GetComponent<Text>().text = "I think she went this way!";
         yield return new WaitForSeconds(3);
 
         winScreen.SetActive(true);
@@ -111,19 +122,19 @@ public class TextManager : MonoBehaviour
         }
         else if (foundObj.name == "Compass")
         {
-            textBox.GetComponent<Text>().text = "She used this whenever we would play out the stories from her books. I wonder what itís used forÅ?";
+            textBox.GetComponent<Text>().text = "She used this whenever we would play out the stories from her books. I wonder what it's used forÅ?";
             yield return new WaitForSeconds(5);
             textBox.GetComponent<Text>().text = "";
         }
         else if (foundObj.name == "SquishMouse")
         {
-            textBox.GetComponent<Text>().text = "I would sleep on this whenever I snuck out during the night. Itís super comfy, but she did almost crush me rolling onto it one night.";
+            textBox.GetComponent<Text>().text = "I would sleep on this whenever I snuck out during the night. It's super comfy, but she did almost crush me rolling onto it one night.";
             yield return new WaitForSeconds(5);
             textBox.GetComponent<Text>().text = "";
         }
         else if (foundObj.name == "Book")
         {
-            textBox.GetComponent<Text>().text = "She would read this to me every night. Itís about someone trying to get home to their family no matter whatÅ. I miss hearing it . . .";
+            textBox.GetComponent<Text>().text = "She would read this to me every night. It's about someone trying to get home to their family no matter whatÅ. I miss hearing it . . .";
             yield return new WaitForSeconds(5);
             textBox.GetComponent<Text>().text = "";
         }

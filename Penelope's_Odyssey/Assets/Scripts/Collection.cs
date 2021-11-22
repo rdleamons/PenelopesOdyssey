@@ -8,6 +8,11 @@ public class Collection : MonoBehaviour
     public int foodEaten;
     public GameManager GameManager;
 
+    private void Start()
+    {
+        foodEaten = 0;
+    }
+
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "food")
