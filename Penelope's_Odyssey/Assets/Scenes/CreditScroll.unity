@@ -879,8 +879,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1041397735}
-  - component: {fileID: 1041397736}
   - component: {fileID: 1041397737}
+  - component: {fileID: 1041397736}
   m_Layer: 5
   m_Name: Credits
   m_TagString: Untagged
@@ -923,7 +923,7 @@ Animator:
   m_GameObject: {fileID: 1041397734}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f5f03747ddcf1ca4c8dfc51ad0c1466c, type: 2}
+  m_Controller: {fileID: 9100000, guid: 784b485df63bafc468d8ffa4ddda7430, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

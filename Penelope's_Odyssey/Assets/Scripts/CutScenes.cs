@@ -2,22 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
-public class CreditsScript : MonoBehaviour
+public class CutScenes : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public bool goToStart;
+
+    public bool goToGame;
     void Start()
     {
-        goToStart = false;
+        goToGame = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(goToStart)
-            SceneManager.LoadScene("StartScreen");
+        if (goToGame)
+            SceneManager.LoadScene("ThirdPlayable");
     }
 }
