@@ -13,6 +13,9 @@ public class TextManager : MonoBehaviour
     public GameObject subtitles;
     private GameObject foundObj;
 
+    public GameObject winScreen;
+    public GameObject loseScreen;
+
     public vThirdPersonController controller;
     public GameManager gm;
 
@@ -26,6 +29,8 @@ public class TextManager : MonoBehaviour
         index = 0;
         subtitles.SetActive(true);
         textBox.GetComponent<Text>().text = lines[0];
+        winScreen.SetActive(false);
+        loseScreen.SetActive(false);
     }
 
     private void Update()
@@ -65,19 +70,32 @@ public class TextManager : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.CompareTag("wall"))
+        {
+            StartCoroutine("TurnBack");
+        }
+    }
+
     IEnumerator Win()
     {
         subtitles.gameObject.SetActive(true);
-        textBox.GetComponent<Text>().text = "She must have gone this way! Don’t worry I’m on my way! I’ll save you no matter what!";
+        textBox.GetComponent<Text>().text = "I think I can smell her!";
+        yield return new WaitForSeconds(3);
+
+        winScreen.SetActive(true);
         yield return new WaitForSeconds(5);
         SceneManager.LoadScene("CreditScroll");
-
     }
 
     IEnumerator Lose()
     {
         subtitles.gameObject.SetActive(true);
         textBox.GetComponent<Text>().text = "I don't feel too good... ";
+
+        yield return new WaitForSeconds(3);
+        loseScreen.SetActive(true);
         yield return new WaitForSeconds(5);
         SceneManager.LoadScene("CreditScroll");
     }
@@ -123,6 +141,13 @@ public class TextManager : MonoBehaviour
             textBox.GetComponent<Text>().text = "";
         }
 
+    }
+
+    IEnumerator TurnBack()
+    {
+        textBox.GetComponent<Text>().text = "I'm losing her scent! I should turn back.";
+        yield return new WaitForSeconds(5);
+        textBox.GetComponent<Text>().text = "";
     }
 
 }

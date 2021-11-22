@@ -10,6 +10,7 @@ TagManager:
   - object
   - exit
   - Light
+  - wall
   layers:
   - Default
   - TransparentFX
