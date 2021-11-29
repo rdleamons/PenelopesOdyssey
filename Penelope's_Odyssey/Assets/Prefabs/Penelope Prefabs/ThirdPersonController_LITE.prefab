@@ -78,9 +78,9 @@ MonoBehaviour:
   sprintOnlyFree: 1
   locomotionType: 2
   freeSpeed:
-    movementSmooth: 1
-    animationSmooth: 0.2
-    rotationSpeed: 16
+    movementSmooth: 6
+    animationSmooth: 0.205
+    rotationSpeed: 12
     walkByDefault: 1
     rotateWithCamera: 0
     walkSpeed: 4
@@ -97,18 +97,18 @@ MonoBehaviour:
     sprintSpeed: 6
   jumpWithRigidbodyForce: 1
   jumpAndRotate: 1
-  jumpTimer: 0.3
+  jumpTimer: 0.5
   jumpHeight: 5
-  airSpeed: 1
+  airSpeed: 0.5
   airSmooth: 8
-  extraGravity: 0
+  extraGravity: -1
   limitFallVelocity: -15
   groundLayer:
     serializedVersion: 2
     m_Bits: 129
-  groundMinDistance: 0.25
-  groundMaxDistance: 0.5
-  slopeLimit: 45
+  groundMinDistance: 0.15
+  groundMaxDistance: 0.25
+  slopeLimit: 80
 --- !u!114 &2731226034943971658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,7 +143,7 @@ Animator:
   m_Avatar: {fileID: 9000000, guid: a25a49b642651a84aa930f6e69c6393c, type: 3}
   m_Controller: {fileID: 9100000, guid: f480f9dae91786745974a32a614de6a4, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 1
   m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -159,8 +159,8 @@ Rigidbody:
   m_GameObject: {fileID: 2731226034943971662}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 0.4
+  m_AngularDrag: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -348,8 +348,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textBox: {fileID: 0}
   subtitles: {fileID: 0}
+  winScreen: {fileID: 0}
+  loseScreen: {fileID: 0}
   controller: {fileID: 2731226034943971637}
   gm: {fileID: 0}
+  collection: {fileID: 0}
 --- !u!1 &4667668872540836258
 GameObject:
   m_ObjectHideFlags: 0

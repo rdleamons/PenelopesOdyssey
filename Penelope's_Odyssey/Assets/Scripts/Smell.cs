@@ -48,14 +48,15 @@ public class Smell : MonoBehaviour
         // Calculate NavMesh path.
         NavMesh.CalculatePath(transform.position, target.transform.position, NavMesh.AllAreas, path);
 
+        if(anim.GetBool("Sniff"))
+        {
+
+        }
+
         // Draw the path on mouse click
          if (Input.GetMouseButtonDown(0))
          {
-             controller.lockMovement = true;
-            controller.lockRotation = true;
-             DrawPath(path);
-            anim.SetBool("IsSniffing", true);
-            //drawCombined(gameObject.transform.position, 0.5f, 2f, path);
+            Sniff();
 
             if (gm.paused == false)
                  audioSource.Play();
@@ -69,13 +70,9 @@ public class Smell : MonoBehaviour
          }
 
          // Stop drawing path when no longer clicking
-         if (Input.GetMouseButtonUp(0))
+         if (Input.GetMouseButtonUp(0) && anim.GetCurrentAnimatorStateInfo(0).IsName("Sniff"))
          {
-             controller.lockMovement = false;
-            controller.lockRotation = false;
-            anim.SetBool("IsSniffing", false);
-            line.positionCount = 0;
-
+                StopSniff();           
          }
          else if (Input.GetMouseButtonUp(1))
          {
@@ -85,6 +82,22 @@ public class Smell : MonoBehaviour
              }
          }
         
+    }
+
+    public void Sniff()
+    {
+        controller.lockMovement = true;
+        controller.lockRotation = true;
+        DrawPath(path);
+        anim.SetBool("IsSniffing", true);
+    }
+
+    public void StopSniff()
+    {
+        controller.lockMovement = false;
+        controller.lockRotation = false;
+        anim.SetBool("IsSniffing", false);
+        line.positionCount = 0;
     }
 
    /*

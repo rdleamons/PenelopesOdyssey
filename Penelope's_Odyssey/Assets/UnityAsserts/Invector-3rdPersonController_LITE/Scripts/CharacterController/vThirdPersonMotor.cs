@@ -53,7 +53,7 @@ namespace Invector.vCharacterController
         public float groundMinDistance = 0.25f;
         public float groundMaxDistance = 0.5f;
         [Tooltip("Max angle to walk")]
-        [Range(30, 80)] public float slopeLimit = 75f;
+        [Range(30, 90)] public float slopeLimit = 90f;
         #endregion
 
         #region Components
