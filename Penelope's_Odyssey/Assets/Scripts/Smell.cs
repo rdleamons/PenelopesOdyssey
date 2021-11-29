@@ -13,6 +13,8 @@ public class Smell : MonoBehaviour
     public AudioSource audioSource;
     public ParticleSystem[] hotdog;
 
+    private Animator anim;
+
     //public GameObject[] targets;
     public List<GameObject> targets = new List<GameObject>();
     private GameObject target;
@@ -30,6 +32,7 @@ public class Smell : MonoBehaviour
         path = new NavMeshPath();
         target = targets[0];
         controller = GetComponent<vThirdPersonController>();
+        anim = GetComponent<Animator>();
 
         hotdog = FindObjectsOfType<ParticleSystem>();
 
@@ -49,10 +52,12 @@ public class Smell : MonoBehaviour
          if (Input.GetMouseButtonDown(0))
          {
              controller.lockMovement = true;
+            controller.lockRotation = true;
              DrawPath(path);
-             //drawCombined(gameObject.transform.position, 0.5f, 2f, path);
+            anim.SetBool("IsSniffing", true);
+            //drawCombined(gameObject.transform.position, 0.5f, 2f, path);
 
-             if (gm.paused == false)
+            if (gm.paused == false)
                  audioSource.Play();
          }
          else if (Input.GetMouseButtonDown(1))
@@ -67,7 +72,9 @@ public class Smell : MonoBehaviour
          if (Input.GetMouseButtonUp(0))
          {
              controller.lockMovement = false;
-             line.positionCount = 0;
+            controller.lockRotation = false;
+            anim.SetBool("IsSniffing", false);
+            line.positionCount = 0;
 
          }
          else if (Input.GetMouseButtonUp(1))
