@@ -1,7 +1,4 @@
-It's been a while since my owner's come to play with me. Is she okay? (Press enter to continue . . .)
-She's never been gone so long. Oh no! Is she in trouble?! I have to find her!
-I'm real good at sneaking out of my cage! The big ones never seemed to like that very much though.
-Use the W, A, S, and D keys to move.
+Use the W, A, S, and D keys to move. (Press enter to continue . . .)
 Use space to jump.
 Click & hold the left mouse button to stop and sniff for objects that could lead to Penelope's owner.
 Click & hold the right mouse button to sniff for food.
