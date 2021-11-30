@@ -42,11 +42,22 @@ public class TextManager : MonoBehaviour
         else
             subtitles.gameObject.SetActive(true);
 
-        // If player hits enter, scroll through the text. !!! Check this
+        // If player hits enter, scroll through the text. 
         if (Input.GetKeyDown(KeyCode.Return) && index != lines.Count)
         {
             index++;
             textBox.GetComponent<Text>().text = lines[index];
+        }
+
+        if (index < lines.Count - 1)
+        {
+            controller.lockMovement = true;
+            controller.lockRotation = true;
+        }
+        else
+        {
+            controller.lockMovement = false;
+            controller.lockRotation = false;
         }
 
         // If player dies, start lose conditon
@@ -103,7 +114,7 @@ public class TextManager : MonoBehaviour
     IEnumerator Lose()
     {
         subtitles.gameObject.SetActive(true);
-        textBox.GetComponent<Text>().text = "I don't feel too good... ";
+        textBox.GetComponent<Text>().text = "I don't feel so good... ";
 
         yield return new WaitForSeconds(3);
         loseScreen.SetActive(true);
