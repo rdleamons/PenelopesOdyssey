@@ -22118,14 +22118,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 551876564}
     - target: {fileID: 6625316886773311042, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
-      propertyPath: line
-      value: 
-      objectReference: {fileID: 2731226035430772598}
-    - target: {fileID: 6625316886773311042, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
-      propertyPath: audioSource
-      value: 
-      objectReference: {fileID: 2731226035430772600}
-    - target: {fileID: 6625316886773311042, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
       propertyPath: bookFoundIcon
       value: 
       objectReference: {fileID: 1506263421}
@@ -22287,13 +22279,3 @@ PrefabInstance:
       objectReference: {fileID: 627927267}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
---- !u!120 &2731226035430772598 stripped
-LineRenderer:
-  m_CorrespondingSourceObject: {fileID: 5059104024065948139, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
-  m_PrefabInstance: {fileID: 2731226035430772597}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &2731226035430772600 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 1790665911144562758, guid: e0cfe078ceaa1e4489889355ba463c1a, type: 3}
-  m_PrefabInstance: {fileID: 2731226035430772597}
-  m_PrefabAsset: {fileID: 0}

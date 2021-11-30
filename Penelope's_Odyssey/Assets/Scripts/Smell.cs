@@ -7,17 +7,16 @@ using Invector.vCharacterController;
 
 public class Smell : MonoBehaviour
 {
+    private NavMeshPath path;
+    private AudioSource audioSource;
+    private ParticleSystem[] hotdog;
+    private Animator anim;
+    private GameObject target;
+
     public GameManager gm;
     public LineRenderer line; //to hold the line Renderer
-    private NavMeshPath path;
-    public AudioSource audioSource;
-    public ParticleSystem[] hotdog;
 
-    private Animator anim;
-
-    //public GameObject[] targets;
     public List<GameObject> targets = new List<GameObject>();
-    private GameObject target;
 
     public GameObject backpackFoundIcon;
     public GameObject compassFoundIcon;
@@ -33,6 +32,8 @@ public class Smell : MonoBehaviour
         target = targets[0];
         controller = GetComponent<vThirdPersonController>();
         anim = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
+        line = GetComponentInChildren<LineRenderer>();
 
         hotdog = FindObjectsOfType<ParticleSystem>();
 
@@ -40,7 +41,7 @@ public class Smell : MonoBehaviour
         compassFoundIcon.gameObject.SetActive(false);
         squishFoundIcon.gameObject.SetActive(false);
         bookFoundIcon.gameObject.SetActive(false);
-        crownFoundIcon.gameObject.SetActive(false);   
+        crownFoundIcon.gameObject.SetActive(false);
     }
 
     void Update()
@@ -48,84 +49,23 @@ public class Smell : MonoBehaviour
         // Calculate NavMesh path.
         NavMesh.CalculatePath(transform.position, target.transform.position, NavMesh.AllAreas, path);
 
-        if(anim.GetBool("Sniff"))
-        {
-
-        }
-
         // Draw the path on mouse click
-         if (Input.GetMouseButtonDown(0))
-         {
-            Sniff();
+        if (Input.GetMouseButtonDown(0))
+        {
+            StartCoroutine("Sniff");
 
             if (gm.paused == false)
-                 audioSource.Play();
-         }
-         else if (Input.GetMouseButtonDown(1))
-         {
-             for (int i = 0; i < hotdog.Length; i++)
-             {
-                 hotdog[i].Play();
-             }
-         }
-
-         // Stop drawing path when no longer clicking
-         if (Input.GetMouseButtonUp(0) && anim.GetCurrentAnimatorStateInfo(0).IsName("Sniff"))
-         {
-                StopSniff();           
-         }
-         else if (Input.GetMouseButtonUp(1))
-         {
-             for (int i = 0; i < hotdog.Length; i++)
-             {
-                 hotdog[i].Stop();
-             }
-         }
-        
-    }
-
-    public void Sniff()
-    {
-        controller.lockMovement = true;
-        controller.lockRotation = true;
-        DrawPath(path);
-        anim.SetBool("IsSniffing", true);
-    }
-
-    public void StopSniff()
-    {
-        controller.lockMovement = false;
-        controller.lockRotation = false;
-        anim.SetBool("IsSniffing", false);
-        line.positionCount = 0;
-    }
-
-   /*
-    public virtual void SniffObject()
-    {
-       
-        controller.lockMovement = true;
-        DrawPath(path);
-        //drawCombined(gameObject.transform.position, 0.5f, 2f, path);
-
-        if (gm.paused == false)
-            audioSource.Play();
-
-        if (Input.GetMouseButtonUp(0))
-        {
-            controller.lockMovement = false;
-            line.positionCount = 0;
-
+                audioSource.Play();
         }
-    }
-
-    public virtual void SniffFood()
-    {
-        for (int i = 0; i < hotdog.Length; i++)
+        else if (Input.GetMouseButtonDown(1))
         {
-            hotdog[i].Play();
+            for (int i = 0; i < hotdog.Length; i++)
+            {
+                hotdog[i].Play();
+            }
         }
 
+        // Stop drawing hotdogs
         if (Input.GetMouseButtonUp(1))
         {
             for (int i = 0; i < hotdog.Length; i++)
@@ -133,8 +73,23 @@ public class Smell : MonoBehaviour
                 hotdog[i].Stop();
             }
         }
+
     }
-   */
+
+    private IEnumerator Sniff()
+    {
+        controller.lockMovement = true;
+        controller.lockRotation = true;
+        DrawPath(path);
+        anim.SetBool("IsSniffing", true);
+
+        yield return new WaitForSeconds(anim.runtimeAnimatorController.animationClips[7].length);
+
+        controller.lockMovement = false;
+        controller.lockRotation = false;
+        anim.SetBool("IsSniffing", false);
+        line.positionCount = 0;
+    }
 
     void DrawPath(NavMeshPath path)
     {
@@ -145,7 +100,30 @@ public class Smell : MonoBehaviour
         line.SetPositions(path.corners);
     }
 
-    void drawCombined(Vector3 startPoint, float amplitude, float wavelength, NavMeshPath path)
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("object"))
+        {
+            targets.Remove(other.gameObject);
+            target = targets[0];
+        }
+
+        if (other.gameObject.name == "Backpack")
+            backpackFoundIcon.gameObject.SetActive(true);
+        else if (other.gameObject.name == "Compass")
+            compassFoundIcon.gameObject.SetActive(true);
+        else if (other.gameObject.name == "SquishMouse")
+            squishFoundIcon.gameObject.SetActive(true);
+        else if (other.gameObject.name == "Book")
+            bookFoundIcon.gameObject.SetActive(true);
+        else if (other.gameObject.name == "BaseballHat")
+            crownFoundIcon.gameObject.SetActive(true);
+    }
+
+    /*
+         void drawCombined(Vector3 startPoint, float amplitude, float wavelength, NavMeshPath path)
     {
         float x = 0f;
         float y;
@@ -172,27 +150,42 @@ public class Smell : MonoBehaviour
             line.SetPosition(i, new Vector3(x, y, 0) + startPoint);
         }
     }
+    */
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("object"))
-        {
-            targets.Remove(other.gameObject);
-            target = targets[0];
-        }
+    /*
+ public virtual void SniffObject()
+ {
 
+     controller.lockMovement = true;
+     DrawPath(path);
+     //drawCombined(gameObject.transform.position, 0.5f, 2f, path);
 
-        if (other.gameObject.name == "Backpack")
-            backpackFoundIcon.gameObject.SetActive(true);
-        else if (other.gameObject.name == "Compass")
-            compassFoundIcon.gameObject.SetActive(true);
-        else if (other.gameObject.name == "SquishMouse")
-            squishFoundIcon.gameObject.SetActive(true);
-        else if (other.gameObject.name == "Book")
-            bookFoundIcon.gameObject.SetActive(true);
-        else if (other.gameObject.name == "BaseballHat")
-            crownFoundIcon.gameObject.SetActive(true);
-    }
+     if (gm.paused == false)
+         audioSource.Play();
 
+     if (Input.GetMouseButtonUp(0))
+     {
+         controller.lockMovement = false;
+         line.positionCount = 0;
+
+     }
+ }
+
+ public virtual void SniffFood()
+ {
+     for (int i = 0; i < hotdog.Length; i++)
+     {
+         hotdog[i].Play();
+     }
+
+     if (Input.GetMouseButtonUp(1))
+     {
+         for (int i = 0; i < hotdog.Length; i++)
+         {
+             hotdog[i].Stop();
+         }
+     }
+ }
+*/
 
 }
