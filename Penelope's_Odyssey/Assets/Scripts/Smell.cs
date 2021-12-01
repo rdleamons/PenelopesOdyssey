@@ -14,7 +14,7 @@ public class Smell : MonoBehaviour
     private GameObject target;
 
     public GameManager gm;
-    public LineRenderer line; //to hold the line Renderer
+    private LineRenderer line; //to hold the line Renderer
 
     public List<GameObject> targets = new List<GameObject>();
 
@@ -24,7 +24,7 @@ public class Smell : MonoBehaviour
     public GameObject bookFoundIcon;
     public GameObject crownFoundIcon;
 
-    private vThirdPersonController controller;
+    public vThirdPersonController controller;
 
     void Start()
     {

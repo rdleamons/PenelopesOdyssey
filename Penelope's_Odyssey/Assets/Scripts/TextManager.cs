@@ -20,6 +20,7 @@ public class TextManager : MonoBehaviour
     public GameManager gm;
     public Collection collection;
 
+
     private List<string> lines;
     private int index;
 
@@ -32,6 +33,8 @@ public class TextManager : MonoBehaviour
         textBox.GetComponent<Text>().text = lines[0];
         winScreen.SetActive(false);
         loseScreen.SetActive(false);
+
+        StartCoroutine("stopMove");
     }
 
     private void Update()
@@ -47,17 +50,6 @@ public class TextManager : MonoBehaviour
         {
             index++;
             textBox.GetComponent<Text>().text = lines[index];
-        }
-
-        if (index < lines.Count - 1)
-        {
-            controller.lockMovement = true;
-            controller.lockRotation = true;
-        }
-        else
-        {
-            controller.lockMovement = false;
-            controller.lockRotation = false;
         }
 
         // If player dies, start lose conditon
@@ -172,4 +164,16 @@ public class TextManager : MonoBehaviour
         textBox.GetComponent<Text>().text = "";
     }
 
+
+    IEnumerator stopMove()
+    {
+        Debug.Log("Stop???");
+        controller.lockMovement = true;
+        controller.lockRotation = true;
+
+        yield return new WaitUntil(() => index > lines.Count - 2);
+
+        controller.lockMovement = false;
+        controller.lockRotation = false;
+    }
 }
