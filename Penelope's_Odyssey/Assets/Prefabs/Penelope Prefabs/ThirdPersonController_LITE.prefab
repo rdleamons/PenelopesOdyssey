@@ -99,7 +99,7 @@ MonoBehaviour:
   jumpAndRotate: 1
   jumpTimer: 0.5
   jumpHeight: 5
-  airSpeed: 0.5
+  airSpeed: 1
   airSmooth: 8
   extraGravity: -1
   limitFallVelocity: -15
@@ -207,7 +207,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gm: {fileID: 0}
-  line: {fileID: 0}
   targets:
   - {fileID: 0}
   - {fileID: 0}
@@ -220,6 +219,7 @@ MonoBehaviour:
   squishFoundIcon: {fileID: 0}
   bookFoundIcon: {fileID: 0}
   crownFoundIcon: {fileID: 0}
+  controller: {fileID: 0}
 --- !u!82 &1790665911144562758
 AudioSource:
   m_ObjectHideFlags: 0

@@ -17776,6 +17776,10 @@ PrefabInstance:
       propertyPath: sniffSound
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3328262380305763344, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
+      propertyPath: subDivisor
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 3328262380504679505, guid: 2c31629be1c972b408a549907eede2cc, type: 3}
       propertyPath: m_fontSize
       value: 60

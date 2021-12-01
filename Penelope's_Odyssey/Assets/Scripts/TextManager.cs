@@ -150,7 +150,7 @@ public class TextManager : MonoBehaviour
 
         if (foundObj.CompareTag("food"))
         {
-            textBox.GetComponent<Text>().text = "I am getting hungry. Oh! She used to give me bits of these as treats!";
+            textBox.GetComponent<Text>().text = "Oh! She used to give me bits of these as treats!";
             yield return new WaitForSeconds(5);
             textBox.GetComponent<Text>().text = "";
         }
