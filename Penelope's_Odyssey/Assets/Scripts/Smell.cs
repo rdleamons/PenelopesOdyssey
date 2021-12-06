@@ -8,15 +8,17 @@ using Invector.vCharacterController;
 public class Smell : MonoBehaviour
 {
     private NavMeshPath path;
-    private AudioSource audioSource;
     private ParticleSystem[] hotdog;
     private Animator anim;
     private GameObject target;
+    private LineRenderer line;
 
     public GameManager gm;
-    private LineRenderer line; //to hold the line Renderer
-
+  
     public List<GameObject> targets = new List<GameObject>();
+
+    public AudioSource sniffSound;
+    public AudioSource squeakSound;
 
     public GameObject backpackFoundIcon;
     public GameObject compassFoundIcon;
@@ -32,7 +34,6 @@ public class Smell : MonoBehaviour
         target = targets[0];
         controller = GetComponent<vThirdPersonController>();
         anim = GetComponent<Animator>();
-        audioSource = GetComponent<AudioSource>();
         line = GetComponentInChildren<LineRenderer>();
 
         hotdog = FindObjectsOfType<ParticleSystem>();
@@ -55,7 +56,7 @@ public class Smell : MonoBehaviour
             StartCoroutine("Sniff");
 
             if (gm.paused == false)
-                audioSource.Play();
+                sniffSound.Play();
         }
         else if (Input.GetMouseButtonDown(1))
         {
@@ -108,6 +109,7 @@ public class Smell : MonoBehaviour
         {
             targets.Remove(other.gameObject);
             target = targets[0];
+            squeakSound.Play();
         }
 
         if (other.gameObject.name == "Backpack")
