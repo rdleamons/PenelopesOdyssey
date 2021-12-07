@@ -51,7 +51,7 @@ public class Smell : MonoBehaviour
         NavMesh.CalculatePath(transform.position, target.transform.position, NavMesh.AllAreas, path);
 
         // Draw the path on mouse click
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !gm.paused) // Only sniff if not paused
         {
             StartCoroutine("Sniff");
 
