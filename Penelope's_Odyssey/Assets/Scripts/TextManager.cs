@@ -13,7 +13,7 @@ public class TextManager : MonoBehaviour
     public GameObject subtitles;
     private GameObject foundObj;
 
-    public GameObject winScreen;
+    //public GameObject winScreen;
     public GameObject loseScreen;
 
     public vThirdPersonController controller;
@@ -31,7 +31,7 @@ public class TextManager : MonoBehaviour
         index = 0;
         subtitles.SetActive(true);
         textBox.GetComponent<Text>().text = lines[0];
-        winScreen.SetActive(false);
+        //winScreen.SetActive(false);
         loseScreen.SetActive(false);
 
         StartCoroutine("stopMove");
@@ -98,9 +98,9 @@ public class TextManager : MonoBehaviour
         textBox.GetComponent<Text>().text = "I think she went this way!";
         yield return new WaitForSeconds(3);
 
-        winScreen.SetActive(true);
-        yield return new WaitForSeconds(5);
-        SceneManager.LoadScene("CreditScroll");
+        //winScreen.SetActive(true);
+        //yield return new WaitForSeconds(5);
+        SceneManager.LoadScene("EndCut");
     }
 
     IEnumerator Lose()

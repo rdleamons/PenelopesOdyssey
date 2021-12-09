@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CreditScroll.unity
     guid: cce9b641fb7becf428166eb61f6c7e55
+  - enabled: 1
+    path: Assets/Scenes/EndCut.unity
+    guid: f9de5b245e9401f42b4aa2ff4da0f6c4
   m_configObjects: {}
